@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Retail – AMI/Mopar Integration | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details open><summary>Feature guides</summary><ul><li><a class="active" href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>Retail – AMI/Mopar Integration</h1><p>A comprehensive set of features aimed at enabling the integration between TireWorks HD Retail and the AMI/Mopar.</p>
+<h2>New System Settings</h2>
+<h3>AMI - Estimated Delivery Date</h3>
+<p>Select how the delivery day is determined for Inventory, Order, and Order Status Inquiry to AMI. Static options ignore the Location’s Cutoff Time and always return a set day, with the delivery time matching the Location’s Close Time. The Dynamic option checks the Location’s Cutoff; if the cutoff has passed, the next business day with operating hours is used, and the delivery time is set to that day’s Close Time. If the cutoff has not passed, today’s date is used with the Location’s Close Time.</p>
+<h2>New Access Rights</h2>
+<h3>Customer Management - eCommerce Tab</h3>
+<p>Allow access to Customer Management - eCommerce Tab</p>
+<h2>AMI/Mopar Service Enhancement</h2>
+<p>The AMI/Mopar service has been enhanced to support integration with TireWorks HD for Wholesale-only, Retail-only, or combined deployments. For Retail-only implementations, it is necessary to set the “RetailOnlySetup” key to “TRUE”.</p>
+<h2>Introduction of eCommerce Tab</h2>
+<p>A new eCommerce tab is now available within the Customer Maintenance window to facilitate customer configuration for the AMI/Mopar API integration, consistent with existing Wholesale operations. Access to this feature is controlled by the “Customer Management – eCommerce Tab” permission.</p>
+<p>Customer configuration procedures mirror those of the Wholesale functionality and enable users to specify essential eCommerce details including default sales locations, eCommerce UID, password, and other relevant settings.</p>
+<h2>Case List Summary</h2>
+<p>TWHD-3133, TWHD-3061, TWHD-3062, TWHD-3135, TWHD-3134, TWHD-3136, TWHD-3137, TWHD-3263, TWHD-3265, TWHD-2776</p>
+</article></main>
+
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

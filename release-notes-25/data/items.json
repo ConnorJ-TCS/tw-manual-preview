@@ -1,0 +1,6699 @@
+{
+ "book": "TireWorks HD 25 Release Notes",
+ "versions": [
+  "25.4.1.1",
+  "25.4.1.2",
+  "25.4.2.1",
+  "25.4.3.1",
+  "25.4.3.2",
+  "25.4.3.3",
+  "25.5.1",
+  "25.5.2",
+  "25.5.3",
+  "25.5.4",
+  "25.5.5",
+  "25.5.6",
+  "25.5.7",
+  "25.5.8",
+  "25.5.9",
+  "25.5.10"
+ ],
+ "patchLog": {
+  "Retail": {
+   "25.4.1.1": [
+    "TWHD-1387",
+    "TWHD-1599",
+    "TWHD-1389",
+    "TWHD-1286",
+    "TWHD-1602",
+    "TWHD-1390",
+    "TWHD-1613",
+    "TWHD-1605",
+    "TWHD-1755",
+    "TWHD-1041",
+    "TWHD-1512",
+    "TWHD-1689",
+    "TWHD-1677",
+    "TWHD-1364",
+    "TWHD-1478",
+    "TWHD-1757",
+    "TWHD-1754",
+    "TWHD-1825",
+    "TWHD-1826",
+    "TWHD-1975",
+    "TWHD-1499",
+    "TWHD-2452",
+    "TWHD-2459",
+    "TWHD-1827",
+    "TWHD-2460",
+    "TWHD-1828",
+    "TWHD-1889",
+    "TWHD-2506",
+    "TWHD-1857",
+    "TWHD-2264",
+    "TWHD-2266",
+    "TWHD-2563",
+    "TWHD-2583",
+    "TWHD-2567",
+    "TWHD-2573",
+    "TWHD-2552",
+    "TWHD-2561",
+    "TWHD-1803",
+    "TWHD-1802",
+    "TWHD-2575",
+    "TWHD-2587",
+    "TWHD-2566",
+    "TWHD-1051",
+    "TWHD-2663",
+    "TWHD-2661",
+    "TWHD-2662",
+    "TWHD-2810",
+    "TWHD-1871",
+    "TWHD-2812",
+    "TWHD-1872",
+    "TWHD-1961",
+    "TWHD-1963",
+    "TWHD-2847",
+    "TWHD-1964",
+    "TWHD-1870",
+    "TWHD-1867",
+    "TWHD-1962",
+    "TWHD-1876",
+    "TWHD-2867",
+    "TWHD-2858",
+    "TWHD-2857",
+    "TWHD-2814",
+    "TWHD-2813",
+    "TWHD-2815",
+    "TWHD-1965",
+    "TWHD-1874",
+    "TWHD-2885",
+    "TWHD-2828",
+    "TWHD-1810",
+    "TWHD-2819",
+    "TWHD-2851",
+    "TWHD-1777",
+    "TWHD-1864",
+    "TWHD-1875",
+    "TWHD-1807",
+    "TWHD-2904",
+    "TWHD-2777",
+    "TWHD-2913",
+    "TWHD-2792",
+    "TWHD-2794",
+    "TWHD-2793",
+    "TWHD-2748",
+    "TWHD-2712",
+    "TWHD-2621",
+    "TWHD-2924",
+    "TWHD-2870",
+    "TWHD-2960",
+    "TWHD-1778",
+    "TWHD-2923",
+    "TWHD-2457",
+    "TWHD-1165",
+    "TWHD-1166",
+    "TWHD-1167",
+    "TWHD-2994",
+    "TWHD-2977",
+    "TWHD-2985",
+    "TWHD-2993",
+    "TWHD-2911",
+    "TWHD-2721",
+    "TWHD-2764",
+    "TWHD-2342",
+    "TWHD-2734",
+    "TWHD-2638",
+    "TWHD-2779",
+    "TWHD-2781",
+    "TWHD-2212",
+    "TWHD-1258",
+    "TWHD-2780",
+    "TWHD-2790",
+    "TWHD-2791",
+    "TWHD-1981",
+    "TWHD-2774",
+    "TWHD-3133",
+    "TWHD-2775",
+    "TWHD-3061",
+    "TWHD-2776",
+    "TWHD-3082",
+    "TWHD-3199",
+    "TWHD-3079",
+    "TWHD-3081",
+    "TWHD-3080",
+    "TWHD-2778",
+    "TWHD-3062",
+    "TWHD-1758",
+    "TWHD-2771",
+    "TWHD-2773",
+    "TWHD-3202",
+    "TWHD-1447",
+    "TWHD-3146",
+    "TWHD-3134",
+    "TWHD-2783",
+    "TWHD-2704",
+    "TWHD-2806",
+    "TWHD-3136",
+    "TWHD-3137",
+    "TWHD-3168",
+    "TWHD-2741",
+    "TWHD-3263",
+    "TWHD-2622",
+    "TWHD-3265",
+    "TWHD-2664",
+    "TWHD-3242",
+    "TWHD-3283",
+    "TWHD-3244",
+    "TWHD-3286",
+    "TWHD-3284",
+    "TWHD-3107",
+    "TWHD-3289",
+    "TWHD-1086",
+    "TWHD-3243",
+    "TWHD-3288",
+    "TWHD-3304",
+    "TWHD-2394",
+    "TWHD-3308",
+    "TWHD-3294",
+    "TWHD-3309",
+    "TWHD-3310",
+    "TWHD-3348",
+    "TWHD-3350",
+    "TWHD-3328",
+    "TWHD-3331",
+    "TWHD-3314",
+    "TWHD-3344",
+    "TWHD-3302",
+    "TWHD-2796",
+    "TWHD-2631",
+    "TWHD-3361",
+    "TWHD-3268",
+    "TWHD-3306",
+    "TWHD-3041",
+    "TWHD-3385",
+    "TWHD-3042",
+    "TWHD-3387",
+    "TWHD-3355",
+    "TWHD-3384",
+    "TWHD-3043",
+    "TWHD-3386",
+    "TWHD-3406",
+    "TWHD-3403",
+    "TWHD-3305",
+    "TWHD-3045",
+    "TWHD-3044",
+    "TWHD-3341",
+    "TWHD-2919",
+    "TWHD-987",
+    "TWHD-556",
+    "TWHD-3135"
+   ],
+   "25.4.1.2": [
+    "TWHD-3492",
+    "TWHD-3495",
+    "TWHD-3498",
+    "TWHD-3503",
+    "TWHD-3502",
+    "TWHD-3040",
+    "TWHD-3452",
+    "TWHD-3451",
+    "TWHD-3467",
+    "TWHD-3307"
+   ],
+   "25.4.2.1": [
+    "TWHD-3455",
+    "TWHD-1337",
+    "TWHD-3504",
+    "TWHD-3397",
+    "TWHD-3541",
+    "TWHD-3477",
+    "TWHD-3478"
+   ],
+   "25.4.3.1": [
+    "TWHD-3568",
+    "TWHD-3583",
+    "TWHD-3354",
+    "TWHD-3560",
+    "TWHD-3371",
+    "TWHD-3551",
+    "TWHD-3588"
+   ],
+   "25.4.3.2": [
+    "TWHD-3627",
+    "TWHD-3622",
+    "TWHD-3362",
+    "TWHD-3658",
+    "TWHD-3648",
+    "TWHD-3644",
+    "TWHD-3631",
+    "TWHD-3649",
+    "TWHD-3662"
+   ],
+   "25.4.3.3": [
+    "TWHD-3608",
+    "TWHD-3483",
+    "TWHD-3609",
+    "TWHD-3372",
+    "TWHD-3623",
+    "TWHD-3681",
+    "TWHD-3695",
+    "TWHD-3373",
+    "TWHD-3481",
+    "TWHD-3482"
+   ],
+   "25.5.1": [
+    "TWHD-3665",
+    "TWHD-3661",
+    "TWHD-3682",
+    "TWHD-3586",
+    "TWHD-3732",
+    "TWHD-3741",
+    "TWHD-3248"
+   ],
+   "25.5.2": [
+    "TWHD-3689",
+    "TWHD-3706",
+    "TWHD-3768",
+    "TWHD-3738",
+    "TWHD-3727",
+    "TWHD-3765",
+    "TWHD-3767",
+    "TWHD-3664",
+    "TWHD-3777",
+    "TWHD-3787",
+    "TWHD-3374",
+    "TWHD-3532"
+   ],
+   "25.5.3": [
+    "TWHD-3615",
+    "TWHD-1418",
+    "TWHD-3628",
+    "TWHD-3788",
+    "TWHD-3793",
+    "TWHD-3740",
+    "TWHD-3780",
+    "TWHD-3775",
+    "TWHD-3011",
+    "TWHD-3651",
+    "TWHD-3531",
+    "TWHD-3807",
+    "TWHD-3690",
+    "TWHD-3533",
+    "TWHD-3801",
+    "TWHD-3715"
+   ],
+   "25.5.4": [
+    "TWHD-3712",
+    "TWHD-3426",
+    "TWHD-1753",
+    "TWHD-3592",
+    "TWHD-2316",
+    "TWHD-3524",
+    "TWHD-3049",
+    "TWHD-2318",
+    "TWHD-3050",
+    "TWHD-3048",
+    "TWHD-3855",
+    "TWHD-3685",
+    "TWHD-2319",
+    "TWHD-3762",
+    "TWHD-3680",
+    "TWHD-3800",
+    "TWHD-3873",
+    "TWHD-3823"
+   ],
+   "25.5.5": [
+    "TWHD-3845",
+    "TWHD-3842",
+    "TWHD-3826",
+    "TWHD-3827",
+    "TWHD-3891",
+    "TWHD-2317",
+    "TWHD-3846",
+    "TWHD-3720",
+    "TWHD-3412",
+    "TWHD-3698",
+    "TWHD-3652",
+    "TWHD-3892",
+    "TWHD-3683",
+    "TWHD-3806",
+    "TWHD-3687",
+    "TWHD-3667",
+    "TWHD-3666",
+    "TWHD-3686"
+   ],
+   "25.5.6": [
+    "TWHD-3828",
+    "TWHD-3760",
+    "TWHD-3642",
+    "TWHD-3843",
+    "TWHD-3697",
+    "TWHD-2323",
+    "TWHD-2860",
+    "TWHD-3280",
+    "TWHD-2620",
+    "TWHD-3298",
+    "TWHD-3722",
+    "TWHD-3754",
+    "TWHD-3829",
+    "TWHD-3365",
+    "TWHD-4007",
+    "TWHD-3874",
+    "TWHD-3863",
+    "TWHD-3803",
+    "TWHD-3949",
+    "TWHD-3886",
+    "TWHD-3954",
+    "TWHD-3952",
+    "TWHD-3940",
+    "TWHD-3993",
+    "TWHD-3986",
+    "TWHD-4015",
+    "TWHD-3994",
+    "TWHD-4014",
+    "TWHD-1669",
+    "TWHD-4047",
+    "TWHD-3958",
+    "TWHD-3898",
+    "TWHD-3901",
+    "TWHD-3899"
+   ],
+   "25.5.7": [
+    "TWHD-4158",
+    "TWHD-4173",
+    "TWHD-4161",
+    "TWHD-4157",
+    "TWHD-4156",
+    "TWHD-3967",
+    "TWHD-3900",
+    "TWHD-4172",
+    "TWHD-3943",
+    "TWHD-4197",
+    "TWHD-3918",
+    "TWHD-3841",
+    "TWHD-3916",
+    "TWHD-3714",
+    "TWHD-3630",
+    "TWHD-3938",
+    "TWHD-3921",
+    "TWHD-3389",
+    "TWHD-4196",
+    "TWHD-4174",
+    "TWHD-4011",
+    "TWHD-4012",
+    "TWHD-4013",
+    "TWHD-4175",
+    "TWHD-4182",
+    "TWHD-2427",
+    "TWHD-3468",
+    "TWHD-4167",
+    "TWHD-3944",
+    "TWHD-4225",
+    "TWHD-4217",
+    "TWHD-1097",
+    "TWHD-3945",
+    "TWHD-4245",
+    "TWHD-4222",
+    "TWHD-3672",
+    "TWHD-4227",
+    "TWHD-4207",
+    "TWHD-4200",
+    "TWHD-3905",
+    "TWHD-3989",
+    "TWHD-4216",
+    "TWHD-3722",
+    "TWHD-4247",
+    "TWHD-4276",
+    "TWHD-4048"
+   ],
+   "25.5.8": [
+    "TWHD-4284",
+    "TWHD-4343"
+   ],
+   "25.5.9": [
+    "TWHD-4305",
+    "TWHD-4209",
+    "TWHD-3721",
+    "TWHD-4383",
+    "TWHD-4357",
+    "TWHD-1671",
+    "TWHD-4344",
+    "TWHD-4360",
+    "TWHD-4354",
+    "TWHD-4384",
+    "TWHD-4322",
+    "TWHD-4339"
+   ],
+   "25.5.10": [
+    "TWHD-3379",
+    "TWHD-3896",
+    "TWHD-4248",
+    "TWHD-4239",
+    "TWHD-4265",
+    "TWHD-4386",
+    "TWHD-3513",
+    "TWHD-4202",
+    "TWHD-4351",
+    "TWHD-2953",
+    "TWHD-4171",
+    "TWHD-3935",
+    "TWHD-2827",
+    "TWHD-4440",
+    "TWHD-3413",
+    "TWHD-2895",
+    "TWHD-3926",
+    "TWHD-2982",
+    "TWHD-4429",
+    "TWHD-4459",
+    "TWHD-4478",
+    "TWHD-4243",
+    "TWHD-2944",
+    "TWHD-4453",
+    "TWHD-2786",
+    "TWHD-4392",
+    "TWHD-3394",
+    "TWHD-2090",
+    "TWHD-4487",
+    "TWHD-4464",
+    "TWHD-2089",
+    "TWHD-4230",
+    "TWHD-4382",
+    "TWHD-1480",
+    "TWHD-3130",
+    "TWHD-4433",
+    "TWHD-4232",
+    "TWHD-4475",
+    "TWHD-4491",
+    "TWHD-4437",
+    "TWHD-4476",
+    "TWHD-4535",
+    "TWHD-4278",
+    "TWHD-4449",
+    "TWHD-4002",
+    "TWHD-4477",
+    "TWHD-3063",
+    "TWHD-4430",
+    "TWHD-4631",
+    "TWHD-4180",
+    "TWHD-4674",
+    "TWHD-4387",
+    "TWHD-4582",
+    "TWHD-4220",
+    "TWHD-4253",
+    "TWHD-4718",
+    "TWHD-4562",
+    "TWHD-4213",
+    "TWHD-4177",
+    "TWHD-4581",
+    "TWHD-4769",
+    "TWHD-4770",
+    "TWHD-4249",
+    "TWHD-4758",
+    "TWHD-4515",
+    "TWHD-4516",
+    "TWHD-4422",
+    "TWHD-4460",
+    "TWHD-4484",
+    "TWHD-4467",
+    "TWHD-4471",
+    "TWHD-4554",
+    "TWHD-4501",
+    "TWHD-4885",
+    "TWHD-4804",
+    "TWHD-4883",
+    "TWHD-4884",
+    "TWHD-3922",
+    "TWHD-3673",
+    "TWHD-5084"
+   ]
+  },
+  "Wholesale": {
+   "25.4.1.1": [
+    "TWHD-1287",
+    "TWHD-2893",
+    "TWHD-2940",
+    "TWHD-2836",
+    "TWHD-2710",
+    "TWHD-3029",
+    "TWHD-2607",
+    "TWHD-2734",
+    "TWHD-2532",
+    "TWHD-2673",
+    "TWHD-3169",
+    "TWHD-2615",
+    "TWHD-1517",
+    "TWHD-1518",
+    "TWHD-1519",
+    "TWHD-1520",
+    "TWHD-1515",
+    "TWHD-1516",
+    "TWHD-2632"
+   ],
+   "25.4.1.2": [],
+   "25.4.3.1": [],
+   "25.4.3.2": [
+    "TWHD-3567"
+   ],
+   "25.4.3.3": [
+    "TWHD-3625"
+   ],
+   "25.5.1": [],
+   "25.5.2": [],
+   "25.5.3": [],
+   "25.5.4": [
+    "TWHD-3847",
+    "TWHD-3862",
+    "TWHD-3614"
+   ],
+   "25.5.5": [
+    "TWHD-3047",
+    "TWHD-3878",
+    "TWHD-3471"
+   ],
+   "25.5.6": [
+    "TWHD-3902",
+    "TWHD-3928",
+    "TWHD-3903",
+    "TWHD-3919",
+    "TWHD-1788",
+    "TWHD-3424"
+   ],
+   "25.5.7": [
+    "TWHD-2749",
+    "TWHD-3231",
+    "TWHD-2916",
+    "TWHD-2434",
+    "TWHD-4201",
+    "TWHD-2557",
+    "TWHD-4205",
+    "TWHD-3928",
+    "TWHD-3881",
+    "TWHD-3909"
+   ],
+   "25.5.8": [
+    "TWHD-3908",
+    "TWHD-3910",
+    "TWHD-3911"
+   ],
+   "25.5.9": [
+    "TWHD-4411"
+   ],
+   "25.5.10": [
+    "TWHD-4455",
+    "TWHD-4466",
+    "TWHD-3423",
+    "TWHD-4423",
+    "TWHD-4424",
+    "TWHD-4053",
+    "TWHD-2941",
+    "TWHD-4054",
+    "TWHD-4056",
+    "TWHD-4472",
+    "TWHD-4749",
+    "TWHD-4625",
+    "TWHD-4577",
+    "TWHD-4948"
+   ]
+  }
+ },
+ "items": [
+  {
+   "id": "n85d4403f",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "ASL Fetch Page Size",
+   "text": "Number of ASL locations considered for fetching ASL values of SKUs in a batch",
+   "keys": [
+    "TWHD-3722"
+   ],
+   "patches": [
+    "25.5.6",
+    "25.5.7"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n060c22cf",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "CARFAX QuickVIN Authorizer Management System",
+   "text": "Value for <management-system> parameter for Authorizer API call.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n46dad3f2",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "CARFAX QuickVIN Authorizer Test VIN",
+   "text": "VIN to be used after authorization has been granted to ensure successful QuickVIN lookups.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n236747ff",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "CARFAX QuickVIN Auth Poll Interval",
+   "text": "Interval in hours after which the system should poll the CARFAX QuickVIN Auth API for pending status.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nb7d610aa",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "ATDCostTypeId",
+   "text": "Indicates which cost field is updated by ATD Price Download routine",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n7db95242",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "Engine Oil Non-Catalog Requires Sourcing",
+   "text": "Determines whether non-catalog Engine Oil items follow standard sourcing and inventory rules instead of bypassing sourcing. Disabled by default",
+   "keys": [
+    "TWHD-4253"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n0dfce9ba",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "Inventory Receipt - Populate Quantity Received",
+   "text": "Controls whether the \"Quantity Received\" field on inventory receipts is populated with outstanding quantities from the PO or set to 0 by default",
+   "keys": [
+    "TWHD-3560"
+   ],
+   "patches": [
+    "25.4.3.1"
+   ],
+   "first": "25.4.3.1"
+  },
+  {
+   "id": "ndbbd003a",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "Outlook Graph AddressUrl",
+   "text": "Url of the Microsoft Graph at Azure for sending the email",
+   "keys": [
+    "TWHD-2786"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nea66952d",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "Outlook Graph ClientId",
+   "text": "Client Id of the application registered at Azure AD for sending the email",
+   "keys": [
+    "TWHD-2786"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n5949f735",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "PDF Printing - Use Legacy PDF Rendering Method",
+   "text": "Indicates whether to use the legacy method for PDF rendering using Adobe Reader. (Required on some Windows 10 and earlier versions)",
+   "keys": [
+    "TWHD-3685"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "nc1606ebd",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "Reorder Point Calculation Method",
+   "text": "Determines whether the reorder point calculation uses only Quantity on Hand (QoH) or Quantity on Hand minus Committed (QoH - Committed)",
+   "keys": [
+    "TWHD-3672"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n29ae38b7",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "Transfer Pricing Source",
+   "text": "Determines whether transfer prices are derived from the sending location or the receiving location",
+   "keys": [
+    "TWHD-3986"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nc91f1732",
+   "area": "Retail",
+   "category": "New System Settings",
+   "group": "",
+   "title": "Update Cost Upon QuickQuote Conversion",
+   "text": "Determines if and when the cost of items on a Quick Quote are updated upon conversion to a Service Request. “Zero Cost” will update any $0.00 with that item’s “Invoice” Default Cost. “Always” will update the cost of every item with their “Invoice” Default Cost, so long as it’s greater than $0.00. “Never” will leave all costs of items on a Quick Quote unchanged",
+   "keys": [
+    "TWHD-2638"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n389a3cfd",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Adv. Inv. Count - Inventory Snapshot – QOH",
+   "text": "Controls the user's ability to view the Quantity on Hand column within the 'Inventory Items' grid of the 'Manage Inventory Snapshot' window",
+   "keys": [
+    "TWHD-3248"
+   ],
+   "patches": [
+    "25.5.1"
+   ],
+   "first": "25.5.1"
+  },
+  {
+   "id": "n9e0a279a",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Appointments - Configure Calendars",
+   "text": "Controls a user's ability to access the \"Configure Calendars\" screen from the Appointments tab to view or modify calendar configurations",
+   "keys": [
+    "TWHD-3302"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nc3f1ca49",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Credit Card Terminal \"Do Not Ask Again\" Selection",
+   "text": "Controls whether a user can view or edit the \"Do Not Ask Again\" option on the Credit Card Terminal Selection prompt and in the My Preferences > Credit Card Terminals tab",
+   "keys": [
+    "TWHD-3644"
+   ],
+   "patches": [
+    "25.4.3.2"
+   ],
+   "first": "25.4.3.2"
+  },
+  {
+   "id": "n4c8a434b",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Inventory Management - Company Inventory Accounts",
+   "text": "Controls a user's ability to view and manage company-level inventory account mappings",
+   "keys": [
+    "TWHD-3394"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n6b3cfc2d",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Inventory Management - Location Inventory Accounts",
+   "text": "Controls a user's ability to view and manage location-level inventory account mappings",
+   "keys": [
+    "TWHD-3394"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n2943a0ba",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Inventory Receipt - Allow Duplicate Reference Numbers",
+   "text": "Controls whether a user can process an inventory receipt or purchase order with a reference number that has already been used for the same vendor",
+   "keys": [
+    "TWHD-3940"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nc84e8339",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Item - Edit Average Cost",
+   "text": "Ability to edit the Average Cost from the Site Detail Tab on the Item Details and Manage Inventory windows",
+   "keys": [
+    "TWHD-2779"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n68a6e21f",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Item - Edit Last Cost",
+   "text": "Ability to edit the Last Cost from the Site Detail Tab on the Item Details and Manage Inventory windows",
+   "keys": [
+    "TWHD-2779"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "ndc92b92f",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Item Detail – Core",
+   "text": "Ability to access Core tab while viewing Item Detail.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n3223b436",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Item Detail – Pricing",
+   "text": "Ability to access Pricing tab while viewing Item Detail.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nccdf2f50",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Item Detail - Site Detail",
+   "text": "Ability to access Site Detail tab while viewing Item Detail.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n24a4fe33",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Item Detail - Unit of Measurement",
+   "text": "Ability to access Unit of Measurement tab while viewing Item Detail.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "ne0f8635b",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Item Detail - User Defined",
+   "text": "Ability to access User Defined tab while viewing Item Detail.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nd41003fb",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Company Setup - Auto Print Documents",
+   "text": "Allow access to Auto Print Documents screen under Manage > Company Setup",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n0701855c",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Company Setup - Epicor ISE Configuration",
+   "text": "Allow access to Epicor ISE Configuration screen under Manage > Company Setup",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n7d1ad8a1",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Company Setup - Package Type Data",
+   "text": "Allow access to Package Type Data screen under Manage > Company Setup",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "ncb874c7c",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Inventory - Adv. Phy. Inv. Count - Cycle Count Filters",
+   "text": "Allow access to Cycle Count Filters screen under Manage > Inventory > Adv. Phy. Inv. Count",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n3ac7e5d2",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Inventory - Adv. Phy. Inv. Count - Cycle Count Filters For Location",
+   "text": "Allow access to Cycle Count Filters For Location screen under Manage > Inventory > Adv. Phy. Inv. Count",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n34cc7795",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Inventory - Physical Inventory Count",
+   "text": "Allow access to Physical Inventory Count screen under Manage > Inventory",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n1476c5be",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Inventory - Item Bundle",
+   "text": "Allow access to Item Bundle screen under Manage > Inventory",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n434269cd",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Inventory - Zero Cost Price Rules",
+   "text": "Allow access to Zero Cost Price Rules screen under Manage > Inventory",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nb8b28376",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Contact Address Xref",
+   "text": "Allow access to Import Contact Address Xref screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nc3a0deb6",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Contact Member Xref",
+   "text": "Allow access to Import Contact Member Xref screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n15fbbe79",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Customer Contact Data",
+   "text": "Allow access to Import Customer Contact Data screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n010e2f46",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Customer Address",
+   "text": "Allow access to Import Customer Address screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n6e41ad2e",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Customer Address Xref",
+   "text": "Allow access to Import Customer Address Xref screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nf916534a",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Customer Data",
+   "text": "Allow access to Import Customer Data screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n466b8d37",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Customer Member",
+   "text": "Allow access to Import Customer Member screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n7cbbbbb8",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Customer Vehicle",
+   "text": "Allow access to Import Customer Vehicle screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "na3c887c2",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import GL Account Data",
+   "text": "Allow access to Import GL Account Data screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "na6266c82",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Inventory Data",
+   "text": "Allow access to Import Inventory Data screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nfc952a53",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Inventory Tree Data",
+   "text": "Allow access to Import Inventory Tree Data screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nce38e16b",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import SKU Data",
+   "text": "Allow access to Import SKU Data screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n1e4280c1",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Technician Data",
+   "text": "Allow access to Import Technician Data screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n658af567",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Technician Location Xref",
+   "text": "Allow access to Import Technician Location Xref screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nb92b90bd",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Tire Data",
+   "text": "Allow access to Import Tire Data screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nbe6eb932",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Trade Style",
+   "text": "Allow access to Import Trade Style screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n63eb2617",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import UOM Data",
+   "text": "Allow access to Import UOM Data screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "ncbd81bd0",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import User Data",
+   "text": "Allow access to Import User Data screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n121ffd9a",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Imports - Import Wheel Data",
+   "text": "Allow access to Import Wheel Data screen under Manage > Imports",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n3740cc0a",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Location Setup - Location Accounts",
+   "text": "Allow access to Location Accounts screen under Manage > Location Setup",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nc097ecfc",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Utilities - Ecomm Applications",
+   "text": "Allow access to Ecomm Applications screen under Manage > Utilities",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nc9350df7",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Utilities - Export Config Settings",
+   "text": "Allow access to Export Config Settings screen under Manage > Utilities",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nb576b080",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Outlook Authentication",
+   "text": "Allow user to be prompted with Outlook Authentication",
+   "keys": [
+    "TWHD-2786"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n2d9f4158",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "TireWorksHD Mobile - Map EAN/UPC to article",
+   "text": "Ability to map EAN/UPC to article",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "ncc4282e5",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Service Request - Complete Order",
+   "text": "Controls whether a user can see and use the “Complete Order” button in a service request",
+   "keys": [
+    "TWHD-3826"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "n59db075c",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Service Request - Expired Discount",
+   "text": "Ability to retain expired discounts and coupons which were previously applied to a service request",
+   "keys": [
+    "TWHD-1166"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nff57499d",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Service Request - Item Description",
+   "text": "Controls whether a user can modify the item description on a service request",
+   "keys": [
+    "TWHD-3732"
+   ],
+   "patches": [
+    "25.5.1"
+   ],
+   "first": "25.5.1"
+  },
+  {
+   "id": "nd31b7014",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Service Request - Revise Order",
+   "text": "Controls whether a user can see and use the “Revise Order” button in a service request",
+   "keys": [
+    "TWHD-3827"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "n185c25b5",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Service Request – Tire Quote",
+   "text": "Controls the user’s ability to access and use the F1 Tire Quote screen within the Service Request and related workflows",
+   "keys": [
+    "TWHD-3843"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n58ac57a9",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Special Program: Service Request - Prod. Code",
+   "text": "Controls whether a user can edit the Prod. Code value in the service request or item detail window when a special program is assigned",
+   "keys": [
+    "TWHD-3608"
+   ],
+   "patches": [
+    "25.4.3.3"
+   ],
+   "first": "25.4.3.3"
+  },
+  {
+   "id": "n2a066105",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Package Setup - Allow Package Deletion",
+   "text": "Controls whether users can delete a package or not on package setup window.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n70270318",
+   "area": "Retail",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Inventory - Import Costs",
+   "text": "Allow access to Import Costs screen",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n679aca0a",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "A new “View Time Log” button has been added next to “Actual Hours” in the Line Item Detail window. The Time Log Detail window displays technician name, start/end times (with local timezone), total time, and stop reason",
+   "keys": [
+    "TWHD-2323"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n8569507f",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "The \"EDIT\" option has been removed from the \"Service Request - Show Tire Details Screen\" access right",
+   "keys": [
+    "TWHD-3842"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "n465197f9",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "A new Auto Print Documents option has been added, allowing TCS Inspect PDFs to be automatically printed with the invoice, streamlining the process for service advisors and ensuring customers receive their inspection results without extra steps",
+   "keys": [
+    "TWHD-3592"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n774530ce",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "The DR Invoice job (mainoptionid 75) now uses processed start and end dates based on the last run timestamp instead of DR numbers, and a new table records each job run and its details for improved accuracy and compliance with Bridgestone requirements",
+   "keys": [
+    "TWHD-3531"
+   ],
+   "patches": [
+    "25.5.3"
+   ],
+   "first": "25.5.3"
+  },
+  {
+   "id": "n31ba7151",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "The process for requesting Customer Signatures is now triggered only when the price exceeds the previously signed-for price",
+   "keys": [
+    "TWHD-2394"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n287dea47",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "When reviewing Declined Services in the Service Advisor, the price at the time of declination will be shown",
+   "keys": [
+    "TWHD-1758"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n06fdc75e",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "When sending an SMS message, the contact dropdown will default to the Primary contact for the designated Customer Member. The dropdown will display only contacts associated with that member, while also including any Address Contacts classified as \"Cell\" type",
+   "keys": [
+    "TWHD-2919"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "ne2a6a806",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "The Customer PO and Hand Ticket fields have been expanded so their full value can be easily seen",
+   "keys": [
+    "TWHD-2266"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n05cc7bdf",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "The Item Detail view, accessible by selecting the blue “i” on a Service Request line item, has been enhanced. This tab now displays all information previously available in the Manage Inventory window for the corresponding SKU. Access to both new and existing tabs is governed by individual access rights",
+   "keys": [
+    "TWHD-2777",
+    "TWHD-2792",
+    "TWHD-2794",
+    "TWHD-2793"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nbc5643e4",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Purchase order availability checks for IAP/ISE suppliers now resolve the correct line code for each individual item while continuing to prioritize the most recently modified entry",
+   "keys": [
+    "TWHD-4209"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "n8de70161",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Standalone purchase orders now use the most recently selected line code from F2 catalog searches",
+   "keys": [
+    "TWHD-3905"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n8798d8c4",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Memory utilization and UI flow has been drastically improved in the F1 Tire Search workflows",
+   "keys": [
+    "TWHD-3268"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n603e108e",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Quick Quote and Appointment workflows now prompt users to choose the correct vehicle when multiple customer vehicles match, preventing automatic assignment to the wrong vehicle",
+   "keys": [
+    "TWHD-3944"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n3970487e",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Carfax and Archived Service History are now available from the Vehicle History tab in Customer Maintenance without opening a service request",
+   "keys": [
+    "TWHD-3468"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "nb7fee196",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "The Find > Customer search screen now remembers each user's last-used state of the partial search checkbox next to the Customer ID field, so your preferred search behavior is retained across sessions",
+   "keys": [
+    "TWHD-3412"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "n1ae6cf7f",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "A Cinch GET endpoint has been integrated to allow users to securely retrieve and download messages for a specific customer, with results provided in an easy-to-use JSON format. This enhancement improves access to customer communications and supports better customer service",
+   "keys": [
+    "TWHD-3455"
+   ],
+   "patches": [
+    "25.4.2.1"
+   ],
+   "first": "25.4.2.1"
+  },
+  {
+   "id": "n5d9e4615",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Users will be prompted when invalid Mileage Out values have been provided",
+   "keys": [
+    "TWHD-1478"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nb003d9de",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Unused “MyCARFAX” UI elements and settings have been removed",
+   "keys": [
+    "TWHD-1499"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n90403842",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer Alert messages now support up to 1000 characters",
+   "keys": [
+    "TWHD-2264"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n8176d34b",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Quickly authorize CARFAX QuickVIN integration at new TireWorks HD locations",
+   "keys": [
+    "TWHD-2806"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n6fb118e7",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "CARFAX QuickVIN now lets users choose from multiple vehicle matches returned by CARFAX",
+   "keys": [
+    "TWHD-3288"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n97dbfaac",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Payments and Cash Drawer",
+   "title": "",
+   "text": "1stMile card sales now include the store, Service Request, customer, and customer creation date, so 1stMile has the order details behind each sale",
+   "keys": [
+    "TWHD-4220"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n8c97ac88",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "A new \"Transfer Pricing Source\" system setting has been added, allowing dealers to choose whether transfer prices are based on the sending or receiving location, with the default set to receiving location",
+   "keys": [
+    "TWHD-3986"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n73c94c38",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Discounts and coupons can be limited to specific price levels or customers",
+   "keys": [
+    "TWHD-1086",
+    "TWHD-3354"
+   ],
+   "patches": [
+    "25.4.1.1",
+    "25.4.3.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n8d959bb8",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "TireWorks HD now checks for expired discounts and coupons during payment; only users with \"Service Request – Expired Discount\" access can keep expired discounts",
+   "keys": [
+    "TWHD-1165"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n6acb8108",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "The application now enforces a minimum Purchased Part Pricing of 0.01 instead of 0.00",
+   "keys": [
+    "TWHD-1512"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n4c7be4af",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Updates have been made to the Manage Packages window, including changes to UI cursor flow and removal of certain screen elements",
+   "keys": [
+    "TWHD-987"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nbb0442ad",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "The maximum length for package item descriptions is now 255 characters",
+   "keys": [
+    "TWHD-2851"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n88707e3f",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "An error message is displayed when attempting to delete packages that have been previously used, indicating why deletion is not possible",
+   "keys": [
+    "TWHD-3199"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "na7cb48fc",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Product codes are available for configuration for Surcharge items that may be included in an order, within Manage Packages",
+   "keys": [
+    "TWHD-1447"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n02943a08",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "The functionality to search for SKUs has been incorporated into the “Add New RH Setting” and “Add New Nitrogen Setting” workflows",
+   "keys": [
+    "TWHD-2775"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n9e569678",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "The capability to copy settings across multiple locations has been introduced for Shop Fees, Road Hazard, and Nitrogen configurations",
+   "keys": [
+    "TWHD-2791",
+    "TWHD-2790",
+    "TWHD-1258"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n18955853",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "A new “Create Item” button is available in several windows for easier item creation without disrupting workflow",
+   "keys": [
+    "TWHD-2771",
+    "TWHD-2783"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n55fbbf43",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Discounts and Coupons marked “Honor After Expired” are excluded from expiration checks",
+   "keys": [
+    "TWHD-1167"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n972f5ce8",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "QuickBooks Online vendor imports now avoid putting VendorID in Last Name and set imported vendors active",
+   "keys": [
+    "TWHD-4202"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nb47d468c",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Inventory receipts now display a Quantity Expected field to match Wholesale workflows",
+   "keys": [
+    "TWHD-2993"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n70a781f2",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "A new “Engine Oil Non-Catalog Requires Sourcing” system setting lets stores have non-catalog engine oil on packages follow standard sourcing and inventory rules, preventing negative inventory. The default is off",
+   "keys": [
+    "TWHD-4253"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n5e8cc0ab",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "Internal text message alerts are now sent to locations whenever the AutoReplenishment daemon runs, notifying staff of each purchase order or transfer created, including success or failure details",
+   "keys": [
+    "TWHD-3050"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n35ecbf41",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "The Sourcing Manager Transfer screen now displays a dynamic grid showing available quantities for each item at each Alternate Stocking Location, with improved usability for multiple items, horizontal scrolling, and corrected UI issues",
+   "keys": [
+    "TWHD-3715"
+   ],
+   "patches": [
+    "25.5.3"
+   ],
+   "first": "25.5.3"
+  },
+  {
+   "id": "n25ffe7d3",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "The Sourcing Manager now allows users to request transfers for multiple items at once, streamlining the process and enabling selection of available items from a single ASL location in one request. All items are checked by default in the transfer screen, and only fully available items are included in the transfer, with clear messaging for any excluded items. The existing workflow remains unchanged for single-item transfers",
+   "keys": [
+    "TWHD-1337"
+   ],
+   "patches": [
+    "25.4.2.1"
+   ],
+   "first": "25.4.2.1"
+  },
+  {
+   "id": "n1a4d93a6",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Inventory Accounts now supports company-level and location-level configuration",
+   "keys": [
+    "TWHD-3394"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "ncd49fe4e",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "A new checkbox, “Allow User to Edit the Item Description on Service Requests (for California BAR compliance),” has been added to the Manage SKU Types window, and the related access right \"Service Request - Item Description\" now acts as an override, letting authorized users edit all item descriptions regardless of SKU Type settings",
+   "keys": [
+    "TWHD-3780"
+   ],
+   "patches": [
+    "25.5.3"
+   ],
+   "first": "25.5.3"
+  },
+  {
+   "id": "n49bf962a",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "You can now manage SKUs directly in Item Groups from the Manage Item Groups window, instead of editing each SKU separately in Manage Inventory",
+   "keys": [
+    "TWHD-2773"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n0321813a",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "We have added a button and functionality to quickly copy Inventory Accounts across locations",
+   "keys": [
+    "TWHD-2780"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "ndd5149d2",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "We have ensured that marking a SKU as an Outside Purchase SKU, the user will be prompted whether or not to make this change for all locations in the company, or just the current location",
+   "keys": [
+    "TWHD-2781"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n02241a46",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "The Manage Inventory window has been enhanced to include the Item Allocation and Item Movement tabs, which were previously only visible when viewing the Item Detail view",
+   "keys": [
+    "TWHD-2778"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n42013693",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Accounting Integrations",
+   "title": "",
+   "text": "QBO tax variance validation now detects and logs post-posting discrepancies without blocking integration",
+   "keys": [
+    "TWHD-3900"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n1135b124",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Accounting Integrations",
+   "title": "",
+   "text": "The QuickBooks Desktop integration no longer depends on the locationacct table for determining the unentered liabilities account; if not specified in the socket config file, the application now correctly falls back to the inventoryacct table, allowing users to manage integration settings without support intervention",
+   "keys": [
+    "TWHD-3623"
+   ],
+   "patches": [
+    "25.4.3.3"
+   ],
+   "first": "25.4.3.3"
+  },
+  {
+   "id": "n65195854",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "The ePower export stored procedures cusp_TCS_Customers and cusp_TCS_AllSkus have been enhanced to support per-customer and per-location export logic, using the new CustomerAddressECommerce table when the \"ePower Home LocationId\" system setting is not defined. Legacy export behavior is maintained when the system setting is set",
+   "keys": [
+    "TWHD-3727"
+   ],
+   "patches": [
+    "25.5.2"
+   ],
+   "first": "25.5.2"
+  },
+  {
+   "id": "n1bf51bed",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "The media viewer in TWHD Retail now displays all attached images and videos in a vertically scrollable layout, allowing technicians to easily review multiple media items per inspection while maintaining compatibility with legacy inspections",
+   "keys": [
+    "TWHD-3482"
+   ],
+   "patches": [
+    "25.4.3.3"
+   ],
+   "first": "25.4.3.3"
+  },
+  {
+   "id": "n9c14baea",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "TWHD Retail now fully supports the new TCS Inspect media format, allowing multiple images and videos per inspection, as well as new inspection metadata fields, ensuring inspections display complete and accurate information. Legacy image support remains for backward compatibility, and both new and old inspection formats are handled seamlessly. No data is lost when inspections include multiple media items or new metadata fields",
+   "keys": [
+    "TWHD-3481"
+   ],
+   "patches": [
+    "25.4.3.3"
+   ],
+   "first": "25.4.3.3"
+  },
+  {
+   "id": "n58d18d6a",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "The inspection detail header in TWHD Retail now displays new inspection metadata fields (Inspection Started, Inspection Submitted, Total Inspection Time, Marked 'All Okay', and App Type), and the Qty column has been removed from the service list",
+   "keys": [
+    "TWHD-3483"
+   ],
+   "patches": [
+    "25.4.3.3"
+   ],
+   "first": "25.4.3.3"
+  },
+  {
+   "id": "n646c0f68",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "The Communication Portal now displays Cinch message threads with improved filtering, message status, and direct reply capabilities, allowing users to manage all customer communications in one place. Tags for internal and external messages have been added for clarity, and all existing functionality remains unchanged",
+   "keys": [
+    "TWHD-3397"
+   ],
+   "patches": [
+    "25.4.2.1"
+   ],
+   "first": "25.4.2.1"
+  },
+  {
+   "id": "n476f38e1",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "TireBooks AccountingJournalID is now generated by a sequence, avoiding duplicates",
+   "keys": [
+    "TWHD-2704"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n0b461d9b",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "Object Locks are no longer required for TCS Inspect data submissions. Inspections can proceed with open orders, though submitted data appears after reopening",
+   "keys": [
+    "TWHD-3082",
+    "TWHD-3080",
+    "TWHD-3081",
+    "TWHD-3079",
+    "TWHD-1981",
+    "TWHD-3202"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n38849c20",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Service Request printing enhancements are enabled for all workflows for faster, more consistent performance",
+   "keys": [
+    "TWHD-4351"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nfaddb94b",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Modern authentication was implemented for Outlook email capabilities",
+   "keys": [
+    "TWHD-2786"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n7c53c113",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Service Request printing was overhauled to improve speed, consistency, and calculations across print paths",
+   "keys": [
+    "TWHD-3967"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n4639da9b",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "TireWorks HD now supports built-in and browser-native PDF viewing, allowing users to open and view PDFs directly in the application without needing to download files or use third-party plugins. Basic PDF navigation features are included, and a system setting has been added to govern if native or third-party PDF viewers will be used",
+   "keys": [
+    "TWHD-3685"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n9096d161",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "The application now supports SSRS Authentication via a Security Profile with “Use Manual Credentials”, or via Application Config settings with “Use App Config Credentials”",
+   "keys": [
+    "TWHD-1286"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nf8ca75b6",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Text Message Placeholders for Promise Time and Appointment Date have been added, usable in manual or canned texts; for multiple appointments, the earliest date is used",
+   "keys": [
+    "TWHD-2796"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "ne22a7414",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "A new access right, \"Inventory Receipt - Allow Duplicate Reference Numbers,\" has been added to control whether users can process inventory receipts or purchase orders with duplicate reference numbers for the same vendor",
+   "keys": [
+    "TWHD-3940"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nd0d6558a",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "The \"VIEW\" option has been removed from the \"Search Results Configuration - User Selection\" access right",
+   "keys": [
+    "TWHD-3845"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "nc751e3a6",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "A new \"Calendars\" tab has been added to the Manage Users screen, allowing system administrators to configure, copy, and manage user calendars by location",
+   "keys": [
+    "TWHD-3362"
+   ],
+   "patches": [
+    "25.4.3.2"
+   ],
+   "first": "25.4.3.2"
+  },
+  {
+   "id": "naf8d5d67",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "TireWorks HD now automatically verifies the existence of the Cash Customer record within the accounting system when it is selected in the Manage Locations window, eliminating the need for manual entry or creation",
+   "keys": [
+    "TWHD-3146"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n873e2445",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "The application now enables users to search for both Cash and Transfer customers when configuring Default Cash Customer and Default Transfer Customer settings in Manage Locations",
+   "keys": [
+    "TWHD-2774"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n3a529fdf",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "The app now asks for confirmation before closing when \"X\" is clicked, preventing accidental exits",
+   "keys": [
+    "TWHD-1677"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n2b679912",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "Granular Access Rights have been added to all “Manage” windows for menu control",
+   "keys": [
+    "TWHD-2631"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n4aac265c",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Performance and Stability",
+   "title": "",
+   "text": "A Unique Index has been added to the InvoiceNo column of SrHeader, optimizing performance and preventing duplications",
+   "keys": [
+    "TWHD-1364"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n0adad05a",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Performance and Stability",
+   "title": "",
+   "text": "The use of “ntext” SQL Datatype has been eliminated",
+   "keys": [
+    "TWHD-3168"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n316a8656",
+   "area": "Retail",
+   "category": "New Features",
+   "group": "Performance and Stability",
+   "title": "",
+   "text": "The process for retrieving SkuUserCost data from the database has been updated",
+   "keys": [
+    "TWHD-2977"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n002f9076",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Appointment Calendar boxes now lead with the customer name and show the phone number beneath it, show the full order total including tax and fees, and no longer carry the “(*Multi)” tag on ordinary appointments",
+   "keys": [
+    "TWHD-4883"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n1fc95e97",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Multi-package appointments on the same calendar now draw as one block, including when a package with no service duration sits between other packages, instead of as overlapping duplicate blocks",
+   "keys": [
+    "TWHD-4758"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "ne780d5b0",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Changing the time on a multi-package appointment now schedules its packages one after another from the new start time, instead of all at the same time",
+   "keys": [
+    "TWHD-4581"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n993d43c8",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Appointments with no service duration can now be dragged to a new time, and several scheduled at the same start time now display side by side on the Appointment Calendar",
+   "keys": [
+    "TWHD-4674",
+    "TWHD-4562"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n04cd6c93",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Multi-package appointments created before 25.5.10 now display as one continuous block on the Appointment Calendar",
+   "keys": [
+    "TWHD-4582"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n5bc77e02",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Stretching a multi-package appointment on the Appointment Calendar now keeps its new length, and split packages recombine into one block when dragged back together",
+   "keys": [
+    "TWHD-4718"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n9cd4726c",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Multi-package appointments now stay grouped on one calendar when dragged to a new time slot or calendar",
+   "keys": [
+    "TWHD-4459"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "na955bf01",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Packages added through Schedulable Services now use the customer’s assigned price level",
+   "keys": [
+    "TWHD-4002"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n09df219a",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Multi-package appointments now stagger package start times so calendar openings reflect full duration",
+   "keys": [
+    "TWHD-3379"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n442475b1",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Quick Quote vehicle lists now refresh when the selected customer changes",
+   "keys": [
+    "TWHD-2944"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n0cc17bf2",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Customer searches in Quick Quote and Appointment now work with a single name and phone number",
+   "keys": [
+    "TWHD-1480"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n6158023c",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "The Appointments tab now correctly displays customer names in the appointment preview when only a first name, only a last name, or both are provided, ensuring all appointments show identifiable customer information",
+   "keys": [
+    "TWHD-3994"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nc67b509e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "The “Overtake Object Lock” access right is now correctly enforced in the Appointments tab, preventing unauthorized users from overriding object locks",
+   "keys": [
+    "TWHD-3642"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nf9d20fcc",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Printing the Appointments tab for days with no scheduled appointments now displays an informative message and automatically returns users to the Appointments tab, ensuring consistent and user-friendly behavior in both Detailed and Daily report views",
+   "keys": [
+    "TWHD-3828"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n02aafe26",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Appointments and Quick Quotes",
+   "title": "",
+   "text": "Fixed an issue where double-clicking in Quick Quote's Advanced Search UI opened the Customer Maintenance window",
+   "keys": [
+    "TWHD-1041"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n3daf0eed",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Setting Sp. Program back to None on a Service Request now restores the order’s Tax Detail, Tire Tax Exempt, and Terms from the customer instead of keeping the program’s values, including when the Goodyear National Account Selector is closed without choosing an account",
+   "keys": [
+    "TWHD-5084"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n38f908b7",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Service Requests now show a mileage warning and cannot be completed when Mileage Out is 0 and Mileage In has a value. A Mileage Out lower than Mileage In is still caught",
+   "keys": [
+    "TWHD-4422"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n62f417d4",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "The Previously Declined Services list in the Service Advisor now drops a service once it has been invoiced at the same store, added to an order, or marked “Don't Ask Again”",
+   "keys": [
+    "TWHD-4769",
+    "TWHD-4770"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nc2e8966e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Failed signature capture during invoicing now rolls back order closure instead of leaving an incomplete closed order",
+   "keys": [
+    "TWHD-4491"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n11ba0e58",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Service Request invoice emails now use the standardized Attachment.pdf filename",
+   "keys": [
+    "TWHD-4477"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n476214f5",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Reversal Service Requests now preserve the original order’s removed-vehicle state",
+   "keys": [
+    "TWHD-4430"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "ncb5c24e4",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Goodyear National Account searches now use the user-selected document type",
+   "keys": [
+    "TWHD-2089"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n70546b5c",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Goodyear National Account searches now honor the PreferTireHQ configuration",
+   "keys": [
+    "TWHD-2090"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n7978082d",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Loyalty Rewards now pre-fills customer information and updates enrollment status immediately",
+   "keys": [
+    "TWHD-3063"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n22483825",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Users with the “Service Request - Order Comment”, “Service Request - Order Private Comments”, or “Service Request - Order Public Comments” access rights set to EDIT can now add or modify comments on closed and invoiced work orders",
+   "keys": [
+    "TWHD-4354"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "n41522bf7",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "The “Service Request - Change Invoice Date” access right is now correctly enforced, ensuring only users with EDIT permissions can modify invoice dates on open Retail Service Requests. Closed orders are now strictly read-only and do not allow invoice date changes regardless of user permissions",
+   "keys": [
+    "TWHD-4360"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "n1076d77f",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Customizations to the lube sticker stored procedure, cusp_SrHeader_GetDataForLubeSticker, are now preserved during system upgrades",
+   "keys": [
+    "TWHD-4339"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "n588e3fc6",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Resolved an issue where error messages appeared when creating a new service request immediately after invoicing and closing a previous order",
+   "keys": [
+    "TWHD-4284"
+   ],
+   "patches": [
+    "25.5.8"
+   ],
+   "first": "25.5.8"
+  },
+  {
+   "id": "na06c784f",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Service Advisor remains accessible after invoicing an order without requiring users to log out and back in",
+   "keys": [
+    "TWHD-4216"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n6661c7cc",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Service requests can no longer be finalized to a closed status without a valid invoice number",
+   "keys": [
+    "TWHD-3989"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "ne2ad463a",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Copied retail orders now use the current tax percentage for the selected tax schedule",
+   "keys": [
+    "TWHD-3921"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n7057fb6b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Fixed-price Road Hazard charges now remain intact when tire prices are changed on service requests",
+   "keys": [
+    "TWHD-4174"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "nffcacafb",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Manage Special Programs now blocks deletion of questions linked to previous orders and shows a clear message when deletion is not allowed",
+   "keys": [
+    "TWHD-2427"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "ned0fd57d",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Quick Add oil package resolution now consistently loads motor oil specs and prompts users for oil capacity when needed, matching the behavior of the full Oil Settings flow",
+   "keys": [
+    "TWHD-4015"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n0d304b9b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Fixed an issue where rapidly closing and opening Service Requests could cause intermittent errors due to asynchronous cleanup, ensuring that only the intended Service Request is disposed and users can work without disruption",
+   "keys": [
+    "TWHD-3993"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n5b5f3f12",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Changing a Service Request’s special program to “None” now immediately refreshes and displays the correct customer credit limit, enforces proper credit limit checks, and prevents invoicing beyond allowed limits without requiring users to save, close, or reopen the invoice",
+   "keys": [
+    "TWHD-3952"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n73479538",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Order Totals rulers/markers now update their percentage values in real time after discounts are applied at the Service Request level, with improved GP calculations, accurate rounding to the nearest cent, disabled sliders, and a clearer price breakdown display",
+   "keys": [
+    "TWHD-3760"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n958419e4",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Tire tax exemption status now correctly persists from Customer to Quick Quote to Service Request, ensuring tire tax is not applied for Tire Tax Exempt customers and the exemption flag is accurately reflected throughout the process",
+   "keys": [
+    "TWHD-3720"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "nbbd382db",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Fixed an issue where Service Requests have manually set tax schedules would lose their schedule assignment after being saved and reopened",
+   "keys": [
+    "TWHD-3873"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n617d5b52",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Resolved an issue where converting a Quick Quote or Appointment to a Service Request in could intermittently fail with a Foreign Key constraint error related to the Customer Contact information",
+   "keys": [
+    "TWHD-3775"
+   ],
+   "patches": [
+    "25.5.3"
+   ],
+   "first": "25.5.3"
+  },
+  {
+   "id": "n148d297e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Fixed an issue where updating the tire price on a service request would incorrectly set the associated road hazard price to zero; now, both prices remain accurate and the total reflects all charges as expected",
+   "keys": [
+    "TWHD-3788"
+   ],
+   "patches": [
+    "25.5.3"
+   ],
+   "first": "25.5.3"
+  },
+  {
+   "id": "ncd00fbca",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Road Hazard items can now be consistently added to service requests when configured, restoring expected RH functionality for users",
+   "keys": [
+    "TWHD-3767"
+   ],
+   "patches": [
+    "25.5.2"
+   ],
+   "first": "25.5.2"
+  },
+  {
+   "id": "n035f15ba",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "GL account creation for Special Programs now correctly uses the BILL TO customer's department code instead of the SOLD TO customer's code, ensuring accurate department assignment in all displays and reports",
+   "keys": [
+    "TWHD-3741"
+   ],
+   "patches": [
+    "25.5.1"
+   ],
+   "first": "25.5.1"
+  },
+  {
+   "id": "neee2364d",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Corrected an issue where the application could stop responding if the Print button was clicked multiple times",
+   "keys": [
+    "TWHD-2712"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nae4fb43e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Resolved a bug causing delay in order validation after answering Program Questions and Answers",
+   "keys": [
+    "TWHD-2457"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nb05a5ad1",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Fixed a bug where copying an order also copied its SrHeaderType, incorrectly marking the new order as Reversed if the original was reversed",
+   "keys": [
+    "TWHD-2621"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n55eab215",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Service Requests and Invoicing",
+   "title": "",
+   "text": "Corrected an issue which caused the Service Request Promise legend colors to not load",
+   "keys": [
+    "TWHD-3350"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n16dde778",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Tire, Wheel, and General searches in Tire Lookup now return as quickly as they did before 25.5.10 for stores whose database runs SQL Server Standard Edition, with the same items and quantities",
+   "keys": [
+    "TWHD-4885"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n27265566",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Service Request and invoice printouts now show tire inflation, lug nut torque, and other vehicle specifications from ISE when the “EPICOR ISE Service - Motor Spec endpoints enabled” system setting is on",
+   "keys": [
+    "TWHD-4177"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n05a81cbf",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Wheel Search in F1 Tire & Wheel Lookup now opens normally instead of going blank and locking TireWorks HD",
+   "keys": [
+    "TWHD-4631"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n9958339e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Rapid F3 Lookup search actions no longer duplicate ASL quantities",
+   "keys": [
+    "TWHD-4171"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n1e50508f",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Tire Quote printing no longer fails with an out-of-memory error",
+   "keys": [
+    "TWHD-4429"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nbf088b70",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "F1 Tire & Wheel Lookup Size Search now validates non-numeric input instead of throwing an error",
+   "keys": [
+    "TWHD-4433"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n90295b11",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "ISE stores can now add catalog parts to a Service Request from the F2 Parts search without an error",
+   "keys": [
+    "TWHD-4383"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "n66386555",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Improved the reliability of ASL quantity and detail data loading in F1 Tire Search when searching by tire size only",
+   "keys": [
+    "TWHD-4322"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "ncdfdf06c",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Resolved an error in F1 Tire Search that prevented users from viewing ASL details",
+   "keys": [
+    "TWHD-4384"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "na89d767a",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Tire Search now correctly displays available ASL and vendor data even if a specific vendor lookup fails or is misconfigured",
+   "keys": [
+    "TWHD-4344"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "nad1ee5e7",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Fixed an issue in the Tire & Wheel Lookup window where selecting a tire fitment could incorrectly filter out valid inventory from search results",
+   "keys": [
+    "TWHD-4357"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "n8625ec5f",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Resolved an issue where printing documents directly from the Search Window (Find menu) would result in an error",
+   "keys": [
+    "TWHD-4343"
+   ],
+   "patches": [
+    "25.5.8"
+   ],
+   "first": "25.5.8"
+  },
+  {
+   "id": "nd4d48673",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "F1 Tire Search fitment results now refresh when changing vehicles with Add Vehicle, preventing stale fitment data",
+   "keys": [
+    "TWHD-3945"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "nafe5b4c7",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Transfer search results now show QOH and Quantity Available consistently for both retail and wholesale source locations",
+   "keys": [
+    "TWHD-3918"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "na3807946",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "ASL Quantity in Tire Search now handles transient SQL timeouts with retry logic and clearer failure messaging",
+   "keys": [
+    "TWHD-4175"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n80e07996",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "ASLQty values now consistently display for all SKUs when searching by tire size only in F1 SKU search, with improved performance and reliability regardless of result set size. A new system setting, “Asl Fetch Page Size,” controls the batch size for ASL location queries",
+   "keys": [
+    "TWHD-3722"
+   ],
+   "patches": [
+    "25.5.6",
+    "25.5.7"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "ne788610e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Purchase order creation via ISE will no longer fail if a supplier returns a non-numeric value in the QtyAvailable field",
+   "keys": [
+    "TWHD-3829"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "naebc61b6",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "The access right previously labeled “Inventory Costs – ASL” has been renamed to “Inventory Price – ASL,” and its description now accurately states it controls visibility of the “Price” column in the ASL view. No functional behavior was changed",
+   "keys": [
+    "TWHD-3846"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "n72976e05",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Sales tax is now correctly applied to catalog labor items added individually to a service request in ISE using the \"Lookup\" field, ensuring consistent tax calculation regardless of how labor is added",
+   "keys": [
+    "TWHD-3777"
+   ],
+   "patches": [
+    "25.5.2"
+   ],
+   "first": "25.5.2"
+  },
+  {
+   "id": "nc9aa1c09",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Closing the Parts Lookup window in a Service Request using the “X” now properly clears the session, ensuring previous lookup results do not appear when opening a new Service Request",
+   "keys": [
+    "TWHD-3768"
+   ],
+   "patches": [
+    "25.5.2"
+   ],
+   "first": "25.5.2"
+  },
+  {
+   "id": "nb84822eb",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "The Customer Merge Utility in TireWorks HD v25 has been updated to resolve foreign key constraint errors, ensuring customer merges complete successfully and all associated vehicle records are moved without database issues",
+   "keys": [
+    "TWHD-3738"
+   ],
+   "patches": [
+    "25.5.2"
+   ],
+   "first": "25.5.2"
+  },
+  {
+   "id": "n23a6c106",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Corrected an issue where oil capacity could be overwritten by the catalog without notifying the user",
+   "keys": [
+    "TWHD-2342"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nfef2b19c",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Tire and Parts Search",
+   "title": "",
+   "text": "Fixed an issue where UOM was not assigned to new items created from F2 Catalog workflows",
+   "keys": [
+    "TWHD-2985"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n411d15a3",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer names entered with an apostrophe are now saved, shown, and sent to QuickBooks Desktop with a single apostrophe instead of two. Names already saved with two apostrophes are left as they are and now show both",
+   "keys": [
+    "TWHD-3922"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n0ec84603",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Find > Customer name, Customer Id, address, and phone searches now return much faster on large customer lists, with the same results",
+   "keys": [
+    "TWHD-4884"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nd07866bd",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Quick Quote now disables the Vehicle Detail button and clears the earlier customer's vehicle details when you decline to add the selected vehicle to a newly chosen customer",
+   "keys": [
+    "TWHD-4484"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n38b67166",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Sorting now works on the Customer Merge screen for the Contact Details column on the Members and Addresses tabs and for the Plate and State columns on the Vehicle tab",
+   "keys": [
+    "TWHD-4471"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n3ba24159",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Carfax QuickVIN lookups now fill in the VIN for electric vehicles",
+   "keys": [
+    "TWHD-4249"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n02859f0e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer Merge no longer errors when sorting contact or address data before moving records",
+   "keys": [
+    "TWHD-2895"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n5b84291e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer Merge no longer fails when the source customer has CallNotes",
+   "keys": [
+    "TWHD-2982"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "na63c49eb",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer Deposit Report emails no longer fail because of a missing system entry",
+   "keys": [
+    "TWHD-3413"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n103cb747",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer Merge no longer throws a CollectionView error when selecting customer records",
+   "keys": [
+    "TWHD-3896"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nf69bd2ed",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer Merge Copy Order now consolidates order history without duplicating vehicles",
+   "keys": [
+    "TWHD-3926"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nefe33a08",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Large fleet and enterprise customer searches, selection, and saves now perform better",
+   "keys": [
+    "TWHD-4230"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n1e0bc049",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Vehicle service data no longer appears on or overwrites other customers’ service requests",
+   "keys": [
+    "TWHD-4248"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "ncce54809",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer vehicle merges no longer fail with a database error",
+   "keys": [
+    "TWHD-4265"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n283aa5b2",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Irrelevant tabs were removed from the Archived Service History report window",
+   "keys": [
+    "TWHD-4278"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n9a0fcdfe",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer Members now has a scroll bar when the member list exceeds the visible area",
+   "keys": [
+    "TWHD-4449"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nef7acf68",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Corrected an issue where oil specifications were not deferred until the Vehicle Specs or Oil Settings sections were accessed while ISE Motor Specs were enabled",
+   "keys": [
+    "TWHD-4305"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "n10bbbef2",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Closing Customer Detail with no vehicle assigned no longer causes an Object Reference Error",
+   "keys": [
+    "TWHD-4217"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n7d6f9c89",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Changing the assigned vehicle in Appointments or Quick Quotes now refreshes VIN and YMME data for the selected vehicle",
+   "keys": [
+    "TWHD-3943"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n5b064626",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer Vehicle Data checkboxes no longer close the pop-up window during service request entry",
+   "keys": [
+    "TWHD-3630"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "nd79a3b14",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer Pricing Rules now display scrollbars correctly so all pricing rules and columns remain accessible",
+   "keys": [
+    "TWHD-4222"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n485051dc",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer Merge Replace now completes without CustomerVehicleData primary key errors and preserves vehicle data",
+   "keys": [
+    "TWHD-3938"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n9a10fc72",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Cash Customers can no longer be manually selected in customer lookup workflows or have members added, while remaining searchable from Find Customer",
+   "keys": [
+    "TWHD-3714"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "nf43746cc",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Changing the customer on an existing order with an attached vehicle now works as expected, including when creating a new customer during the workflow",
+   "keys": [
+    "TWHD-3365"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n9fdc3e01",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Customer-selected oil viscosity in Service Request vehicle Oil Settings is now properly saved and persists after closing and reopening, regardless of EPICOR recommendations",
+   "keys": [
+    "TWHD-3874"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n6caad114",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "When resolving an oil package for vehicles with no set oil capacity and multiple possible capacities, the selected capacity is now correctly saved and used for package resolution, ensuring accurate oil quantities. The package item’s default quantity is only used if no capacity is set, selected, or declared",
+   "keys": [
+    "TWHD-4007"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nd79acfea",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "The Customer Deposit window now keeps the bottom toolbar (Print, Reverse, Refund) visible and accessible when \"Credit Card on File\" is selected, with scrollbars appearing automatically if needed to prevent content from being pushed out of view",
+   "keys": [
+    "TWHD-3524"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "nb16f600c",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "The Customer Details UI now correctly displays only bill-to addresses for the selected bill-to customer, preventing foreign key errors and ensuring users can complete orders even when bill-to and ship-to customers differ",
+   "keys": [
+    "TWHD-3793"
+   ],
+   "patches": [
+    "25.5.3"
+   ],
+   "first": "25.5.3"
+  },
+  {
+   "id": "n2570f58b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Pressing Enter in the Find Customer window for Copying Customer Rules now always triggers a customer search, regardless of prior SKU field input, and no SKU-related errors or pop-ups will appear",
+   "keys": [
+    "TWHD-3615"
+   ],
+   "patches": [
+    "25.5.3"
+   ],
+   "first": "25.5.3"
+  },
+  {
+   "id": "n9459806e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Editing multiple customer addresses now correctly preserves all city and state fields after saving, preventing any data loss regardless of which address was last viewed",
+   "keys": [
+    "TWHD-3787"
+   ],
+   "patches": [
+    "25.5.2"
+   ],
+   "first": "25.5.2"
+  },
+  {
+   "id": "nbdd8afa1",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Fixed an issue where printing right after editing a customer address would omit the address",
+   "keys": [
+    "TWHD-2764"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nb0f0cbe3",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Customers and Vehicles",
+   "title": "",
+   "text": "Manually editing a vehicle’s mileage in the Vehicle Details > Edit section no longer overwrites the “Mileage In” and “Mileage Out” values in service orders; user-entered mileage values are now preserved as expected",
+   "keys": [
+    "TWHD-2623"
+   ],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n49a31ca0",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Payments and Cash Drawer",
+   "title": "",
+   "text": "Manual credit card entry now works when Merchant Partners or 1stMile readers are not connected",
+   "keys": [
+    "TWHD-4478"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "naa62ae8a",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Payments and Cash Drawer",
+   "title": "",
+   "text": "Cash Drawer Total Cash/Check now updates when the date changes",
+   "keys": [
+    "TWHD-4382"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nd0b3b77b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Payments and Cash Drawer",
+   "title": "",
+   "text": "Fixed an issue where cash payments with change could incorrectly show a remaining balance in QuickBooks Online after “429” error retries",
+   "keys": [
+    "TWHD-3721"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "n5b0b9dfe",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Payments and Cash Drawer",
+   "title": "",
+   "text": "Canceling the Over/Short comment box on the Cash Drawer Adjustment tab now discards only unsaved changes while preserving saved comments",
+   "keys": [
+    "TWHD-1097"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n7dee1bfc",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Payments and Cash Drawer",
+   "title": "",
+   "text": "Corrected an issue that would cause payment removal prompts on order total increases",
+   "keys": [
+    "TWHD-556"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nd52c8e12",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Payments and Cash Drawer",
+   "title": "",
+   "text": "Resolved an issue that could cause reversals to unexpectedly display in a customer's ROA window when integrated with QuickBooks Online",
+   "keys": [
+    "TWHD-2622"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n5bf1a53b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Payments and Cash Drawer",
+   "title": "",
+   "text": "Corrected an issue that prevented payment types of the same validation type from being created",
+   "keys": [
+    "TWHD-1051"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n16561e18",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Package lines with no package price now come in at the order’s Price Level, whichever user adds the package and whether it is added from Service Package, Quick Add, related packages, Carfax, or FSM, on Service Requests, Quick Quotes, and Appointments. They also reprice when the order’s Price Level changes",
+   "keys": [
+    "TWHD-3673"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "ne44936c1",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Quick Add on Quick Quotes and Appointments now adds eligible tire and catalog packages without requiring a vehicle",
+   "keys": [
+    "TWHD-4387"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n7f9b2fc2",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Inventory Manager no longer prompts to save unchanged Pricing tab data",
+   "keys": [
+    "TWHD-3130"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n74af4b6d",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Customer-specific pricing rules now apply when no default price level is assigned",
+   "keys": [
+    "TWHD-3513"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n4c4628b5",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Auto-applied discounts now honor Allow Once per Invoice when multiple eligible packages exist",
+   "keys": [
+    "TWHD-4437"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n659ea9b4",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Oil change packages now honor the package-configured oil quantity as the minimum billed quantity",
+   "keys": [
+    "TWHD-4440"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n4803ceff",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Package pricing calculations now match configured fixed prices and line-item totals without decimal precision mismatches",
+   "keys": [
+    "TWHD-4245"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "nc0d3b2e6",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Fixed an issue where viewing and exiting a Service Request line item without making changes could cause unintended price rounding",
+   "keys": [
+    "TWHD-3863"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "neae94d2b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Fixed an issue where package-restricted coupons were incorrectly removed when quickadded items within the package were modified",
+   "keys": [
+    "TWHD-2620"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n0451d94b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "Fixed an issue where inventory-restricted coupons were incorrectly removed when unrelated package items were modified",
+   "keys": [
+    "TWHD-2860"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nc47b1b39",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "The stored procedure cusp_Sku_GetByCompanyIdLocationIdSkuIdListForPricing has had parameter names corrected",
+   "keys": [
+    "TWHD-3683"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "n5bf66156",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Pricing, Packages, and Discounts",
+   "title": "",
+   "text": "The total package hours in Service Requests are now correctly calculated based on the actual hours set for each labor item, rather than being influenced by the quantity of labor items. This fix ensures accurate labor hour estimates and prevents scheduling or workload management issues",
+   "keys": [
+    "TWHD-1753"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n94d2d12b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "A return order created from Unsold Purchases now moves to fully returned after it is processed once, and its returned quantities stay negative",
+   "keys": [
+    "TWHD-4554"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n8801814b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Canceling a new, unsaved Purchase Order now closes it without the lock-loss warning",
+   "keys": [
+    "TWHD-4460"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n7e6bf23c",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Calendar pop-ups now close when canceling or backing out of Inventory Receipt or AP Invoice transactions",
+   "keys": [
+    "TWHD-4243"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n476963ce",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Great Plains return calculations now preserve the expected historical return behavior",
+   "keys": [
+    "TWHD-4453"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n2dfd7c1e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Vendor PO auto-replenishment now honors the location TimeZoneOffset for store-local scheduling",
+   "keys": [
+    "TWHD-4475"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n4bbf456e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Partially received purchase orders can now be closed without database errors",
+   "keys": [
+    "TWHD-4227"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n02647aeb",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Vendor sync error logs for QBO integration now display specific error messages for each failed vendor, and batch success messages are no longer shown if any vendors fail",
+   "keys": [
+    "TWHD-3800"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n790d4899",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Returns for non-inventoried items now integrate successfully. Users will no longer encounter missing account configuration errors when processing these returns, and inventory account increases are correctly relieved upon return",
+   "keys": [
+    "TWHD-3855"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n35b03bda",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "Copying a Service Request order now preserves transfer details for receiving transferred items",
+   "keys": [
+    "TWHD-2827"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n6f9d5b56",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "The sending store’s transfer screen now shows the cost saved when the transfer was sent, for sent, in-transit, and completed transfers, instead of the item’s current cost",
+   "keys": [
+    "TWHD-4180"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n18b467ea",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "Outside Purchase receive and cancel buttons now update correctly after a successful receive",
+   "keys": [
+    "TWHD-4239"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n23aa1548",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "Replenishment searches in new purchase orders now load without freezing",
+   "keys": [
+    "TWHD-4392"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "ne00b261d",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "ASL inventory from wholesale locations now appears correctly in Retail transfer searches",
+   "keys": [
+    "TWHD-4487"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n27d9b7ad",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "Users with Sourcing - Transfer Request access can now create transfer requests for unavailable quantities and backorder them when allowed",
+   "keys": [
+    "TWHD-4182"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "na147a4ed",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "Retail users can now cancel transfer requests sourced from wholesale without a false externally locked error, and both sides stay synchronized",
+   "keys": [
+    "TWHD-4173"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n56d033e0",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "The Sourcing Manager transfer screen now ensures the \"Back\" and \"Done\" buttons remain visible and accessible at all times, regardless of window size or the number of transfer locations, allowing users to complete transfer sourcing without UI blocking issues",
+   "keys": [
+    "TWHD-4047"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nc933da38",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "Rapid or repeated clicks of the \"Done\" button during PO receipt in the Sourcing Manager no longer cause partial receipts, inventory discrepancies, or application lag; all items are now received in a single transaction and the \"Qty Received\" column updates accurately",
+   "keys": [
+    "TWHD-3806"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "n8b6f1e53",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Transfers and Sourcing",
+   "title": "",
+   "text": "Fixed an Object Reference Error when clicking the Replenish button in the Transfers tab, ensuring the replenishment process now populates without errors and transfers can be processed successfully",
+   "keys": [
+    "TWHD-3823"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "nddf033ed",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Service Request Add Selected Item modals now keep Cancel and Done visible for long item descriptions",
+   "keys": [
+    "TWHD-4476"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "na68d8583",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Inventory Manager controls remain enabled after multi-record item searches, preserving Save, Move SKU, and Program Product Codes access",
+   "keys": [
+    "TWHD-4225"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n554c3fcb",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Inventory quantities are now stored and displayed as accurate decimal values without floating-point precision artifacts",
+   "keys": [
+    "TWHD-4172"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n19f5759d",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Users can now enable or disable the “BAR Compliance” checkbox for SKU Types with a positive SkuType ID on the SKU Type screen, allowing proper configuration of this permission as intended",
+   "keys": [
+    "TWHD-3949"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nfee1f142",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Validation has been added to prevent saving Tire SKUs in Manage Inventory without required Tire-specific information, ensuring incomplete Tire entries can no longer be created and users receive clear error messages when fields are missing",
+   "keys": [
+    "TWHD-3712"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n6f3dce44",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Cycle Count processing now correctly sets the DateCompleted field on Inventory Adjustments when the \"Auto Process Inventory Adjustment\" system setting is enabled",
+   "keys": [
+    "TWHD-3651"
+   ],
+   "patches": [
+    "25.5.3"
+   ],
+   "first": "25.5.3"
+  },
+  {
+   "id": "nd2bc62ad",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "The Inventory Account Mapping Window now displays tree node expand arrows correctly and includes a horizontal scroll bar at the bottom for easier navigation",
+   "keys": [
+    "TWHD-3765"
+   ],
+   "patches": [
+    "25.5.2"
+   ],
+   "first": "25.5.2"
+  },
+  {
+   "id": "n7ee0b4ab",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Tire SKU details in Manage Inventory now save and recall Tire Data fields correctly, and users receive a save confirmation message when changes are made. The Tire Size dropdown performance issue will be addressed separately",
+   "keys": [
+    "TWHD-3682"
+   ],
+   "patches": [
+    "25.5.1"
+   ],
+   "first": "25.5.1"
+  },
+  {
+   "id": "nf04a92cc",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Fixed an issue where adding an item to an Inventory Receipt using F1 while the “Qty Received” field was active could cause an object reference error; the workflow now completes without error and remains stable regardless of the “Inventory Receipt - Populate Quantity Received” system setting",
+   "keys": [
+    "TWHD-3695"
+   ],
+   "patches": [
+    "25.4.3.3"
+   ],
+   "first": "25.4.3.3"
+  },
+  {
+   "id": "n847cf937",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Resolved an issue where a Foreign Key Constraint error could occur during Cycle Count processing for items with NULL UOM",
+   "keys": [
+    "TWHD-2911"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n10e5bac2",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Corrected an issue that caused the Unsold Cores UI to rely on Quantity on Hand for core items to display expected entries, even though Cores are by default a non-inventoried item",
+   "keys": [
+    "TWHD-3853"
+   ],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n4e7dd994",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "The Cancel button on a service request now disables immediately after an Auto Integrate order is marked complete and assigned an invoice number, unless the user has the “Auto Integrate - Modify orders with Completed Repair Orders” access right",
+   "keys": [
+    "TWHD-4516"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n31c41e72",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "The Auto Integrate Submission tab now opens without technical errors for Repair Orders with labor items, and submission stops with a clear message when a labor item has no Labor Operation code",
+   "keys": [
+    "TWHD-4515"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nf37b1473",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "Viewing an enlarged historical inspection image from a Service Request no longer leaves TireWorks HD unresponsive after the image is closed",
+   "keys": [
+    "TWHD-4213"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n655cdc5b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "Tire HQ integration now uses HTTPS endpoints and transport security for Retail and Wholesale order processing",
+   "keys": [
+    "TWHD-4535"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n0697d32e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "Inspection videos now render and play correctly within the Inspection Detail view",
+   "keys": [
+    "TWHD-4207"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n392ceefe",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "TCS Inspect customer creation now assigns Customer Class and Department Code correctly based on customer type",
+   "keys": [
+    "TWHD-4013"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "ne174078e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Other Integrations",
+   "title": "",
+   "text": "Purchase Orders in TireWorks HD now correctly reflect a failed or not processed status when USAF returns errorCode=fail",
+   "keys": [
+    "TWHD-4014"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n05229d37",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Closing a Text window that was opened by clicking twice no longer leaves the screen greyed out",
+   "keys": [
+    "TWHD-4804"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n7e41f79d",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Temporary Crystal Reports files created for Work Order and Quick Quote reports are now removed after the report is generated, printed, previewed, or closed",
+   "keys": [
+    "TWHD-4501"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n5477be55",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Report Viewer Excel export options were restored",
+   "keys": [
+    "TWHD-3935"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "na6f5e332",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Rapid SMS icon clicks no longer leave the home screen disabled after closing preview",
+   "keys": [
+    "TWHD-4232"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n5c178dff",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Appointments opened from Order History in Customer Maintenance now display in the correct Appointment UI, with all actions like print and save consistently reflecting the true order type and status",
+   "keys": [
+    "TWHD-3954"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "ncea44bae",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Resolved a memory leak in report actions for Service Requests, ensuring memory is properly released after QuickVIN decoding, Carfax history retrieval, and repeated printing",
+   "keys": [
+    "TWHD-3280"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n65b784d7",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Fixed an error in the Audited Events report that occurred when unchecking users in the filter, allowing the report to run successfully and apply the selected user criteria without system errors",
+   "keys": [
+    "TWHD-3803"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nbe4048c4",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "The Customer Deposit print preview email window now correctly prepopulates the customer's default email address, displays additional addresses in a dropdown, and prompts to save new addresses, restoring consistency with other email workflows",
+   "keys": [
+    "TWHD-3426"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n91211a01",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "TCS Inspect message timestamps in the Customer Communication / SMS Hub now correctly use the store’s configured local time zone, ensuring all messages appear in proper chronological order regardless of their source",
+   "keys": [
+    "TWHD-3628"
+   ],
+   "patches": [
+    "25.5.3"
+   ],
+   "first": "25.5.3"
+  },
+  {
+   "id": "nfdaa487b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "The \"Preview\" tab in the Send Email window now correctly displays large spaces and line breaks, ensuring the preview matches the formatting of the actual email sent to customers",
+   "keys": [
+    "TWHD-1418"
+   ],
+   "patches": [
+    "25.5.3"
+   ],
+   "first": "25.5.3"
+  },
+  {
+   "id": "n79e00595",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Resolved mileage not showing on printouts unless the order was manually saved",
+   "keys": [
+    "TWHD-2870"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n47ffd14c",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Fixed printing failure when no Salesperson was assigned",
+   "keys": [
+    "TWHD-2870"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nf2518388",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Messaging, Email, and Printing",
+   "title": "",
+   "text": "Corrected Tire Fitment data not printing as expected for vehicles",
+   "keys": [
+    "TWHD-2721"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "na5fe8b89",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "The default customer field in Manage Locations is now labeled “Default Customer” instead of “Default Customer ID”",
+   "keys": [
+    "TWHD-4467"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n56f11828",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "The Quick Quotes Comment column now renders consistently and stays visible",
+   "keys": [
+    "TWHD-2953"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n76a1ab9b",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "Manage window access rights are now consistently enforced across additional windows and tabs, including prompts and interactive elements",
+   "keys": [
+    "TWHD-4011"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n2290fc97",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "Hidden user settings no longer create blank rows in the Manage Users User Settings list",
+   "keys": [
+    "TWHD-3916"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "ne002ae3d",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "The Manage All access right now correctly shows the Manage menu for View access, hides it for None access, and removes the Edit option",
+   "keys": [
+    "TWHD-3841"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n53c1a945",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "Access rights enforcement for Manage windows has been standardized so None, View Only, and Edit behave consistently",
+   "keys": [
+    "TWHD-3389"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "nca21a399",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "Authenticated sessions no longer intermittently revert to the defaultuser profile, preserving correct user identity and access",
+   "keys": [
+    "TWHD-4167"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "na8bd00ea",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "The Manage Tax Details UI now correctly locks the Tax Detail ID, Tax Agency (QBO only), Tax Detail Type, and Tax Detail Percent fields for all accounting systems, preventing edits to these fields on existing Tax Details",
+   "keys": [
+    "TWHD-3886"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n9166a162",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "The TCS Inspect Password in the Manage TCS Inspect Settings window is now properly obscured in Company Settings, preventing it from being displayed in plain text",
+   "keys": [
+    "TWHD-3754"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n65f52732",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "Phone numbers are now consistently displayed in the (XXX) XXX-XXXX format across all relevant modules",
+   "keys": [
+    "TWHD-3298"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n8d118b19",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "Duplicate Access Rights in the Manage Access Rights window have been cleaned up, ensuring each permission now appears only once and eliminating confusion caused by legacy data",
+   "keys": [
+    "TWHD-3680"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n895cb5bb",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "Resolved an issue where the tax schedule selection order did not match the intended hierarchy of Customer Address > Customer General > Location Default",
+   "keys": [
+    "TWHD-2212"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n8807581e",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "Updated the “TCS Inspect Log API Calls” system setting name",
+   "keys": [
+    "TWHD-1975"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "ne138ae87",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Setup, Users, and Access Rights",
+   "title": "",
+   "text": "Updated the “SMS Refresh Delay” system setting description",
+   "keys": [
+    "TWHD-1689"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n767d143d",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Performance and Stability",
+   "title": "",
+   "text": "The database upgrade no longer fails while applying the add-new-location stored procedure",
+   "keys": [
+    "TWHD-4386"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n85dda105",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Performance and Stability",
+   "title": "",
+   "text": "Some stored procedures have been updated to include 'SET QUOTED_IDENTIFIER ON' at the beginning, preventing errors at runtime",
+   "keys": [
+    "TWHD-3698"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "n87bb08b2",
+   "area": "Retail",
+   "category": "Bug Fixes",
+   "group": "Performance and Stability",
+   "title": "",
+   "text": "Stored procedure parameter names in the retail synchronizer were reverted to their original values to restore compatibility with the Populator Service, preventing service outages and SQL exceptions for existing installations",
+   "keys": [
+    "TWHD-3681"
+   ],
+   "patches": [
+    "25.4.3.3"
+   ],
+   "first": "25.4.3.3"
+  },
+  {
+   "id": "n56189b62",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "AP Invoice - Edit Freight Amount",
+   "text": "Controls user access to editing the Freight amount on AP Invoices.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n5aa3f9a5",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Inventory Management - Allocations Tab",
+   "text": "Controls whether a user can view the Allocations tab within the Inventory Management window.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n3913cbd4",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Inventory Management - Company Inventory Accounts",
+   "text": "Controls a user's ability to view and manage company-level inventory account mappings.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n2568b824",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Inventory Management - Location Inventory Accounts",
+   "text": "Controls a user's ability to view and manage location-level inventory account mappings.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n80e852f1",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Inventory Management - Movement Tab",
+   "text": "Controls whether a user can view the Movement tab within the Inventory Management window.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n3a497af4",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Inventory Management - Stocking Tab",
+   "text": "Controls whether a user can view the Stocking tab within the Inventory Management window.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "ne5506ddd",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Inventory Receipt - Edit Freight Amount",
+   "text": "Controls user access to editing the Freight amount on Inventory Receipts.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n905a4282",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Item Detail - Net Specials Tab",
+   "text": "Controls whether a user can view the Net Specials tab within the Item Detail UI.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n8b35cf8e",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Base Values",
+   "text": "Allow access to the Base Values setup screen",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n5cbda13d",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Comments",
+   "text": "Allow access to Comments Screen",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nace6f324",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Commission Management",
+   "text": "Allow access to Commission Management Screen",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n9a73a714",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Ecomm Applications",
+   "text": "Allow access to Ecomm Applications Screen",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n69e8bb2d",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Export Config",
+   "text": "Allow access to Export Config Screen",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "nfb21c0b0",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Goodyear National Accounts",
+   "text": "Allow access to Goodyear National Accounts Screen",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n252f55aa",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Inventory Reports Config",
+   "text": "Allow access to Inventory Reports Config Screen",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n692f5001",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - SkuTypes",
+   "text": "Allow access to SkuType Management Screen",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "naae6b806",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Manage - Weekly Payroll",
+   "text": "Allow access to Weekly Payroll Screen",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n79a5921f",
+   "area": "Wholesale",
+   "category": "New Access Rights",
+   "group": "",
+   "title": "Purchase Order - Edit Freight Amount",
+   "text": "Controls user access to editing the Freight amount on Purchase Orders.",
+   "keys": [],
+   "patches": [],
+   "first": ""
+  },
+  {
+   "id": "n29f79fb8",
+   "area": "Wholesale",
+   "category": "New Features",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "The “Freight” field is now available for editing within Purchase Orders, Inventory Receipts, and AP Invoices. Users with the relevant access permissions may modify this field according to document type. Please note that the entered freight amount will not impact order total calculations nor will it be reflected in any accounting integrations",
+   "keys": [
+    "TWHD-1517",
+    "TWHD-1516",
+    "TWHD-1515"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nb3f7fc73",
+   "area": "Wholesale",
+   "category": "New Features",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Inventory Accounts now supports company-level configuration and location-level inheritance",
+   "keys": [
+    "TWHD-3423"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n27590d4a",
+   "area": "Wholesale",
+   "category": "New Features",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "The Allocations tab was added to Wholesale Inventory Management",
+   "keys": [
+    "TWHD-2941"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nd067d648",
+   "area": "Wholesale",
+   "category": "New Features",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "The Stocking tab was added to Inventory Management",
+   "keys": [
+    "TWHD-4053"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "ndf17a13b",
+   "area": "Wholesale",
+   "category": "New Features",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "The Movement tab was added to Inventory Management for item history",
+   "keys": [
+    "TWHD-4054"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n662bd7e2",
+   "area": "Wholesale",
+   "category": "New Features",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "The Net Specials tab was added to Item Detail",
+   "keys": [
+    "TWHD-4056"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nd1d90a9e",
+   "area": "Wholesale",
+   "category": "New Features",
+   "group": "Accounting and Integrations",
+   "title": "",
+   "text": "The QuickBooks Desktop integration no longer depends on the locationacct table for determining the unentered liabilities account; if not specified in the config file, the system now correctly uses the inventoryacct table instead",
+   "keys": [
+    "TWHD-3625"
+   ],
+   "patches": [
+    "25.4.3.3"
+   ],
+   "first": "25.4.3.3"
+  },
+  {
+   "id": "n281f4e77",
+   "area": "Wholesale",
+   "category": "New Features",
+   "group": "Setup, Reports, and Access Rights",
+   "title": "",
+   "text": "The application now supports SSRS Authentication via a Security Profile with “Use Manual Credentials”, or via Application Config settings with “Use App Config Credentials”",
+   "keys": [
+    "TWHD-1287"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nfc22b367",
+   "area": "Wholesale",
+   "category": "New Features",
+   "group": "Performance and Stability",
+   "title": "",
+   "text": "Wholesale invoice processing database logic was improved to prevent deadlocks during concurrent invoice line updates",
+   "keys": [
+    "TWHD-4423"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n3a863f5d",
+   "area": "Wholesale",
+   "category": "New Features",
+   "group": "Performance and Stability",
+   "title": "",
+   "text": "Wholesale sales order and line-item updates were hardened to prevent deadlocks and save failures during concurrent user activity",
+   "keys": [
+    "TWHD-4424"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n357bb271",
+   "area": "Wholesale",
+   "category": "New Features",
+   "group": "Performance and Stability",
+   "title": "",
+   "text": "The use of “ntext” SQL Datatype has been eliminated",
+   "keys": [
+    "TWHD-3169"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "ndd3af530",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "Sales Orders now save after a retread is added, and later saves keep working",
+   "keys": [
+    "TWHD-4948"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "ne71ea97c",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "Invoices generated at the same time for the same warehouse no longer receive the same invoice number and fail to save",
+   "keys": [
+    "TWHD-4749"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "nf427a9dd",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "Print Delivery Invoices in Shipment Manager no longer creates invoices with a header and no line items",
+   "keys": [
+    "TWHD-4466"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n060505f1",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "Process Orders now detects insufficient inventory for ecommerce orders with Skip Qty Check enabled and routes them to backorders instead of Shipment Manager",
+   "keys": [
+    "TWHD-4205"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n1ff67bed",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "Wholesale invoices with split payment terms now integrate successfully when document IDs contain hyphens",
+   "keys": [
+    "TWHD-4201"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "na7899fc3",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "New Invoice discounts now calculate immediately when entered, with validation for invalid discount entries",
+   "keys": [
+    "TWHD-2749"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "nac252b87",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "Sales order completion and modification timestamps now use each location’s local time instead of server time",
+   "keys": [
+    "TWHD-2434"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n59085f8d",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "Return invoices now correctly populate the SO_ORDER_ID in the Ws_Invoice table, ensuring header and detail lines are linked for accurate reporting and integrations",
+   "keys": [
+    "TWHD-3424"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n445925d2",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "Fixed an issue where invoices with percentage-based discounts in Wholesale were not matching totals between TireWorks and QuickBooks",
+   "keys": [
+    "TWHD-1788"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "ncc6d30b0",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "Fixed an issue where wholesale to retail transfers failed to invoice due to application timeouts and database locks, ensuring transfers now complete successfully and are properly linked between wholesale and retail systems",
+   "keys": [
+    "TWHD-3862"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "nec28c250",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "Users can now open and interact with the AP Invoice window in Purchasing without encountering object reference errors",
+   "keys": [
+    "TWHD-3567"
+   ],
+   "patches": [
+    "25.4.3.2"
+   ],
+   "first": "25.4.3.2"
+  },
+  {
+   "id": "nd6c6c71d",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Sales Orders and Invoicing",
+   "title": "",
+   "text": "Addressed a problem in Shipment Manager that did not rollback changes when the invoicing process was unsuccessful",
+   "keys": [
+    "TWHD-2615"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n851dac4a",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Process Orders, Shipping, and Routes",
+   "title": "",
+   "text": "Corrected the Process Orders validation to ensure orders with backordered items are correctly identified and blocked from processing",
+   "keys": [
+    "TWHD-4411"
+   ],
+   "patches": [
+    "25.5.9"
+   ],
+   "first": "25.5.9"
+  },
+  {
+   "id": "n97f1a8fc",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Process Orders, Shipping, and Routes",
+   "title": "",
+   "text": "The Route Management window now correctly reorders only the selected Route Stop when using the Up and Down arrow buttons",
+   "keys": [
+    "TWHD-3047"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "nff75d624",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Process Orders, Shipping, and Routes",
+   "title": "",
+   "text": "Resolved an issue in Shipment Manager where orders were displayed by Requested Date instead of Estimated Date",
+   "keys": [
+    "TWHD-3029"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n26bb8418",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Process Orders, Shipping, and Routes",
+   "title": "",
+   "text": "Updated the Process Orders window to allow the “EstRouteDate” field to be correctly refreshed",
+   "keys": [
+    "TWHD-2893"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "ne27ad51e",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Processing an Inventory Receipt from Receive PO no longer fails with a “Value cannot be null” error when “Use current costs for PO items” is off",
+   "keys": [
+    "TWHD-4455"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n91ada3e2",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Canceled Inventory Receipts no longer appear in the Add Items list when creating AP Invoices",
+   "keys": [
+    "TWHD-3231"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n347699fa",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Inventory Receipt item costs now update in real time when Use Current Costs for PO Items is changed",
+   "keys": [
+    "TWHD-2557"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n30c914b8",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Fixed an issue where the \"Submit PO\" button on the Purchase Orders screen failed to send electronic purchase orders to third-party vendors, resulting in a null reference error",
+   "keys": [
+    "TWHD-3614"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "nf2334c41",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Purchasing and Receiving",
+   "title": "",
+   "text": "Fixed a bug that allowed users to reduce Purchase Order quantity below the quantity already received",
+   "keys": [
+    "TWHD-2836"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nbc6e240b",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Transfers",
+   "title": "",
+   "text": "Transfer order processing now creates only one transfer request per order and rolls back related records on failure",
+   "keys": [
+    "TWHD-3928"
+   ],
+   "patches": [
+    "25.5.6",
+    "25.5.7"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nde11bfd0",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "On Inventory Management and Item Detail Site Detail, Remove from Bin, Move Up, and Move Down are now disabled when there are no preferred bins or none is selected, so they no longer show a system error",
+   "keys": [
+    "TWHD-4625"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n6b8e5275",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "The Invoice OP Sku details UI now matches the Sales Order workflow by displaying SKUs from both the OP Sku submanufacturer and the IC_Sku_Usercost table, and the grid includes vendor ID and reference number columns for consistency",
+   "keys": [
+    "TWHD-3903"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nace313f8",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "The prompt for vendor and reference number details for outside purchase SKUs now only appears when processing new invoices that will trigger Inventory Receipt and AP Invoice generation",
+   "keys": [
+    "TWHD-3902"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n9bb75d85",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Fixed an error that prevented users from saving new SKUs in Inventory Management",
+   "keys": [
+    "TWHD-3847"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n65f6ebcb",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Inventory and Items",
+   "title": "",
+   "text": "Fixed filtering logic for the 'Use Inventory Tree Lookups' feature",
+   "keys": [
+    "TWHD-2532"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n9311db6d",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Customers and Pricing",
+   "title": "",
+   "text": "Wholesale customer address deletion now persists without the quoted identifier error",
+   "keys": [
+    "TWHD-4472"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "ne193166c",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Customers and Pricing",
+   "title": "",
+   "text": "Updated Customer Pricing Report calculations to account for active Special Price Levels",
+   "keys": [
+    "TWHD-2673"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "ndf18c7b5",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Accounting and Integrations",
+   "title": "",
+   "text": "Adjusted item cost calculation during AutoReplenishment transfers from Retail",
+   "keys": [
+    "TWHD-2734"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n54881fca",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Setup, Reports, and Access Rights",
+   "title": "",
+   "text": "Add New State in Location Management Tire Tax setup now works without an error",
+   "keys": [
+    "TWHD-4577"
+   ],
+   "patches": [
+    "25.5.10"
+   ],
+   "first": "25.5.10"
+  },
+  {
+   "id": "n1402944d",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Setup, Reports, and Access Rights",
+   "title": "",
+   "text": "Configure Search Results now keeps Field Name and Header Text sorting aligned for invoice results",
+   "keys": [
+    "TWHD-2916"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n9cf99b96",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Setup, Reports, and Access Rights",
+   "title": "",
+   "text": "Removed redundant “SMTP” tag from the application configuration file",
+   "keys": [
+    "TWHD-2710"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nf177de93",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Setup, Reports, and Access Rights",
+   "title": "",
+   "text": "Fixed error encountered during new Security Group creation",
+   "keys": [
+    "TWHD-2940"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "nf314abbc",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Performance and Stability",
+   "title": "",
+   "text": "The special program upgrade script was corrected to remove references to retail tables and resolve foreign key constraint errors, ensuring the upgrade completes successfully without data integrity issues for wholesale customers",
+   "keys": [
+    "TWHD-3878"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "nb6d93bed",
+   "area": "Wholesale",
+   "category": "Bug Fixes",
+   "group": "Performance and Stability",
+   "title": "",
+   "text": "Corrected Quantity on Hand logging errors when the same item appears multiple times on an order",
+   "keys": [
+    "TWHD-2607"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n3e61f021",
+   "area": "Web Services",
+   "category": "New Features",
+   "group": "AMI/Mopar",
+   "title": "",
+   "text": "Estimated delivery dates sent to AMI are now correctly converted to UTC using the “SQL Database Time Zone” system setting, ensuring accurate ETAs for customers and consistency across all deployment types",
+   "keys": [
+    "TWHD-3471"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "nd5606188",
+   "area": "Web Services",
+   "category": "New Features",
+   "group": "QBO Webhook",
+   "title": "",
+   "text": "Payload processing has been migrated to support the new CloudEvents format, ensuring continued integration and compliance with Intuit’s updated requirements. The update is fully backward compatible, and both legacy and CloudEvents formats are now supported",
+   "keys": [
+    "TWHD-3958"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n58711cd9",
+   "area": "Web Services",
+   "category": "New Features",
+   "group": "eXceedService",
+   "title": "",
+   "text": "An internal text message alert is now triggered when a Service Request is successfully created through the TDPurchaseOrder endpoint, ensuring staff are immediately informed with the correct Order ID and Customer Name formatting",
+   "keys": [
+    "TWHD-3049"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n1d652cbf",
+   "area": "Web Services",
+   "category": "New Features",
+   "group": "eXceedService",
+   "title": "",
+   "text": "An internal text message alert is now sent to staff when a new QuickQuote is successfully created via the CreateNewQuickQuote endpoint, including the order ID and customer name for both household and business customers",
+   "keys": [
+    "TWHD-3048"
+   ],
+   "patches": [
+    "25.5.4"
+   ],
+   "first": "25.5.4"
+  },
+  {
+   "id": "n5d354d57",
+   "area": "Web Services",
+   "category": "New Features",
+   "group": "TCS Inspect Service",
+   "title": "",
+   "text": "The AppointmentList response now includes an appointmentDuration field for each appointment, allowing integrators to see the total duration directly in the response",
+   "keys": [
+    "TWHD-3740"
+   ],
+   "patches": [
+    "25.5.3"
+   ],
+   "first": "25.5.3"
+  },
+  {
+   "id": "n49eba6bd",
+   "area": "Web Services",
+   "category": "New Features",
+   "group": "TCS Inspect Service",
+   "title": "",
+   "text": "The AppointmentList response now contains the \"IsCustomerWaiting\" field",
+   "keys": [
+    "TWHD-3341"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n31de4248",
+   "area": "Web Services",
+   "category": "New Features",
+   "group": "TireWorks HD Mobile",
+   "title": "",
+   "text": "The “VIN Scanning” option, which is no longer in use, can be concealed using the config file setting “EnableVINScanButton”",
+   "keys": [
+    "TWHD-2994"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n1bd8a4d2",
+   "area": "Web Services",
+   "category": "New Features",
+   "group": "TireWorks HD Mobile",
+   "title": "",
+   "text": "The Retail module of the Mobile site has been modified to accommodate EAN/UPC Mapping and Inventory Receipts, aligning its functionality with that of the Wholesale module",
+   "keys": [
+    "TWHD-2924",
+    "TWHD-2923"
+   ],
+   "patches": [
+    "25.4.1.1"
+   ],
+   "first": "25.4.1.1"
+  },
+  {
+   "id": "n1c9d244e",
+   "area": "Web Services",
+   "category": "Bug Fixes",
+   "group": "AMI/Mopar",
+   "title": "",
+   "text": "AMI inventory availability now displays for each configured sales location and groups warehouse quantities correctly",
+   "keys": [
+    "TWHD-4196"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "nf8c1e2ce",
+   "area": "Web Services",
+   "category": "Bug Fixes",
+   "group": "AMI/Mopar",
+   "title": "",
+   "text": "AMI-created retail orders now map Dealer Reference to the Customer PO field on TireWorks HD service requests",
+   "keys": [
+    "TWHD-4197"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n9ea36118",
+   "area": "Web Services",
+   "category": "Bug Fixes",
+   "group": "eXceedService",
+   "title": "",
+   "text": "Fixed an issue where concurrent appointment creation requests for different locations could incorrectly assign the same tax schedule",
+   "keys": [
+    "TWHD-3697"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "n3e9259fa",
+   "area": "Web Services",
+   "category": "Bug Fixes",
+   "group": "eXceedService",
+   "title": "",
+   "text": "The GetOrderStatuses API now correctly includes CustomerMemberId and CustomerVehicleId in its response when these values exist in the database, improving data accuracy for integrations and user workflows",
+   "keys": [
+    "TWHD-3891"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "n367efb34",
+   "area": "Web Services",
+   "category": "Bug Fixes",
+   "group": "TCS Inspect Service",
+   "title": "",
+   "text": "Users can now convert appointments using the TCS Inspect app regardless of whether the appointment is locked in the UI, resolving previous errors and ensuring smooth appointment conversion",
+   "keys": [
+    "TWHD-3892"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "nabc10ad4",
+   "area": "Web Services",
+   "category": "Bug Fixes",
+   "group": "TDWebservices",
+   "title": "",
+   "text": "TDPurchaseOrder now enforces Skip Qty Check and Backorder Processing settings for inventory allocation and backorder calculations",
+   "keys": [
+    "TWHD-3881"
+   ],
+   "patches": [
+    "25.5.7"
+   ],
+   "first": "25.5.7"
+  },
+  {
+   "id": "n7c223919",
+   "area": "Web Services",
+   "category": "Bug Fixes",
+   "group": "TDWebservices",
+   "title": "",
+   "text": "The GetCustomerInvoices web service now returns only the requested invoice when an InvoiceID is provided, regardless of date filters, eliminating unrelated invoices from the response",
+   "keys": [
+    "TWHD-3919"
+   ],
+   "patches": [
+    "25.5.6"
+   ],
+   "first": "25.5.6"
+  },
+  {
+   "id": "nb6cfc1d3",
+   "area": "Web Services",
+   "category": "Bug Fixes",
+   "group": "TDWebservices",
+   "title": "",
+   "text": "Tire line items with decimal quantities are now correctly added to Purchase Orders via eXceedPOInterface, using the floor integer value for tire items (SkuType = 0), while non-tire items remain unaffected",
+   "keys": [
+    "TWHD-3652"
+   ],
+   "patches": [
+    "25.5.5"
+   ],
+   "first": "25.5.5"
+  },
+  {
+   "id": "n3b7567d0",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "Fixed an issue where orders would close before payment and signature capture were completed when the “EnableApproval” setting was enabled; now, the order remains open and the user stays on the order screen until all payment and approval steps, including signature capture, are fully finished, preventing premature closure and ORE errors",
+   "keys": [
+    "TWHD-3662"
+   ],
+   "patches": [
+    "25.4.3.2"
+   ],
+   "first": "25.4.3.2"
+  },
+  {
+   "id": "n10d465b8",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "The \"Inventory Receipt - Populate Quantity Received\" system setting now also auto-fills the quantity received when adding items from search windows",
+   "keys": [
+    "TWHD-3649"
+   ],
+   "patches": [
+    "25.4.3.2"
+   ],
+   "first": "25.4.3.2"
+  },
+  {
+   "id": "n4de73ab1",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "Users assigned to only one location can now log in and are always shown the IPOSPays terminal selection window, ensuring they can select a terminal and proceed with their workflow",
+   "keys": [
+    "TWHD-3631"
+   ],
+   "patches": [
+    "25.4.3.2"
+   ],
+   "first": "25.4.3.2"
+  },
+  {
+   "id": "n174cf899",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "Users with EDIT rights to the \"User Management - My Preferences\" access right can now save changes to their own preferences without needing EDIT rights to \"User Management.\"",
+   "keys": [
+    "TWHD-3648"
+   ],
+   "patches": [
+    "25.4.3.2"
+   ],
+   "first": "25.4.3.2"
+  },
+  {
+   "id": "n102d3fea",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "The signature background has been updated to white, ensuring consistent appearance across all printouts",
+   "keys": [
+    "TWHD-3658"
+   ],
+   "patches": [
+    "25.4.3.2"
+   ],
+   "first": "25.4.3.2"
+  },
+  {
+   "id": "n441abbe3",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "The CreditCardName field in iPOSPays Sale and Return transactions now correctly displays the card type from the response instead of the customer's name, improving transaction accuracy and reporting",
+   "keys": [
+    "TWHD-3627"
+   ],
+   "patches": [
+    "25.4.3.2"
+   ],
+   "first": "25.4.3.2"
+  },
+  {
+   "id": "n02cb744a",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "Vendor Credit integration now correctly retains the original sign of positive and negative quantity line items when syncing to all supported accounting systems, ensuring transaction totals match those entered in TireWorks HD",
+   "keys": [
+    "TWHD-3588"
+   ],
+   "patches": [
+    "25.4.3.1"
+   ],
+   "first": "25.4.3.1"
+  },
+  {
+   "id": "n5bca11b5",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "The FSM (F6) window in QA Learn xR25.4.2.1 now correctly displays the Print, Cancel, and Done buttons, and all window contents are properly aligned with no overlapping fields",
+   "keys": [
+    "TWHD-3583"
+   ],
+   "patches": [
+    "25.4.3.1"
+   ],
+   "first": "25.4.3.1"
+  },
+  {
+   "id": "nf273e283",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "Resolved an issue where creating a new customer after adding a vehicle to a cash customer during service request creation caused a foreign key error",
+   "keys": [
+    "TWHD-3568"
+   ],
+   "patches": [
+    "25.4.3.1"
+   ],
+   "first": "25.4.3.1"
+  },
+  {
+   "id": "n54748939",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "Variance amounts are now correctly calculated and displayed in the Program Reconciliation Transaction window when Vendor Credits are generated manually",
+   "keys": [
+    "TWHD-3477"
+   ],
+   "patches": [
+    "25.4.2.1"
+   ],
+   "first": "25.4.2.1"
+  },
+  {
+   "id": "n7337e117",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "Fixed an issue where clicking the “Item Detail” icon on the Service Request screen caused an Object Reference Error; the Item Detail window now opens without any error messages",
+   "keys": [
+    "TWHD-3504"
+   ],
+   "patches": [
+    "25.4.2.1"
+   ],
+   "first": "25.4.2.1"
+  },
+  {
+   "id": "n41cd2040",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "We corrected an issue where $0 Service Requests would show the “Invoice Order” button as disabled",
+   "keys": [
+    "TWHD-3492"
+   ],
+   "patches": [
+    "25.4.1.2"
+   ],
+   "first": "25.4.1.2"
+  },
+  {
+   "id": "n470c9c48",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "We corrected an issue where the F3 search window would fail to display ASL totals",
+   "keys": [
+    "TWHD-3495"
+   ],
+   "patches": [
+    "25.4.1.2"
+   ],
+   "first": "25.4.1.2"
+  },
+  {
+   "id": "nfee47748",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "We corrected an issue which caused errors when attempting to process Transfer Requests through Sourcing Manager",
+   "keys": [
+    "TWHD-3498"
+   ],
+   "patches": [
+    "25.4.1.2"
+   ],
+   "first": "25.4.1.2"
+  },
+  {
+   "id": "n2bb1b4bf",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "We corrected an issue which caused some item descriptions to fail to print on Transfer orders",
+   "keys": [
+    "TWHD-3503"
+   ],
+   "patches": [
+    "25.4.1.2"
+   ],
+   "first": "25.4.1.2"
+  },
+  {
+   "id": "n251bef6e",
+   "area": "Beta Issues",
+   "category": "Beta Issues",
+   "group": "",
+   "title": "",
+   "text": "We have implemented safeguards and warning messages to help prevent sending or receiving transfers w/ $0 cost items",
+   "keys": [
+    "TWHD-3502"
+   ],
+   "patches": [
+    "25.4.1.2"
+   ],
+   "first": "25.4.1.2"
+  }
+ ]
+}

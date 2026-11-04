@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QuickBooks Online - Tax Variance Alerts | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details open><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a class="active" href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>QuickBooks Online - Tax Variance Alerts</h1><p>A comprehensive set of features aimed at enabling tax posting validation for QuickBooks Online sales transactions in TireWorks HD. The feature compares the tax total returned by QBO to the tax total calculated by TWHD after an integration create completes, then alerts users when the variance exceeds configured thresholds.</p>
+<p>The main business impact is reconciliation visibility. Stores and operations teams can continue posting transactions without the tax variance warning blocking the integration, while accounting users gain a structured way to review, filter, and acknowledge discrepancies that may otherwise stay hidden until reconciliation.</p>
+<h2>New Accounting Integration Settings</h2>
+<h3>Enable Tax Variance Alerts</h3>
+<p>Turns on QBO tax variance alerting. When enabled, the related dollar and percent threshold fields become available and at least one threshold must be entered before saving. This setting only appears when the Accounting Integration is set to QBO.</p>
+<h3>Dollar Variance Threshold</h3>
+<p>Defines the dollar amount that a QBO tax difference can exceed before an alert is created. The field allows two decimal places and is visible only when Enable Tax Variance Alerts is checked.</p>
+<h3>Percent Variance Threshold (%)</h3>
+<p>Defines the percentage difference that a QBO tax difference can exceed before an alert is created. The field allows two decimal places and is visible only when Enable Tax Variance Alerts is checked.</p>
+<h2>Threshold Setup and Validation</h2>
+<p>The Tax Variance Alerts section is shown only for QBO accounting integrations. In Retail, it is added to Manage &gt; Utilities &gt; Accounting Integration on the General tab, below Integration Options. In Wholesale, it is added to the Accounting tab in the Manage Company window.</p>
+<p>The dollar and percent thresholds use OR logic. If both thresholds are set, exceeding either one triggers the alert. If the setting is enabled and both threshold fields are blank, the user is prevented from saving and receives this message: "Enter a dollar threshold or a percent threshold before saving while Tax Variance Alerts is enabled." The empty threshold fields are also highlighted with a red outline.</p>
+<h2>Tax Posting Validation</h2>
+<p>Tax validation runs after TWHD creates the QBO sales or refund document and QBO returns its tax total. The supported document types are Invoice, Sales Receipt, and Credit Memo/Refund Receipt. TWHD compares the QBO tax total against the TWHD tax total calculated from the same transaction dataset.</p>
+<p>When the variance exceeds the configured dollar threshold or percent threshold, TWHD records an audit entry and appends a warning to the existing integration message. The expected warning format is: "Tax variance warning: TWHD X.XX vs QBO X.XX (delta $Z.ZZ)." In Retail, the message is stored in SrHeader when Use Integration Manager UI is false and in IntegrationHistory when it is true.</p>
+<p>The warning does not change the normal integration success or failure result. Existing integration errors still behave as before, and a tax variance produces a warning and audit record rather than blocking a successful integration.</p>
+<h2>Integration Alerts</h2>
+<p>The Integration Manager includes a new Integration Alerts tab for reviewing active QBO tax variance warnings. Existing Integration Manager functionality remains available, and the alert tab gives users a centralized place to see and acknowledge unread variance records.</p>
+<ul>
+<li>Alerts display for all locations by default.</li>
+<li>Users can filter by Location and by Document Type. The document type choices are Invoice, Sales Receipt, and Credit Memo/Refund Receipt.</li>
+<li>The alert grid shows Location, Document Type, Document Number, Transaction Tax Details, Alert Message, and Alert Date/Time.</li>
+<li>The Alert Message is built from the stored TW tax total, QBO tax total, and variance amount, using the format: "Tax variance exceeds configured threshold. Transaction tax: $X.XX. QBO tax: $Y.YY. Variance: $Z.ZZ."</li>
+<li>Users can select one or more alerts and click Mark as Read to acknowledge them. This action immediately updates the record and does not require a separate Save.</li>
+<li>The tab includes a selection count below the grid so users can see how many alerts are currently selected.</li>
+</ul>
+<h2>Unread Alert Count and Refresh Behavior</h2>
+<p>The Integration Alerts tab displays a badge or bubble showing the total number of unread alerts. The badge displays 99+ when the unread count is greater than 99 and disappears when there are no unread alerts.</p>
+<p>The unread count is global rather than filter-specific. Changing the Location or Document Type filters does not change the badge count. The count updates when the Integration Manager window loads, when Mark as Read is used, and when Refresh is clicked.</p>
+<p>When Refresh is clicked while the Integration Alerts tab is active, the filters reset to their default values and the alert data is re-fetched. This keeps the alert review behavior consistent across Retail and Wholesale.</p>
+<h2>QBO Setup and Operational Notes</h2>
+<p>This feature applies only when the accounting system is QuickBooks Online. Validation is skipped when QBO is not the accounting system, when Tax Variance Alerts are disabled, when neither threshold is configured, or when QBO does not return a usable tax total.</p>
+<p>Standard setup guidance continues to matter for this workflow. QBO should be configured as the accounting type for the TireWorks company, and QBO tax agencies/tax schedules should be set up and synchronized according to the QBO integration instructions.</p>
+<p>The related tax-detail lockdown work restores protections on existing Tax Detail ID, Tax Agency for QBO, Tax Detail Type, and Tax Detail Percent fields. Those fields remain editable only while creating a new Tax Detail before the first save, which helps prevent avoidable mismatches between TWHD and QBO.</p>
+<p>Observed testing indicates that some variances may occur when QBO automated sales tax behavior changes the tax result outside TWHD's direct control. The alert workflow is intended to surface those discrepancies for review rather than guarantee that every upstream QBO tax condition can be controlled from TWHD.</p>
+<h2>Case List Summary</h2>
+<p>TWHD-3897, TWHD-3898, TWHD-3899, TWHD-3900, TWHD-3901, TWHD-3908, TWHD-3909, TWHD-3910, TWHD-3911, TWHD-3886</p>
+</article></main>
+
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

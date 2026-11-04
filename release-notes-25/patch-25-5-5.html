@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>New in version 25.5.5 | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details open><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a class="active" href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>New in version 25.5.5</h1><div class="seg"><a class="on" href="patch-25-5-5.html">New in 25.5.5</a><a class="" href="through-25-5-5.html">Everything through 25.5.5</a></div>
+<p>Retail: 18 cases. Wholesale: 3 cases.</p>
+<h2 id="retail">Retail</h2>
+<h3 id="new-access-rights">New Access Rights</h3>
+<div class="setting" id="ncc4282e5"><p class="st"><strong>Service Request - Complete Order</strong> <span class="chips"><span class="key">TWHD-3826</span></span></p><p>Controls whether a user can see and use the “Complete Order” button in a service request</p></div>
+<div class="setting" id="nd31b7014"><p class="st"><strong>Service Request - Revise Order</strong> <span class="chips"><span class="key">TWHD-3827</span></span></p><p>Controls whether a user can see and use the “Revise Order” button in a service request</p></div>
+<h3 id="new-features">New Features</h3>
+<h4 id="service-requests-and-invoicing">Service Requests and Invoicing</h4>
+<ul class="notes"><li id="n8569507f">The "EDIT" option has been removed from the "Service Request - Show Tire Details Screen" access right <span class="chips"><span class="key">TWHD-3842</span></span></li></ul>
+<h4 id="customers-and-vehicles">Customers and Vehicles</h4>
+<ul class="notes"><li id="nb7fee196">The Find &gt; Customer search screen now remembers each user's last-used state of the partial search checkbox next to the Customer ID field, so your preferred search behavior is retained across sessions <span class="chips"><span class="key">TWHD-3412</span></span></li></ul>
+<h4 id="setup-users-and-access-rights">Setup, Users, and Access Rights</h4>
+<ul class="notes"><li id="nd0d6558a">The "VIEW" option has been removed from the "Search Results Configuration - User Selection" access right <span class="chips"><span class="key">TWHD-3845</span></span></li></ul>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<h4 id="service-requests-and-invoicing-2">Service Requests and Invoicing</h4>
+<ul class="notes"><li id="n958419e4">Tire tax exemption status now correctly persists from Customer to Quick Quote to Service Request, ensuring tire tax is not applied for Tire Tax Exempt customers and the exemption flag is accurately reflected throughout the process <span class="chips"><span class="key">TWHD-3720</span></span></li></ul>
+<h4 id="tire-and-parts-search">Tire and Parts Search</h4>
+<ul class="notes"><li id="naebc61b6">The access right previously labeled “Inventory Costs – ASL” has been renamed to “Inventory Price – ASL,” and its description now accurately states it controls visibility of the “Price” column in the ASL view. No functional behavior was changed <span class="chips"><span class="key">TWHD-3846</span></span></li></ul>
+<h4 id="pricing-packages-and-discounts">Pricing, Packages, and Discounts</h4>
+<ul class="notes"><li id="nc47b1b39">The stored procedure cusp_Sku_GetByCompanyIdLocationIdSkuIdListForPricing has had parameter names corrected <span class="chips"><span class="key">TWHD-3683</span></span></li></ul>
+<h4 id="transfers-and-sourcing">Transfers and Sourcing</h4>
+<ul class="notes"><li id="nc933da38">Rapid or repeated clicks of the "Done" button during PO receipt in the Sourcing Manager no longer cause partial receipts, inventory discrepancies, or application lag; all items are now received in a single transaction and the "Qty Received" column updates accurately <span class="chips"><span class="key">TWHD-3806</span></span></li></ul>
+<h4 id="performance-and-stability">Performance and Stability</h4>
+<ul class="notes"><li id="n85dda105">Some stored procedures have been updated to include 'SET QUOTED_IDENTIFIER ON' at the beginning, preventing errors at runtime <span class="chips"><span class="key">TWHD-3698</span></span></li></ul>
+<h2 id="wholesale">Wholesale</h2>
+<h3 id="bug-fixes-2">Bug Fixes</h3>
+<h4 id="process-orders-shipping-and-routes">Process Orders, Shipping, and Routes</h4>
+<ul class="notes"><li id="n97f1a8fc">The Route Management window now correctly reorders only the selected Route Stop when using the Up and Down arrow buttons <span class="chips"><span class="key">TWHD-3047</span></span></li></ul>
+<h4 id="performance-and-stability-2">Performance and Stability</h4>
+<ul class="notes"><li id="nf314abbc">The special program upgrade script was corrected to remove references to retail tables and resolve foreign key constraint errors, ensuring the upgrade completes successfully without data integrity issues for wholesale customers <span class="chips"><span class="key">TWHD-3878</span></span></li></ul>
+<h2 id="web-services">Web Services</h2>
+<h3 id="new-features-2">New Features</h3>
+<h4 id="ami-mopar">AMI/Mopar</h4>
+<ul class="notes"><li id="n3e61f021">Estimated delivery dates sent to AMI are now correctly converted to UTC using the “SQL Database Time Zone” system setting, ensuring accurate ETAs for customers and consistency across all deployment types <span class="chips"><span class="key">TWHD-3471</span></span></li></ul>
+<h3 id="bug-fixes-3">Bug Fixes</h3>
+<h4 id="exceedservice">eXceedService</h4>
+<ul class="notes"><li id="n3e9259fa">The GetOrderStatuses API now correctly includes CustomerMemberId and CustomerVehicleId in its response when these values exist in the database, improving data accuracy for integrations and user workflows <span class="chips"><span class="key">TWHD-3891</span></span></li></ul>
+<h4 id="tcs-inspect-service">TCS Inspect Service</h4>
+<ul class="notes"><li id="n367efb34">Users can now convert appointments using the TCS Inspect app regardless of whether the appointment is locked in the UI, resolving previous errors and ensuring smooth appointment conversion <span class="chips"><span class="key">TWHD-3892</span></span></li></ul>
+<h4 id="tdwebservices">TDWebservices</h4>
+<ul class="notes"><li id="nb6cfc1d3">Tire line items with decimal quantities are now correctly added to Purchase Orders via eXceedPOInterface, using the floor integer value for tire items (SkuType = 0), while non-tire items remain unaffected <span class="chips"><span class="key">TWHD-3652</span></span></li></ul></article></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#retail">Retail</a></li><li><a href="#new-access-rights">New Access Rights</a></li><li><a href="#new-features">New Features</a></li><li><a href="#bug-fixes">Bug Fixes</a></li><li><a href="#wholesale">Wholesale</a></li><li><a href="#bug-fixes-2">Bug Fixes</a></li><li><a href="#web-services">Web Services</a></li><li><a href="#new-features-2">New Features</a></li><li><a href="#bug-fixes-3">Bug Fixes</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

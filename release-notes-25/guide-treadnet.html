@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details open><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a class="active" href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</h1><p>A comprehensive set of features aimed at enabling the integration between TireWorks HD Retail and TreadNet.</p>
+<h2>New System Settings</h2>
+<h3>Bridgestone Treadnet - Authentication URL</h3>
+<p>The URL for oAuth Authorization for API Calls.</p>
+<h3>Bridgestone Treadnet - Client Id</h3>
+<p>The Client Id as issued by the Bridgestone Treadnet Webservices to be used for API calls.</p>
+<h3>Bridgestone Treadnet - Client Secret</h3>
+<p>The Client Secret as issued by the Bridgestone Treadnet Webservices to be used for API calls.</p>
+<h3>Bridgestone Treadnet - Dealer Action Endpoint URL</h3>
+<p>The URL for determining if there is any action pending on Dealer for the DR.</p>
+<h3>Bridgestone Treadnet - Dealer Endpoint URL</h3>
+<p>The URL for making Treadnet API Dealer Calls.</p>
+<h3>Bridgestone Treadnet - DR Details Endpoint URL</h3>
+<p>The URL for making Treadnet API DR Details Calls.</p>
+<h3>Bridgestone Treadnet - DR Endpoint URL</h3>
+<p>The URL for making Treadnet API DR Calls.</p>
+<h3>Bridgestone Treadnet - DR Header Endpoint URL</h3>
+<p>The URL for making Treadnet API DR Header Calls.</p>
+<h3>Bridgestone Treadnet - DR Labor Qty Handling</h3>
+<p>Indicates how labor quantities are sent in the Delivery Receipts Qty Set – Submits the quantity as entered in the Service Request (rounded to the nearest whole number). 15-minute Increment – Converts the quantity to an integer based on 15-minute increments (e.g., 0.5 = 2, 1.5 = 6).</p>
+<h3>Bridgestone Treadnet - DR Setup Endpoint URL</h3>
+<p>The URL for making Treadnet API DR Setup Calls.</p>
+<h3>Bridgestone Treadnet - DR Type Endpoint URL</h3>
+<p>The URL for determining which DR Type is assigned to the DR.</p>
+<h3>Bridgestone Treadnet - DR Update Endpoint URL</h3>
+<p>The URL for DR Update endpoint.</p>
+<h3>Bridgestone Treadnet - Fleet Endpoint URL</h3>
+<p>The URL for making Treadnet API Fleet Calls.</p>
+<h3>Bridgestone Treadnet - Inventory Endpoint URL</h3>
+<p>The URL for making Treadnet API Inventory Calls.</p>
+<h3>Bridgestone Treadnet - Inventory Lookup Threshold</h3>
+<p>The maximum number of items to be queried in a single Inventory Lookup call. Default is 50.</p>
+<h3>Bridgestone Treadnet - Invoice Endpoint URL</h3>
+<p>The URL for making Treadnet API Invoice Calls.</p>
+<h3>Bridgestone Treadnet - Order Create Endpoint URL</h3>
+<p>The API URL for placing Treadnet Orders.</p>
+<h3>Bridgestone Treadnet - Order Details Endpoint URL</h3>
+<p>The API URL for checking details of Treadnet Orders.</p>
+<h3>Bridgestone Treadnet - Order Validate Endpoint URL</h3>
+<p>The API URL for validating Treadnet Orders.</p>
+<h3>Bridgestone Treadnet - Replenish PO Delivery Days</h3>
+<p>Number of days to add to the Delivery Date to Auto Replenishment Purchase Orders to Treadnet.</p>
+<h3>Bridgestone Treadnet - Servicing Party Number</h3>
+<p>The Servicing Party Number of the location to be used on the Treadnet DRs.</p>
+<h2>New Access Rights</h2>
+<h3>Bridgestone NA - Edit Order Before DR is Invoiced</h3>
+<p>Ability to edit and invoice Service Requests assigned to Bridgestone NA Special Program without having the DR invoiced.</p>
+<h3>Bridgestone NA - Override Auto DR Numbers</h3>
+<p>Ability to override DR Number when auto populated.</p>
+<h3>Special Programs - Reconcile - New AP Invoice</h3>
+<p>Allow access to create a new AP Invoice from the View Program Reconciliation Transactions window; this AP Invoice will be linked to the Special Programs order for the reconciliation process.</p>
+<h3>Special Programs - View Program Reconciliation Transactions</h3>
+<p>Allow access to View Program Reconciliation Transactions, where a user can review and reconcile transactions as they relate to special program processing.</p>
+<h3>Special Programs - Manage Program Reconciliation</h3>
+<p>Allow access to Manage Program Reconciliation setup screen</p>
+<h2>New Special Program Attributes and Values</h2>
+<h3>Program Key – “TREADNET”</h3>
+<p>“TREADNET” has been added as a recognized program key, which identifies the program as a TreadNet-integrated program to TireWorks HD.</p>
+<h2>Program Reconciliation</h2>
+<p>Program Reconciliation enables dealers to automate accounting for special programs through three primary transactions: ticket creation, customer credits to clear accounts receivable, and a vendor credit entry. The system calculates differences between customer and vendor credits and posts journal entries to reconcile receivables and payables. It is compatible with Great Plains, QuickBooks, and TireBooks, and allows configuration of variance and credit SKUs for tracking accuracy. Users can adjust reconciliation settings, including process automation and variance thresholds. Ticket and credit management is available within a reconciliation window, where items can be marked for review or completion. Additionally, the status of the vendor credit line is displayed in this window, allowing users to easily monitor and track the progress of vendor credits during the reconciliation process.</p>
+<h2>Accurate Billing Requirements</h2>
+<p>After a Fleet or Dealer is assigned to an order and the DR Type is identified, TireWorks HD displays the billing requirements that TreadNet needs for successful order submission and invoicing. Certain data points are shown or marked as mandatory based on responses to other requirements. If these data points are missing, the submission will not succeed. This process enables users to review requirements and provide valid inputs, with notifications for any potential issues before submission. TireWorks HD presents both allowed and mandatory billing requirements, including those affected by previous answers.</p>
+<h2>TreadNet Vendor Ordering</h2>
+<p>The integration introduces a new Order-capable Vendor Type, "Bridgestone Treadnet." Vendors assigned to this type will use the configured Inventory Lookup and Order TreadNet endpoints to obtain quantity and availability data from the TreadNet API during F1 Tire Searches. These results are displayed alongside information from other order-capable vendors. The system supports direct vendor submission of purchase orders for sourcing, standalone invoices, or autoreplenishment purposes.</p>
+<h2>UI/UX Enhancements</h2>
+<p>The process for creating and submitting a delivery receipt to TreadNet consists of multiple steps. The user interface has been modified to allow users to generate delivery receipts within the Service Request section without exiting the application.</p>
+<p>“Bridgestone Firestone National Account” UI</p>
+<p>When an order is linked to a TreadNet-integrated special program, a “TreadNet” button is displayed above packages and line items. Selecting this button allows users to modify delivery receipt details and submit them to TreadNet’s API.</p>
+<p>Assigned Fleet/Dealer ID, Name, and DR Type are shown when opened. If these fields are unassigned, the “Bridgestone Firestone National Account Selector” window appears, prompting users to answer five questions that determine the DR type and assist in searching for and assigning a Fleet/Dealer to the order.</p>
+<p>After a Fleet/Dealer is assigned, the “Requirements” tab is filled with mandatory fields based on the selected ID and DR type. The “Submission” tab shows a summary of DR data prepared for submission, including any warnings or errors that prevent submission. The “Status” tab displays the current TreadNet Submission/Invoicing status.</p>
+<p>For TREADNET special program service requests, the Prod. Code field now automatically trims leading zeros from tire part numbers and the ‘Ctrl+F’ hover tooltip has been removed from the Prod. Code column, matching BSFS invoicing format and reducing UI clutter. Manually entered product codes and codes from other sources remain unchanged.</p>
+<p>TreadNet Invoice PDF</p>
+<p>After the delivery receipt is invoiced by TreadNet, the daemon process downloads the PDF as a Base64 string and stores it in the database. Users can access the TreadNet invoice PDF once it has been collected. This access is available via the “Status” tab in the “Bridgestone Firestone National Account” user interface or through the processed Vendor Credit associated with the order during program reconciliation.</p>
+<p>A new "Link Bridgestone Invoice" button and selection window have been added to the AP Invoice screen for Bridgestone (TreadNet) vendors, allowing users to view, select, and link available Bridgestone invoices with PDF preview and improved sorting.</p>
+<p>Expanded Tire Item Data Inputs</p>
+<p>For certain DR types, specific data for Tire items may be permitted or required when submitting orders to the TreadNet API. When TireWorks HD identifies a DR type that necessitates this information, the “Add/Edit DoT Number” user interface will display these fields along with the DOT number.</p>
+<p>These fields include Wheel Position, Barcode, OTR Serial Number, and Removed Tire DoT Number.</p>
+<p>Required fields are indicated with a red asterisk.</p>
+<p>Order Lockdown After Submission</p>
+<p>For TreadNet orders, modifications to TireWorks HD data are restricted once the delivery receipt has been submitted to the API for review and invoicing. After submission from a Service Request, the order is locked within TireWorks HD, granting only basic read access until the invoicing process is complete and reflected in TWHD. Invoicing functionality becomes available upon completion of this process, except for users who possess the "Bridgestone NA – Edit Order Before DR is Invoiced" access right.</p>
+<p>Occasionally, the delivery receipt submitted to TreadNet may be rejected, thereby requiring Dealer Action. Under such circumstances, the TireWorks HD order will become editable once again, allowing necessary dealer corrections prior to resubmission.</p>
+<p>DR# Sequence</p>
+<p>For programs utilizing the “TREADNET” program key, a “DR# Sequence” tab appears in the Manage Special Programs window. Assigning a numerical value to this field will automatically allocate the next sequential number to the “DR#” field within the “Requirements” tab of new TreadNet orders.</p>
+<p>If the field is left blank, the “DR#” within the “Requirements” tab remains editable. When filled automatically, only users with the “Bridgestone NA – Override Auto DR Numbers” access right are permitted to modify this field.</p>
+<p>Home Screen Filter Update</p>
+<p>To help you quickly locate orders by their TreadNet DR Number or WebDRNumber, the home screen filter now searches both fields and displays matching results.</p>
+<h2>TreadNet Daemon Processes</h2>
+<p>To keep order statuses and invoice data current, the daemon must run regularly.</p>
+<p>MainOptionID = 70</p>
+<p>Checks the “DR Action Update” API for orders needing dealer action. Possible statuses:</p>
+<ul>
+<li>Off tire DR hold</li>
+<li>Rejected to Dealer</li>
+<li>Service To party account hold</li>
+<li>Servicing Party Account Hold</li>
+<li>Waiting for PO</li>
+</ul>
+<p>MainOptionID = 71</p>
+<p>Checks the “DR Detail Update” API for submitted orders not yet invoiced. Updates TireWorks HD if order status changes.</p>
+<p>MainOptionID = 75</p>
+<p>Checks the “Invoice” API for invoiced orders and pulls invoice details and PDFs into TireWorks HD.</p>
+<p>The DR Invoice job uses processed start and end dates based on the last run timestamp instead of DR numbers, and a new table records each job run and its details for improved accuracy and compliance with Bridgestone requirements.</p>
+<h2>Case List Summary</h2>
+<p>TWHD-1387, TWHD-1599, TWHD-1389, TWHD-1602, TWHD-1390, TWHD-1613, TWHD-1605, TWHD-1755, TWHD-1757, TWHD-1754, TWHD-1825, TWHD-1826, TWHD-2452, TWHD-2459, TWHD-1827, TWHD-2460, TWHD-1828, TWHD-1889, TWHD-2506, TWHD-1857, TWHD-2563, TWHD-2583, TWHD-2567, TWHD-2573, TWHD-2552, TWHD-2561, TWHD-2664, TWHD-2587, TWHD-2575, TWHD-2566, TWHD-2663, TWHD-2661, TWHD-2662, TWHD-3283, TWHD-3328, TWHD-3331, TWHD-3344, TWHD-3361, TWHD-3406, TWHD-2741, TWHD-3244, TWHD-3107, TWHD-3289, TWHD-3243, TWHD-3308, TWHD-3294, TWHD-3309, WTHD-3310, TWHD-3348, TWHD-1777, TWHD-1778, TWHD-2904, TWHD-3478, TWHD-3541, TWHD-3551, TWHD-3622, TWHD-3609, TWHD-3533, TWHD-3807, TWHD-3531</p>
+</article></main>
+
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

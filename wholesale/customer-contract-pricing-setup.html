@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Customer (Contract) Pricing Setup | TireWorks HD Wholesale User Manual</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD Wholesale User Manual</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the manual…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>SECTION 1: LOGIN SCREEN &amp; HOME PAGE</summary><ul><li><a href="login-screen.html">Login Screen</a></li><li><a href="home-page.html">Home Page</a></li><li><a href="configure-search-results.html">Configure Search Results</a></li><li><a href="customer-pricing-report.html">Customer Pricing Report</a></li><li><a href="user-options.html">User Options</a></li></ul></details>
+<details open><summary>SECTION 2:  SALES</summary><ul><li><a href="sales-orders.html">Sales Orders</a></li><li><a href="special-programs.html">Special Programs</a></li><li><a href="create-new-invoice.html">Create New Invoice</a></li><li><a href="create-return.html">Create Return</a></li><li><a href="filling-back-orders.html">Filling Back Orders</a></li><li><a href="customer-record-setup.html">Customer Record Setup</a></li><li><a class=active href="customer-contract-pricing-setup.html">Customer (Contract) Pricing Setup</a></li><li><a href="customer-deposit.html">Customer Deposit</a></li><li><a href="received-on-account-roa.html">Received On Account (ROA)</a></li></ul></details>
+<details><summary>SECTION 3: INVENTORY</summary><ul><li><a href="inventory-management.html">Inventory Management</a></li><li><a href="price-level-maintenance.html">Price Level Maintenance</a></li><li><a href="price-level-rule-assignment.html">Price Level Rule Assignment</a></li><li><a href="inventory-accounts.html">Inventory Accounts</a></li><li><a href="inventory-receipt.html">Inventory Receipt</a></li><li><a href="request-transfer.html">Request Transfer</a></li><li><a href="receipt-of-transfer-request.html">Receipt of Transfer Request</a></li><li><a href="automatic-transfer.html">Automatic Transfer</a></li><li><a href="physical-inventory-count.html">Physical Inventory Count</a></li><li><a href="import-inventory-items.html">Import Inventory Items</a></li></ul></details>
+<details><summary>SECTION 4: WAREHOUSING</summary><ul><li><a href="shipment-manager-processing-orders-through-invoicing.html">Shipment Manager (Processing Orders Through Invoicing)</a></li><li><a href="closing-invoices.html">Closing Invoices</a></li><li><a href="route-management-stop-assignment.html">Route Management/Stop Assignment</a></li><li><a href="bin-management.html">Bin Management</a></li></ul></details>
+<details><summary>SECTION 5: PURCHASING</summary><ul><li><a href="purchase-order-receipt-of-purchase-order.html">Purchase Order &amp; Receipt of Purchase Order</a></li><li><a href="purchase-order-worksheet.html">Purchase Order Worksheet</a></li></ul></details>
+<details><summary>SECTION 6: SYSTEM ADMINISTRATION</summary><ul><li><a href="access-group-setup-access-rights-assignment.html">Access Group Setup &amp; Access Rights Assignment</a></li><li><a href="cash-drawer.html">Cash Drawer</a></li><li><a href="unlocking-objects.html">Unlocking Objects</a></li><li><a href="user-setup-maintenance.html">User Setup &amp; Maintenance</a></li><li><a href="comment-setup.html">Comment Setup</a></li><li><a href="comment-maintenance.html">Comment Maintenance</a></li></ul></details></nav>
+<main><p class="crumbs"><a href="index.html">Home</a> › SECTION 2:  SALES</p><article><h1>Customer (Contract) Pricing Setup</h1>
+<p>Allows additional flexibility to set pricing at the customer level in addition to the price level that has been assigned by default in the customer record or the default location price level.</p>
+<p>Home Screen: FIND Customers – Enter customer name or number and select customer</p>
+<p><img alt="Screenshot" loading="lazy" src="img/f97279da9263.png"/></p>
+<ul>
+<li>In customer record, select CUSTOMER PRICING tab</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/9cb0864a067b.png"/></p>
+<p><em><strong><img alt="Screenshot" loading="lazy" src="img/5df995c7cf88.png"/>Note:</strong></em> Customer price rules can be set at any level of the inventory tree down to Sku level. When a branch is selected the rule, set pertains to that branch and all branches and Skus below. All items can also be selected as displayed below with the understanding that ALL items (including non-inventoried items) will have rule applied.</p>
+<ul>
+<li>Select branch you wish to set rule or go to bottom of inventory tree and search for a specific Sku to apply rule.</li>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/bc35066410f0.png"/>
+<ul>
+<li>Once you have made your selection for rule, it will display the tree structure as it pertains to your rule in Rule Details as displayed below.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/fe17ccd5e011.png"/></p>
+<ul>
+<li>Populate: Rule Name: Name using tree branch or Sku rule was created for</li>
+</ul>
+<p>Class: Cumulative – Chained rule</p>
+<p>Additive – Works identically to cumulative rule</p>
+<p>Fixed – Sets fixed price overriding price level rules</p>
+<p>Margin Ceiling/Margin Floor</p>
+<p>Round Nearest – Rounds to the nearest value assigned</p>
+<p>Round Up – Rounds up to the nearest value assigned</p>
+<p>Base Change Rule – Changes base factor to something other than default setting</p>
+<p>Matrix – Pricing set based on range of price or range of units</p>
+<p>Operand: Select %, G% or $ - (GP% selection formula = Base/(1.00-GP%)</p>
+<p>Value: Enter Value based on above selection <em>(Negative values are</em></p>
+<p><em>allowed)</em></p>
+<p>Start Date: Select drop down and choose start date</p>
+<p><em>(remove date by unchecking box to left of date)</em></p>
+<p>Exp. Date: Select drop down and choose expiration date</p>
+<p><em>(remove date by unchecking box to left of date)</em></p>
+<p>Active: Validate checked for active status</p>
+<ul>
+<li>Select: <img alt="Screenshot" loading="lazy" src="img/dd8c1e6cc0c8.png"/></li>
+<li>Rule will display under Customer Pricing Rules
+<ul>
+<li>Select “X” to remove rule</li>
+<li>Select view prices to view customer pricing in inventory search screen to verify price is as desired</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/eb1d5372e057.png"/></p>
+<p><img alt="Screenshot" loading="lazy" src="img/358aa5f3d601.png"/></p>
+<p><em><strong><img alt="Screenshot" loading="lazy" src="img/5df995c7cf88.png"/>Note:</strong></em> Price level rules (created in inventory management) will display based on customer setup at address level.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/5ee5b4402e00.png"/></p>
+<p>Select: <img alt="Screenshot" loading="lazy" src="img/50a539c9d4be.png"/></p>
+<p><strong><img alt="Screenshot" loading="lazy" src="img/db172adaf7c8.png"/></strong>- Allows ALL price rules created within Customer Pricing tab of customer record to be copied to another customer.</p>
+<ul>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/db172adaf7c8.png"/></li>
+<li>Enter Customer ID or Name to search</li>
+<li>Check appropriate boxes to search all customers or current location customers</li>
+<li>Select Search</li>
+<li>Will display search results based on criteria entered</li>
+<li>Highlight customer to copy pricing to
+<ul>
+<li>If multiple search results appears and more than one are desired, highlight first selection, hold CTRL and highlight remaining selections</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/9180d3e44d7b.png"/></p>
+<ul>
+<li>Select OK</li>
+<li>Information box will appear providing notification copy was successful</li>
+</ul>
+<p><em><strong><img alt="Screenshot" loading="lazy" src="img/5df995c7cf88.png"/>Notes</strong></em>*:*</p>
+<p>Presently ALL rules will copy. If there are rules that copy function was not desired, removal will be required on the customer record that they were copied to.</p>
+<p>Function is limited to do one customer at a time unless search results produce multiple customer results that fall in desired copy to criteria.</p>
+</article><nav class="pager"><a class="prev" href="customer-record-setup.html">← Customer Record Setup</a><a class="next" href="customer-deposit.html">Customer Deposit →</a></nav></main>
+
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

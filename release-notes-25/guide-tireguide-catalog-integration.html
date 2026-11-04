@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Retail – TireGuide Catalog Integration | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details open><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a class="active" href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>Retail – TireGuide Catalog Integration</h1><p>A comprehensive set of features aimed at enabling the integration between TireWorks HD Retail and the TireGuide catalog.</p>
+<h2>Centralized TireGuide Database &amp; TireGuide Service</h2>
+<p>TireWorks utilizes the TireGuide catalog through standardized web service communication, consistent with its approach for other catalogs. The TireGuide data resides in an internally maintained database constructed to meet TireGuide-specific requirements. This database schema can be deployed via scripts wherever a new instance of the TireGuide database is needed.</p>
+<p>The catalog service works uniformly across various catalog types; for TireGuide, the “CatalogType” key is set to “TireGuide,” and the connection string points to the designated TireGuide database populated with relevant data.</p>
+<h2>Simplified Order Options &amp; F2 Menu</h2>
+<p>When TireGuide is configured as a locations catalog, the F4 Diagnosticator and F6 FSM buttons, along with their associated functionality, are intentionally omitted. This is because TireGuide is dedicated exclusively to providing accurate tire fitment data for vehicles and does not contain the information required for these additional functions.</p>
+<p>Users may also observe the omission of certain packages within the F2 Packages menu; any packages containing "Catalog Part" or "Catalog Labor" items are automatically excluded from search results, and the "Parts" and "Labor" tabs will no longer be displayed. This adjustment aligns with TireGuide's exclusive focus on tire fitment.</p>
+<p>Tire fitments sourced via TireGuide can be saved directly to a vehicle record and seamlessly utilized in F1 searches, consistent with processes applicable to fitments acquired from other catalogs.</p>
+<h2>Updated Vehicle Creation and Details UI</h2>
+<p>When TireGuide is set as a locations catalog, users will observe changes to the Vehicle creation UI. For other catalogs, the interface displays Year, Make, Model, and Engine as four dropdown fields for defining the vehicle. In contrast, the TireGuide catalog presents Year, Make, Model, and Option, with the fourth field reflecting trim or submodel instead of engine size.</p>
+<p>Switching from another catalog type to TireGuide may require vehicles previously created under the former catalog to be updated and saved again to ensure compatibility.</p>
+<p>Additionally, the “Oil Settings,” “Conditions,” and “Vin Details” tabs are no longer present in the Vehicle Details UI when TireGuide is the selected catalog, as this information is unavailable in this configuration.</p>
+<h2>“Add Vehicle” Quick Button</h2>
+<p>With this integration, an “Add Vehicle” button has been implemented on the F1, F2, and F3 screens. This feature enables users to add a vehicle to an order without closing the current screen. The vehicle is then assigned to the order, making options such as Tire Fitment information available immediately, without requiring the user to close or reopen their window.</p>
+<p>The “Add Vehicle” button is also present on the Home Screen, located below the “Quick Tire Search” field. When a vehicle is entered here, a quick quote will open with the selected vehicle assigned, and an F1 search will be initiated displaying the first Tire Fitment option from the catalog. If the entered Plate or VIN matches an existing customer, users will receive prompts to confirm whether they wish to use the existing customer and vehicle information, helping to prevent duplicate entries.</p>
+<h2>Simplified Catalog Updates</h2>
+<p>TireGuide utilizes a unified catalog of information rather than maintaining separate catalogs for each supplier. As a result, the data remains consistent for all users accessing the TireGuide catalog and can be efficiently managed within a centralised database, eliminating the need for multiple instances.</p>
+<p>A dedicated service host has been developed to facilitate population of a TireGuide database compatible with our catalog service at any required location. Please note that configuration and operation details for this service host are restricted and not included with the general application distribution.</p>
+<h2>Case List Summary</h2>
+<p>TWHD-2810, TWHD-1871, TWHD-2812, TWHD-2847, TWHD-1870, TWHD-1867, TWHD-1876, TWHD-2858, TWHD-2857, TWHD-2814, TWHD-2813, TWHD-2815, TWHD-1874, TWHD-2828, TWHD-2819, TWHD-1864, TWHD-1875, TWHD-1872, TWHD-2960</p>
+</article></main>
+
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

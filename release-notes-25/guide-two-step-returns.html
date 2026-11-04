@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Retail – Two-Step Returns | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details open><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a class="active" href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>Retail – Two-Step Returns</h1><p>A comprehensive set of features aimed at enabling new two-step returns.</p>
+<h2>New System Settings</h2>
+<h3>Inventory Returns - Two-Step Workflow</h3>
+<p>When enabled, processing a return PO will not automatically generate or process a return Inventory Receipt or AP Invoice (Vendor Credit).</p>
+<h3>Disable Automatic AP Invoice Generation</h3>
+<p>Determines if AP Invoices or Vendor Credits are generated immediately upon processing an Inventory Receipt or Return. When enabled, Invoices and Credits will only be created when done so manually.</p>
+<h2>New Access Rights</h2>
+<h3>Two Step Return Process - Return Button</h3>
+<p>Ability to access the Return button on the Inventory Receipt when the Two-Step System Setting is enabled.</p>
+<h3>Two Step Return Process - Credit Button</h3>
+<p>Ability to access the Credit button on the AP Invoice when the Two-Step System Setting is enabled.</p>
+<h2>“Return” and “Credit” Buttons</h2>
+<p>For Purchase Orders and Inventory Receipts that have been processed, a new "Return" button has been introduced to streamline return initiation. This feature is accessible within the Find &gt; Purchase Order and Find &gt; Inventory Receipt interfaces. Additionally, for Inventory Returns that have reached a "Returned" status, a "Vendor Credit" button is now available, enabling users to efficiently initiate credits directly from the return record.</p>
+<h2>Separation of Inventory Receipt/Return and AP Invoice/Vendor Credit Processing</h2>
+<p>With this release, a new setting has been implemented to enhance the processing of Inventory Receipts and Returns in relation to AP Invoice and Vendor Credit management. Previously, when the "Send AP Invoice" option under Manage Accounting Integration was active, the system would automatically generate and process an AP Invoice upon completion of an Inventory Receipt in TireWorks HD.</p>
+<p>The newly added system setting, "Disable Automatic AP Invoice Generation," now removes the previous dependency on the Manage Accounting Integration setting. By default, an AP Invoice will be generated when an Inventory Receipt is finalized, regardless of the Manage Accounting Integration configuration. However, if the new setting is enabled, automatic AP Invoice generation is suppressed, allowing invoices to be created manually and linked to the Inventory Receipt as needed via standard UI workflows.</p>
+<h2>Case List Summary</h2>
+<p>TWHD-3041, TWD-3042, TWHD-3043, TWHD-3045, TWHD-3044</p>
+</article></main>
+
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

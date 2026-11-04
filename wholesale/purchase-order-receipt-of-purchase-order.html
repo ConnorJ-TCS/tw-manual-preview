@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Purchase Order &amp; Receipt of Purchase Order | TireWorks HD Wholesale User Manual</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD Wholesale User Manual</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the manual…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>SECTION 1: LOGIN SCREEN &amp; HOME PAGE</summary><ul><li><a href="login-screen.html">Login Screen</a></li><li><a href="home-page.html">Home Page</a></li><li><a href="configure-search-results.html">Configure Search Results</a></li><li><a href="customer-pricing-report.html">Customer Pricing Report</a></li><li><a href="user-options.html">User Options</a></li></ul></details>
+<details><summary>SECTION 2:  SALES</summary><ul><li><a href="sales-orders.html">Sales Orders</a></li><li><a href="special-programs.html">Special Programs</a></li><li><a href="create-new-invoice.html">Create New Invoice</a></li><li><a href="create-return.html">Create Return</a></li><li><a href="filling-back-orders.html">Filling Back Orders</a></li><li><a href="customer-record-setup.html">Customer Record Setup</a></li><li><a href="customer-contract-pricing-setup.html">Customer (Contract) Pricing Setup</a></li><li><a href="customer-deposit.html">Customer Deposit</a></li><li><a href="received-on-account-roa.html">Received On Account (ROA)</a></li></ul></details>
+<details><summary>SECTION 3: INVENTORY</summary><ul><li><a href="inventory-management.html">Inventory Management</a></li><li><a href="price-level-maintenance.html">Price Level Maintenance</a></li><li><a href="price-level-rule-assignment.html">Price Level Rule Assignment</a></li><li><a href="inventory-accounts.html">Inventory Accounts</a></li><li><a href="inventory-receipt.html">Inventory Receipt</a></li><li><a href="request-transfer.html">Request Transfer</a></li><li><a href="receipt-of-transfer-request.html">Receipt of Transfer Request</a></li><li><a href="automatic-transfer.html">Automatic Transfer</a></li><li><a href="physical-inventory-count.html">Physical Inventory Count</a></li><li><a href="import-inventory-items.html">Import Inventory Items</a></li></ul></details>
+<details><summary>SECTION 4: WAREHOUSING</summary><ul><li><a href="shipment-manager-processing-orders-through-invoicing.html">Shipment Manager (Processing Orders Through Invoicing)</a></li><li><a href="closing-invoices.html">Closing Invoices</a></li><li><a href="route-management-stop-assignment.html">Route Management/Stop Assignment</a></li><li><a href="bin-management.html">Bin Management</a></li></ul></details>
+<details open><summary>SECTION 5: PURCHASING</summary><ul><li><a class=active href="purchase-order-receipt-of-purchase-order.html">Purchase Order &amp; Receipt of Purchase Order</a></li><li><a href="purchase-order-worksheet.html">Purchase Order Worksheet</a></li></ul></details>
+<details><summary>SECTION 6: SYSTEM ADMINISTRATION</summary><ul><li><a href="access-group-setup-access-rights-assignment.html">Access Group Setup &amp; Access Rights Assignment</a></li><li><a href="cash-drawer.html">Cash Drawer</a></li><li><a href="unlocking-objects.html">Unlocking Objects</a></li><li><a href="user-setup-maintenance.html">User Setup &amp; Maintenance</a></li><li><a href="comment-setup.html">Comment Setup</a></li><li><a href="comment-maintenance.html">Comment Maintenance</a></li></ul></details></nav>
+<main><p class="crumbs"><a href="index.html">Home</a> › SECTION 5: PURCHASING</p><article><h1>Purchase Order &amp; Receipt of Purchase Order</h1>
+<p>Home Screen: Select <img alt="Screenshot" loading="lazy" src="img/47cb1b78d5a7.png"/> then select <img alt="Screenshot" loading="lazy" src="img/a7a61fe1d13e.png"/>from start a task</p>
+<p><img alt="Screenshot" loading="lazy" src="img/207a2cd096aa.png"/></p>
+<h2 id="create-purchase-order">Create Purchase Order</h2>
+<ul>
+<li>Select Vendor from dropdown
+<ul>
+<li>Vendor information defaults from vendor master</li>
+</ul>
+</li>
+<li>Populate Reference (required)</li>
+<li>Populate delivery date if known
+<ul>
+<li><img alt="Screenshot" loading="lazy" src="img/5f447cb68fc7.png"/> Select plus to select from calendar</li>
+<li><img alt="Screenshot" loading="lazy" src="img/5f447cb68fc7.png"/> Select X to remove date previously populated</li>
+</ul>
+</li>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/856f014f8f93.png"/> - Searching same as sales order searching</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/436b4392de5f.png"/></p>
+<ul>
+<li>
+<ul>
+<li>Optional checkbox for Available items only</li>
+<li>Optional Checkbox for Discontinued items only
+<ul>
+<li>Discontinued items are set in item master record and display in red</li>
+</ul>
+</li>
+<li>Global Lookup: Enter search criteria
+<ul>
+<li>Universal Sku: simple tire size, three-digit mfg. abbreviation, and mfg. item number (i.e. 2056515GOO402406477)</li>
+<li>Searchable by all or any combination of Universal Sku</li>
+</ul>
+</li>
+<li>Description Filter: Used to narrow search results based on description
+<ul>
+<li>i.e. line of tire, speed rating, etc.)</li>
+<li>When description filter is removed goes back to original search results</li>
+</ul>
+</li>
+<li>User SKU Code Lookup: Another lookup based on what is populated in User SKU field in item record</li>
+<li>Optional checkbox to display winter tires only</li>
+<li>Use Inventory Tree Lookups: Can be used to search by inventory tree nodes</li>
+</ul>
+</li>
+<li>Select items to add to order
+<ul>
+<li>Search results display by largest quantity available</li>
+<li>Search results display with manufacturer invoice price</li>
+</ul>
+</li>
+<li>Enter quantity of desired item and enter. Will move selected item to cart below search screen and return to Global Lookup for next item search</li>
+</ul>
+<p><em><strong><img alt="Screenshot" loading="lazy" src="img/5df995c7cf88.png"/>Note:</strong></em> ALL search columns are sortable by clicking column header to sort in ascending order. Click again will go back to descending order.</p>
+<ul>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/78b549acf60b.png"/> when all items have been added</li>
+<li>Items will be populated in purchase order</li>
+<li>Add comments in desired</li>
+<li><img alt="Screenshot" loading="lazy" src="img/c4526204ff7a.png"/> Select Save</li>
+<li>Dialog box appears showing successful save</li>
+<li>Purchase order is assigned next sequential number by location</li>
+<li>Printable, importable and exportable depending on need</li>
+<li>Save and close when complete</li>
+</ul>
+<h2 id="receipt-of-purchase-order">Receipt of Purchase Order</h2>
+<ul>
+<li>Reopen original purchase order when product has arrived</li>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/44423b04efde.png"/></li>
+<li>Inventory Receipt will generate within purchase order</li>
+<li><strong>If WMS is NOT used</strong>, proceed to process step below</li>
+<li><strong>If WMS is used</strong>, Select Send to WMS</li>
+<li>Once WMS has received and transmitted received quantity back to receipt, Select</li>
+<li>Select<img alt="Screenshot" loading="lazy" src="img/10c759792872.png"/>to received product</li>
+<li>Select desired process type (default process as is) and Continue Processing</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/1989d2d18544.png"/></p>
+<ul>
+<li>Inventory receipt will display for printing</li>
+<li>Follow company procedures</li>
+<li>Inventory status will have status of processed and inventory will be updated in POS</li>
+</ul>
+</article><nav class="pager"><a class="prev" href="bin-management.html">← Bin Management</a><a class="next" href="purchase-order-worksheet.html">Purchase Order Worksheet →</a></nav></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#create-purchase-order">Create Purchase Order</a></li><li><a href="#receipt-of-purchase-order">Receipt of Purchase Order</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

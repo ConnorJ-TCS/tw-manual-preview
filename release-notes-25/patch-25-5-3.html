@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>New in version 25.5.3 | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details open><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a class="active" href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>New in version 25.5.3</h1><div class="seg"><a class="on" href="patch-25-5-3.html">New in 25.5.3</a><a class="" href="through-25-5-3.html">Everything through 25.5.3</a></div>
+<p>Retail: 16 cases. Wholesale: no targeted changes.</p>
+<h2 id="retail">Retail</h2>
+<h3 id="new-features">New Features</h3>
+<h4 id="service-requests-and-invoicing">Service Requests and Invoicing</h4>
+<ul class="notes"><li id="n774530ce">The DR Invoice job (mainoptionid 75) now uses processed start and end dates based on the last run timestamp instead of DR numbers, and a new table records each job run and its details for improved accuracy and compliance with Bridgestone requirements <span class="chips"><span class="key">TWHD-3531</span></span></li></ul>
+<h4 id="transfers-and-sourcing">Transfers and Sourcing</h4>
+<ul class="notes"><li id="n35ecbf41">The Sourcing Manager Transfer screen now displays a dynamic grid showing available quantities for each item at each Alternate Stocking Location, with improved usability for multiple items, horizontal scrolling, and corrected UI issues <span class="chips"><span class="key">TWHD-3715</span></span></li></ul>
+<h4 id="inventory-and-items">Inventory and Items</h4>
+<ul class="notes"><li id="ncd49fe4e">A new checkbox, “Allow User to Edit the Item Description on Service Requests (for California BAR compliance),” has been added to the Manage SKU Types window, and the related access right "Service Request - Item Description" now acts as an override, letting authorized users edit all item descriptions regardless of SKU Type settings <span class="chips"><span class="key">TWHD-3780</span></span></li></ul>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<h4 id="service-requests-and-invoicing-2">Service Requests and Invoicing</h4>
+<ul class="notes"><li id="n617d5b52">Resolved an issue where converting a Quick Quote or Appointment to a Service Request in could intermittently fail with a Foreign Key constraint error related to the Customer Contact information <span class="chips"><span class="key">TWHD-3775</span></span></li><li id="n148d297e">Fixed an issue where updating the tire price on a service request would incorrectly set the associated road hazard price to zero; now, both prices remain accurate and the total reflects all charges as expected <span class="chips"><span class="key">TWHD-3788</span></span></li></ul>
+<h4 id="customers-and-vehicles">Customers and Vehicles</h4>
+<ul class="notes"><li id="nb16f600c">The Customer Details UI now correctly displays only bill-to addresses for the selected bill-to customer, preventing foreign key errors and ensuring users can complete orders even when bill-to and ship-to customers differ <span class="chips"><span class="key">TWHD-3793</span></span></li><li id="n2570f58b">Pressing Enter in the Find Customer window for Copying Customer Rules now always triggers a customer search, regardless of prior SKU field input, and no SKU-related errors or pop-ups will appear <span class="chips"><span class="key">TWHD-3615</span></span></li></ul>
+<h4 id="inventory-and-items-2">Inventory and Items</h4>
+<ul class="notes"><li id="n6f3dce44">Cycle Count processing now correctly sets the DateCompleted field on Inventory Adjustments when the "Auto Process Inventory Adjustment" system setting is enabled <span class="chips"><span class="key">TWHD-3651</span></span></li></ul>
+<h4 id="messaging-email-and-printing">Messaging, Email, and Printing</h4>
+<ul class="notes"><li id="n91211a01">TCS Inspect message timestamps in the Customer Communication / SMS Hub now correctly use the store’s configured local time zone, ensuring all messages appear in proper chronological order regardless of their source <span class="chips"><span class="key">TWHD-3628</span></span></li><li id="nfdaa487b">The "Preview" tab in the Send Email window now correctly displays large spaces and line breaks, ensuring the preview matches the formatting of the actual email sent to customers <span class="chips"><span class="key">TWHD-1418</span></span></li></ul>
+<h2 id="web-services">Web Services</h2>
+<h3 id="new-features-2">New Features</h3>
+<h4 id="tcs-inspect-service">TCS Inspect Service</h4>
+<ul class="notes"><li id="n5d354d57">The AppointmentList response now includes an appointmentDuration field for each appointment, allowing integrators to see the total duration directly in the response <span class="chips"><span class="key">TWHD-3740</span></span></li></ul></article></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#retail">Retail</a></li><li><a href="#new-features">New Features</a></li><li><a href="#bug-fixes">Bug Fixes</a></li><li><a href="#web-services">Web Services</a></li><li><a href="#new-features-2">New Features</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

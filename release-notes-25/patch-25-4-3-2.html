@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>New in version 25.4.3.2 | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details open><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a class="active" href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>New in version 25.4.3.2</h1><div class="seg"><a class="on" href="patch-25-4-3-2.html">New in 25.4.3.2</a><a class="" href="through-25-4-3-2.html">Everything through 25.4.3.2</a></div>
+<p>Retail: 9 cases. Wholesale: 1 cases.</p>
+<h2 id="retail">Retail</h2>
+<h3 id="new-access-rights">New Access Rights</h3>
+<div class="setting" id="nc3f1ca49"><p class="st"><strong>Credit Card Terminal "Do Not Ask Again" Selection</strong> <span class="chips"><span class="key">TWHD-3644</span></span></p><p>Controls whether a user can view or edit the "Do Not Ask Again" option on the Credit Card Terminal Selection prompt and in the My Preferences &gt; Credit Card Terminals tab</p></div>
+<h3 id="new-features">New Features</h3>
+<h4 id="setup-users-and-access-rights">Setup, Users, and Access Rights</h4>
+<ul class="notes"><li id="nc751e3a6">A new "Calendars" tab has been added to the Manage Users screen, allowing system administrators to configure, copy, and manage user calendars by location <span class="chips"><span class="key">TWHD-3362</span></span></li></ul>
+<h2 id="wholesale">Wholesale</h2>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<h4 id="sales-orders-and-invoicing">Sales Orders and Invoicing</h4>
+<ul class="notes"><li id="nec28c250">Users can now open and interact with the AP Invoice window in Purchasing without encountering object reference errors <span class="chips"><span class="key">TWHD-3567</span></span></li></ul>
+<h2 id="beta-issues">Beta Issues</h2>
+<ul class="notes"><li id="n3b7567d0">Fixed an issue where orders would close before payment and signature capture were completed when the “EnableApproval” setting was enabled; now, the order remains open and the user stays on the order screen until all payment and approval steps, including signature capture, are fully finished, preventing premature closure and ORE errors <span class="chips"><span class="key">TWHD-3662</span></span></li><li id="n10d465b8">The "Inventory Receipt - Populate Quantity Received" system setting now also auto-fills the quantity received when adding items from search windows <span class="chips"><span class="key">TWHD-3649</span></span></li><li id="n4de73ab1">Users assigned to only one location can now log in and are always shown the IPOSPays terminal selection window, ensuring they can select a terminal and proceed with their workflow <span class="chips"><span class="key">TWHD-3631</span></span></li><li id="n174cf899">Users with EDIT rights to the "User Management - My Preferences" access right can now save changes to their own preferences without needing EDIT rights to "User Management." <span class="chips"><span class="key">TWHD-3648</span></span></li><li id="n102d3fea">The signature background has been updated to white, ensuring consistent appearance across all printouts <span class="chips"><span class="key">TWHD-3658</span></span></li><li id="n441abbe3">The CreditCardName field in iPOSPays Sale and Return transactions now correctly displays the card type from the response instead of the customer's name, improving transaction accuracy and reporting <span class="chips"><span class="key">TWHD-3627</span></span></li></ul></article></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#retail">Retail</a></li><li><a href="#new-access-rights">New Access Rights</a></li><li><a href="#new-features">New Features</a></li><li><a href="#wholesale">Wholesale</a></li><li><a href="#bug-fixes">Bug Fixes</a></li><li><a href="#beta-issues">Beta Issues</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

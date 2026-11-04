@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Retail - Tire Disposal Fee | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details open><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a class="active" href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>Retail - Tire Disposal Fee</h1><p>A comprehensive set of features aimed at enabling stores to charge a tire disposal fee on tire packages, or to record that the customer declined it. Setup works the same way as Road Hazard and Nitrogen fees, one location at a time, with a fee item, pricing, and optional inventory tree mapping.</p>
+<p>Tire Disposal Fee is available in TireWorks HD Retail 25.4 and later, with Quick Quote, Appointment, and Order Validation support in 25.5 and later. It is enabled on request through TCS Support. Until it is enabled, none of the Tire Disposal settings, buttons, or validation described here appear.</p>
+<h2>New System Settings</h2>
+<h3>Include Tire Disposal on QQ and Appt screen</h3>
+<p>When enabled, the “Include Tire Disposal?” checkbox on the Tire Quote window is checked by default for Quick Quotes and Appointments.</p>
+<h3>Include Tire Disposal on Service Request screen</h3>
+<p>When enabled, the “Include Tire Disposal?” checkbox on the Tire Quote window is checked by default for Service Requests.</p>
+<h2>Tire Disposal Setup</h2>
+<p>A new Tire Disposal tab under Manage &gt; Company Setup &gt; Other Fees &amp; Charges configures the fee for each location, with the same options and behavior as the Road Hazard and Nitrogen tabs. Configuration options:</p>
+<ul>
+<li>Tire Disposal Active turns the fee on for the location.</li>
+<li>Automatically Add Tire Disposal includes the fee in the quoted tire price on Tire Quote.</li>
+<li>Taxable marks the fee as taxable for the location.</li>
+<li>Use Inventory Tree Mapping limits the fee to tires in chosen manufacturers, submanufacturers, or classes.</li>
+<li>Track Declined Tire Disposal records a declined fee using a Declined DISP Item, added to the order at $0.00.</li>
+</ul>
+<p>The Tire Disposal Items grid sets the fee by price level, either as a fixed price or as a percentage of the tire price with a maximum, minimum, and rounding cutoff, along with the fee item and its GL account. Copy Tire Disposal Settings copies a finished setup to other locations.</p>
+<h2>Adding or Declining the Fee on an Order</h2>
+<p>Service Requests, Quick Quotes, and Appointments now show Add DISP and Decline DISP buttons on tire packages, next to the Road Hazard buttons. Add DISP adds the location’s Tire Disposal item at its calculated price, and Decline DISP adds the declined item at $0.00. The buttons appear only when Tire Disposal is active for the location and the package holds a tire that matches a Tire Disposal setting. Each add or decline is recorded for auditing.</p>
+<h2>Tire Quote</h2>
+<p>A new “Include Tire Disposal?” checkbox sits next to “Include Road Hazard?” on the Tire Quote window. When it is checked, packages added from Tire Quote include the Tire Disposal item, and the package preview updates as soon as the box changes. Its default follows the two system settings above.</p>
+<h2>Order Validation</h2>
+<p>Order Validation Setup has a new Tire Disposal row. For each order state, it can ignore the check, warn, or block saving when a qualifying tire package has neither the Tire Disposal item nor the declined item. When validation stops an order, Fix offers Add Tire Disposal and Decline Tire Disposal. The check is skipped on orders with a Goodyear or TreadNet special program, the same way Road Hazard is.</p>
+<h2>Case List Summary</h2>
+<p>TWHD-3371, TWHD-3372, TWHD-3373, TWHD-3374, TWHD-3586, TWHD-3467</p>
+</article></main>
+
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Retail – Enhancement of Purchase Order and Service Request Interaction | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details open><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a class="active" href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>Retail – Enhancement of Purchase Order and Service Request Interaction</h1><p>A comprehensive set of improvements to allow new workflows, as well as streamline existing workflows.</p>
+<h2>New Access Rights</h2>
+<h3>Purchase Orders - Close PO</h3>
+<p>Allow access to Close PO functionality for Purchase Orders not linked to a Service Request. For Purchase Orders linked to a Service Request see other relevant access rights.</p>
+<h3>Service Request - Cancel PO/PO Items Linked to SR</h3>
+<p>Controls whether users can cancel a PO or PO items linked to a Service Request when removing or declining the linked item.</p>
+<h3>Service Request - Close PO/PO Items Linked to SR</h3>
+<p>Controls whether users can close a PO or PO items linked to a Service Request when removing or declining the linked item.</p>
+<h3>Service Request - Complete PO/PO Items Linked to SR</h3>
+<p>Controls whether users can complete a PO or PO items linked to a Service Request when removing or declining the linked item.</p>
+<h3>Service Request - Disassociate PO/PO Items Linked to SR</h3>
+<p>Prevent/allow user to disassociate PO/PO Items linked to a Service Request, within the Service Request window.</p>
+<h3>Sourcing Manager – Cancel PO/PO Items Linked to SR (RENAME)</h3>
+<p>Controls whether users can cancel a PO or PO items from within the Sourcing Manager - Outside Purchase window.</p>
+<p>This Access Right previously existed under the name “Purchase Order – Cancel PO/PO Items Linked to SR”.</p>
+<h3>Sourcing Manager - Close PO/PO Items Linked to SR</h3>
+<p>Controls whether users can close a PO or PO items from within the Receive Open Purchase Order window, within Sourcing workflows. Requires ‘Purchase Orders - Close PO’ permission as well.</p>
+<h3>Sourcing Manager - Receive PO/PO Items Linked to SR (RENAME)</h3>
+<p>Controls whether users can receive a PO or PO items from within the Sourcing Manager - Outside Purchase window.</p>
+<p>This Access Right previously existed under the name “Purchase Order – Receive PO/PO Items Linked to SR”.</p>
+<h2>“Close” Functionality</h2>
+<p>TireWorks HD now allows users to efficiently update Purchase Orders in a Partially Received status so that if outstanding quantities are no longer anticipated, the order can be marked as “Fully Received.” Previously, this required users to manually open the Purchase Order and adjust the quantity to match items already received.</p>
+<p>Currently, both standalone Purchase Orders and those linked to Service Requests can be “Closed” via a single button, which automatically recalculates PO quantities and updates the status. This functionality is accessible from within the Purchase Order interface or directly through a Service Request, enabling users to manage associated Purchase Orders without navigating away from their current workflow.</p>
+<p>Access rights are available to define user permissions for closing Standalone and Service Request-linked Purchase Orders.</p>
+<p>Please note, this feature is applicable exclusively to Partially Received purchase orders.</p>
+<h2>“Disassociate” Functionality</h2>
+<p>TireWorks HD now allows users to disassociate Purchase Orders from Service Request line items. Previously, users were required to cancel the Purchase Order if the Service Request line item was declined or deleted. This update enables the Purchase Order to remain open and receivable, regardless of the status of the Service Request.</p>
+<h2>“Complete” Functionality</h2>
+<p>TireWorks HD now allows users to efficiently receive any outstanding quantities associated with an open Purchase Order. By selecting this option, the system will automatically generate and process an Inventory Receipt for all remaining items.</p>
+<h2>UI/UX Enhancements</h2>
+<p>To facilitate the integration of new workflows, several improvements have been made to the user interface.</p>
+<p>User Prompts for Declined or Deleted Items</p>
+<p>When an item on a Service Request with an open Purchase Order is declined or deleted, the application now prompts the user to select the appropriate action regarding the Purchase Order. Based on the user's access rights and the status of the Purchase Order, options will be presented for Closing, Canceling, Completing, or Disassociating. If the user does not have permission to perform any of these actions, they will be restricted from declining or deleting the item, ensuring that only authorized users can modify service request items associated with pending purchase orders.</p>
+<p>"Close" Button for Standalone Purchase Orders</p>
+<p>A dedicated "Close" button has been added to the Purchase Order interface, the Find &gt; Purchase Order UI, and the Purchases tab of the home screen to streamline access to this function. For any Purchase Order eligible for closure—specifically those that are partially received—the button will be visible, allowing users to initiate the closure action directly without needing to access the original Purchase Order.</p>
+<h2>Case List Summary</h2>
+<p>TWHD-1961, TWHD-1963, TWHD-1964, TWHD-1962, TWHD-2867, TWHD-1965, TWHD-2885, TWHD-2913</p>
+</article></main>
+
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

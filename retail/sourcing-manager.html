@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sourcing Manager | TireWorks HD Retail User Manual</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD Retail User Manual</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the manual…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Section 1: Login Screen &amp; Home Page</summary><ul><li><a href="sign-in.html">Sign in</a></li><li><a href="home-page.html">Home page</a></li><li><a href="configure-tire-lookup-search-results.html">Configure tire lookup search results</a></li><li><a href="subscribe-to-reports.html">Subscribe to reports</a></li></ul></details>
+<details><summary>Section 2: Sales</summary><ul><li><a href="quotes.html">Quotes</a></li><li><a href="creating-a-service-request.html">Creating a service request</a></li><li><a href="electronic-payments.html">Electronic Payments</a></li><li><a href="customer-approval.html">Customer Approval</a></li><li><a href="order-prompts.html">Order Prompts</a></li><li><a href="customer-communication-texting.html">Customer Communication (Texting)</a></li><li><a href="tcs-inspect.html">TCS Inspect</a></li><li><a href="catalogs.html">Catalogs</a></li><li><a href="tire-package-fees-road-hazard-nitrogen-and-tire-disposal.html">Tire Package Fees (Road Hazard, Nitrogen and Tire Disposal)</a></li><li><a href="parts-cores.html">Parts Cores</a></li><li><a href="goodyear-national-account-p-r-secondary-supply-or-government.html">Goodyear National Account, P&amp;R, Secondary Supply or Government Processing</a></li><li><a href="bridgestone-firestone-national-accounts-treadnet.html">Bridgestone Firestone National Accounts (TreadNet)</a></li><li><a href="loyalty-rewards.html">Loyalty Rewards</a></li><li><a href="invoice-reversal-and-copy.html">Invoice Reversal and Copy</a></li><li><a href="tire-adjustment.html">Tire Adjustment</a></li></ul></details>
+<details open><summary>Section 3: Purchasing &amp; Receiving</summary><ul><li><a href="purchase-order.html">Purchase Order</a></li><li><a href="vendor-ordering.html">Vendor Ordering</a></li><li><a href="new-return.html">New Return</a></li><li><a class=active href="sourcing-manager.html">Sourcing Manager</a></li><li><a href="unsold-purchases.html">Unsold Purchases</a></li><li><a href="inventory-receipt.html">Inventory Receipt</a></li><li><a href="ap-invoices-and-vendor-credits.html">AP Invoices and Vendor Credits</a></li><li><a href="inventory-adjustment.html">Inventory Adjustment</a></li></ul></details>
+<details><summary>Section 4: Transfers</summary><ul><li><a href="transfers.html">Transfers</a></li><li><a href="inventory-replenishment.html">Inventory replenishment</a></li></ul></details>
+<details><summary>Section 5: Daily Cash Balancing &amp; Other Payment Collection</summary><ul><li><a href="cash-drawer.html">Cash Drawer</a></li><li><a href="payroll-entry.html">Payroll Entry</a></li><li><a href="customer-deposits.html">Customer deposits</a></li><li><a href="customer-roa-payments.html">Customer ROA payments</a></li></ul></details>
+<details><summary>Section 6: Manage</summary><ul><li><a href="access-group-setup-and-access-rights-assignment.html">Access Group Setup and Access Rights Assignment</a></li><li><a href="comment-setup-maintenance.html">Comment Setup &amp; Maintenance</a></li><li><a href="tax-details.html">Tax details</a></li><li><a href="locations-setup-and-maintenance.html">Locations Setup and Maintenance</a></li><li><a href="customer-classes.html">Customer classes</a></li><li><a href="customers.html">Customers</a></li><li><a href="customer-contract-pricing.html">Customer (contract) pricing</a></li><li><a href="discount-maintenance.html">Discount Maintenance</a></li><li><a href="inventory-management.html">Inventory Management</a></li><li><a href="item-group-setup-and-item-assignment.html">Item Group Setup and Item Assignment</a></li><li><a href="create-a-part.html">Create a part</a></li><li><a href="labor-rate-setup-and-maintenance.html">Labor Rate Setup and Maintenance</a></li><li><a href="order-validation.html">Order Validation</a></li><li><a href="physical-inventory-count.html">Physical Inventory Count</a></li><li><a href="cycle-count-setup-and-maintenance.html">Cycle Count Setup and Maintenance</a></li><li><a href="payment-setup.html">Payment Setup</a></li><li><a href="price-level-setup-and-maintenance.html">Price Level Setup and Maintenance</a></li><li><a href="quickbooks-online-and-the-integration-manager.html">QuickBooks Online and the Integration Manager</a></li><li><a href="system-settings.html">System Settings</a></li><li><a href="technicians-setup-and-maintenance.html">Technicians Setup and Maintenance</a></li><li><a href="unlocking-objects.html">Unlocking Objects</a></li><li><a href="vendors-setup-and-maintenance.html">Vendors Setup and Maintenance</a></li><li><a href="user-setup-and-maintenance.html">User Setup and Maintenance</a></li></ul></details>
+<details><summary>Appendix: Order Status Numbers</summary><ul><li><a href="appendix-order-status-numbers.html">Appendix: Order Status Numbers</a></li></ul></details></nav>
+<main><p class="crumbs"><a href="index.html">Home</a> › Section 3: Purchasing &amp; Receiving</p><article><h1>Sourcing Manager</h1>
+<p>Use the Sourcing Manager to source product that isn't currently available in your inventory. You can use it directly from the service request, and receive the product there when it arrives.</p>
+<p>In a service request, <img alt="Screenshot" loading="lazy" src="img/2e56e9b5e445.png"/> shows to the right of a line item when there isn't enough quantity available to complete the service request.</p>
+<ul>
+<li>Only tires and items marked Inventoried need sourcing. Tires always need sourcing, even when not marked Inventoried.</li>
+<li>Labor, other charges and fees, shop fees and specifications never need sourcing.</li>
+<li>Non-catalog engine oil doesn't need sourcing unless your store turns on the System Setting <strong>Engine Oil Non-Catalog Requires Sourcing</strong>.</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/245c58ab96c4.png"/></p>
+<div class="callout tip">
+<p><strong>Tip:</strong> If several items need to come from the same supplier, select <em><img alt="Screenshot" loading="lazy" src="img/0dd28e6b3698.png"/></em> at the top of the body of the service request. A list of all items on the service request that need sourcing displays. Check the ones to source from the same supplier. All selected lines are added to one sourcing document.</p>
+</div>
+<p><img alt="Screenshot" loading="lazy" src="img/3a70416a2fb4.png"/></p>
+<p>Select the sourcing icon to display the sourcing options.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/dec32ab344da.png"/></p>
+<h2 id="quick-adjustment">Quick Adjustment</h2>
+<p>Use <strong>Quick Adjustment</strong> to adjust inventory in so you can proceed with the order. This is generally used when you physically have the inventory but the system shows 0 on hand.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/90f14e28dc8c.jpg"/></p>
+<ol>
+<li>Select <strong>Quick Adjustment</strong>.
+<ul>
+<li>The adjustment screen displays for you to verify.
+<ul>
+<li>The cost from the service request fills in.</li>
+<li>The customer comments show that the adjustment was done through the Sourcing Manager, with the name of the customer.</li>
+<li>The adjustment references the order ID it was done for.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/b356426b3ae5.png"/> to process the inventory adjustment. You can print it if necessary.</li>
+<li>Select <strong>Done</strong>.
+<ul>
+<li>You return to the service request, and <img alt="Screenshot" loading="lazy" src="img/1e0e734fe5b2.png"/> shows to the right of the line item to indicate the product is now available.</li>
+</ul>
+</li>
+</ol>
+<h2 id="sell-negative">Sell Negative</h2>
+<p>Use <strong>Sell Negative</strong> to complete the service request, receive payment and generate the invoice before the product is received. This takes your inventory to a negative quantity on hand and uses the product's average cost until the actual product installed on the vehicle is received.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/70bd3639b378.png"/></p>
+<ol>
+<li>Select <strong>Sell Negative</strong>.</li>
+<li>When asked to confirm that you want to sell negative, select <strong>Yes</strong> or <strong>No</strong>.
+<ul>
+<li>You return to the service request, and <img alt="Screenshot" loading="lazy" src="img/1e0e734fe5b2.png"/> shows to the right of the line item to indicate it's in a status that can now be completed.</li>
+</ul>
+</li>
+</ol>
+<div class="callout note">
+<p><strong>Note:</strong> Because you're selling before the product is received, the average cost may or may not be correct. By default, it uses the average cost from the last time the item was received.</p>
+</div>
+<p><strong><img alt="Screenshot" loading="lazy" src="img/d250b67b537f.jpg"/></strong></p>
+<div class="callout tip">
+<p><strong>Tip:</strong> Receiving the product instead of selling negative gives the correct average cost, so the gross profit percentage for the service request is also calculated correctly.</p>
+</div>
+<h2 id="outside-purchase">Outside Purchase</h2>
+<p>Use <strong>Outside Purchase</strong> to create a purchase order directly from the service request. It shows on the <strong>Purchases</strong> tab of the Home screen until the purchase order is received. Use it when online ordering isn't available, or when you mostly order from the vendor by phone or fax.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/7c84a37aaac6.png"/></p>
+<ol>
+<li>Select <strong>Outside Purchase</strong>.</li>
+<li>Select the vendor from the dropdown list.
+<ul>
+<li>Use <strong>Look For</strong> to narrow the search.</li>
+<li>If the vendor isn't in the list, check <strong>Show All Vendors</strong>.</li>
+</ul>
+</li>
+<li>Select <strong>Done</strong>.</li>
+<li>Enter the <strong>Reference Number</strong>. We suggest the service request ID.</li>
+<li>Verify the items to purchase, their cost and quantity.
+<ul>
+<li>If the cost is different, enter the correct cost.</li>
+</ul>
+</li>
+<li>Enter order comments if needed.</li>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/295e9739c06c.png"/>.</li>
+<li>Select <strong>Done</strong>.
+<ul>
+<li>The <strong>Outside Purchase</strong> icon <img alt="Screenshot" loading="lazy" src="img/a720dc97c3cb.png"/> shows to the right of the line item, telling you the item was ordered as an outside purchase. You can also see it on the <strong>Purchases</strong> tab of the Home page.</li>
+</ul>
+</li>
+</ol>
+<h2 id="receive-an-outside-purchase">Receive an outside purchase</h2>
+<p><img alt="Screenshot" loading="lazy" src="img/0ab6b3aead84.png"/></p>
+<p>To receive an outside purchase from the service request, select the <strong>Outside Purchase</strong> icon next to the line item to receive.</p>
+<div class="callout tip">
+<p><strong>Tip:</strong> To find the customer or service request number, check the reference number field on the <strong>Purchases</strong> tab.</p>
+</div>
+<p><img alt="Screenshot" loading="lazy" src="img/8a1fbf00dd65.png"/></p>
+<p><strong>Option 1: Receive from the service request</strong></p>
+<ol>
+<li>Select the <strong>Outside Purchase</strong> icon on the line item to receive.
+<ul>
+<li>If several line items need receiving, select <img alt="Screenshot" loading="lazy" src="img/0b5600d33675.png"/> to receive all line items from the supplier.</li>
+</ul>
+</li>
+<li>Open the service request.</li>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/6525fbc5fe2d.png"/>.</li>
+<li>Verify the total to be received.
+<ul>
+<li>If it's different from the original purchase order, change the quantity in the <strong>To Be Received</strong> column.</li>
+</ul>
+</li>
+<li>Select <strong>Done</strong>.</li>
+<li>Select <strong>Done</strong> again.</li>
+</ol>
+<div class="callout important">
+<p><strong>Important:</strong> In the <strong>Receive Open Purchase Order and Pending Transfer</strong> window, a partly received purchase order shows a <strong>Close Purchase Order</strong> icon. Select it when the rest isn't coming. Quantities change to match what was received and the purchase order becomes Fully Received. This can't be undone.</p>
+</div>
+<div class="callout note">
+<p><strong>Note:</strong> Closing here requires the <strong>Sourcing Manager - Close PO/PO Items Linked to SR</strong> and <strong>Purchase Orders - Close PO</strong> access rights.</p>
+</div>
+<ul>
+<li>
+<ul>
+<li>You return to the service request, and <img alt="Screenshot" loading="lazy" src="img/1e0e734fe5b2.png"/> shows to the right of the line item to indicate it's in a status that can now be completed.</li>
+<li>The sourcing icon stays until all units are received.</li>
+</ul>
+</li>
+</ul>
+<div class="callout note">
+<p><strong>Note:</strong> Receiving or canceling an outside purchase from the Sourcing Manager requires the <strong>Sourcing Manager - Receive PO/PO Items Linked to SR</strong> or <strong>Sourcing Manager - Cancel PO/PO Items Linked to SR</strong> access right. Deleting or declining a line with an open purchase order asks what to do with the PO. See <strong>Additional Features &amp; Functionality</strong> under <strong>Creating Service Request</strong>.</p>
+</div>
+<p><strong>Option 2: Receive from the Purchases tab</strong></p>
+<ol>
+<li>On the <strong>Purchases</strong> tab, double-click the purchase order.
+<ul>
+<li>A message box shows the service request number the purchase order is linked to.</li>
+</ul>
+</li>
+<li>Select <strong>OK</strong>.</li>
+<li>Select <strong>Receive</strong> <img alt="Screenshot" loading="lazy" src="img/f8c06337d737.jpg"/>.
+<ul>
+<li>An inventory receipt is created, referencing the purchase order it was created from.</li>
+</ul>
+</li>
+<li>If the quantity received doesn't equal what was ordered on the purchase order, enter the quantity received in the <strong>Qty</strong> column.</li>
+<li>Select <strong>Process</strong> <img alt="Screenshot" loading="lazy" src="img/320625207ca4.jpg"/>.
+<ul>
+<li>A printable inventory receipt is created.</li>
+<li>Quantity on hand and available quantity are updated.</li>
+<li>The purchase order status is updated to Fully Received or Partially Received.
+<ul>
+<li>A fully received purchase order is removed from the <strong>Purchases</strong> tab.</li>
+<li>A partially received purchase order is marked "partially received" in the <strong>Status</strong> column of the <strong>Purchases</strong> tab.</li>
+</ul>
+</li>
+<li>In the service request, <img alt="Screenshot" loading="lazy" src="img/1e0e734fe5b2.png"/> shows to the right of the line item to indicate it's in a status that can now be completed.</li>
+<li>The sourcing icon stays until all units are received.</li>
+</ul>
+</li>
+</ol>
+<div class="callout tip">
+<p><strong>Tip:</strong> Receive the product in the service request or purchase order before you complete the service request. That way the average cost recalculates to the correct cost, and the service request gets the right gross profit percentage.</p>
+</div>
+<h2 id="transfer">Transfer</h2>
+<p>Use <strong>Transfer</strong> to see product at your other stores and request it with a transfer request.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/35297cfc68a7.jpg"/></p>
+<ol>
+<li>Select <strong>Transfer</strong>.
+<ul>
+<li>A grid shows the items that need sourcing, with each item's available quantity at each alternate stocking location. Several items can go on one transfer request.</li>
+</ul>
+</li>
+</ol>
+<p><img alt="Screenshot" loading="lazy" src="img/ed650cc0b4a3.png"/></p>
+<ol>
+<li>Check the one store to request the items from. All items are checked by default. You can't change the quantity requested on this screen.</li>
+<li>Enter comments if necessary.
+<ul>
+<li>Items the store doesn't have enough of are removed from the request, and a message lists them.</li>
+<li>With the <strong>Sourcing - Transfer Request</strong> access right, you can keep unavailable items on the request as a backorder instead. Answer <strong>No</strong> at "Would you like to remove the unavailable items from this request?"</li>
+</ul>
+</li>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/13a700793118.png"/>.
+<ul>
+<li>The transfer request details list the quantity and transfer cost of the product. By default, the cost is priced from the receiving store's price base and price rules. If the System Setting <strong>Transfer Pricing Source</strong> is set to Sending Location, the sending store's price base and price rules are used.</li>
+<li>The transfer shows on the <strong>Transfers</strong> tab of the requesting store's Home page with a status of Requested.</li>
+</ul>
+</li>
+</ol>
+<p><img alt="Screenshot" loading="lazy" src="img/085eef7c5b92.jpg"/></p>
+<ul>
+<li>
+<ul>
+<li>It also shows on the <strong>Transfers</strong> tab of the sending store's Home page with a status of Requested.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/1cff47ce7d99.jpg"/></p>
+<h2 id="send-the-transfer-sending-store">Send the transfer (sending store)</h2>
+<ol>
+<li>Open the transfer from the <strong>Transfers</strong> tab, pick the product, and verify <strong>Qty Sent</strong>.
+<ul>
+<li>The sending transfer document automatically references the requesting store's Order Id in the order comments.</li>
+</ul>
+</li>
+</ol>
+<p><img alt="Screenshot" loading="lazy" src="img/2d05021a582b.png"/></p>
+<ol>
+<li>Select <strong>Send Transfer</strong>.</li>
+<li>When a window asks you to confirm sending the transfer, select <strong>Yes</strong> or <strong>No</strong>.
+<ul>
+<li>A transfer order is created for you to print and send with the product, and the status changes to In Transit on the <strong>Transfers</strong> tab of both the sending and receiving stores.
+<ul>
+<li>The receiving store's <strong>Transfers</strong> tab <img alt="Screenshot" loading="lazy" src="img/808f58ea9a33.png"/> shows in red to alert them that the product was sent.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="receive-the-transfer-receiving-store">Receive the transfer (receiving store)</h2>
+<p>The receiving store receives the product from the <strong>Transfers</strong> tab or from the service request.</p>
+<ol>
+<li>Open the transfer from the <strong>Transfers</strong> tab, or from the service request whose ID is referenced on the transfer documentation, by selecting the transfer icon to the right of the line item.</li>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/34fb7cf93b26.png"/>.</li>
+<li>Verify the quantity to receive, or change it if it's different from the quantity on the transfer documentation.
+<ul>
+<li>If the quantity is different, the transfer invoice to the requesting store is automatically changed to match the amount received. The requesting store is only invoiced through the intercompany account for the product it received.</li>
+</ul>
+</li>
+<li>Select <strong>Done</strong>.</li>
+<li>Select <strong>Done</strong> again.</li>
+</ol>
+<div class="callout note">
+<p><strong>Note:</strong> When the requesting store receives the product, inventory is relieved from the sending store and added to the requesting store.</p>
+</div>
+<h2 id="order-online">Order Online</h2>
+<p>Use <strong>Order Online</strong> to order online from vendors that take part in electronic ordering.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/33771ac9b9e0.jpg"/></p>
+<p>Follow the same steps as for <strong>Outside Purchase</strong> above.</p>
+<ul>
+<li>The <strong>Order Online</strong> window shows an <strong>FET</strong> column for each item.</li>
+<li>For Michelin BWS vendors, all offers for the item are shown by fulfiller and delivery. Pick the offer to order.</li>
+<li>If the online submission fails, the purchase order is canceled. Try again or use <strong>Outside Purchase</strong>.</li>
+<li>For the vendors that support online ordering and their setup, see <strong>Vendor Ordering</strong>.</li>
+</ul>
+<div class="callout note">
+<p><strong>Note:</strong> Also use <strong>Outside Purchase</strong> to order items that will NOT be added to inventory or affect average cost, such as parts from a dealership or junk yard. These generic SKUs are set up under a branch of inventory management as non-inventoried, so they don't update average cost and their QOH is always 0.</p>
+</div>
+<p><img alt="Screenshot" loading="lazy" src="img/7c84a37aaac6.png"/></p>
+</article><nav class="pager"><a class="prev" href="new-return.html">← New Return</a><a class="next" href="unsold-purchases.html">Unsold Purchases →</a></nav></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#quick-adjustment">Quick Adjustment</a></li><li><a href="#sell-negative">Sell Negative</a></li><li><a href="#outside-purchase">Outside Purchase</a></li><li><a href="#receive-an-outside-purchase">Receive an outside purchase</a></li><li><a href="#transfer">Transfer</a></li><li><a href="#send-the-transfer-sending-store">Send the transfer (sending store)</a></li><li><a href="#receive-the-transfer-receiving-store">Receive the transfer (receiving store)</a></li><li><a href="#order-online">Order Online</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

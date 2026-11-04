@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>New in version 25.5.4 | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details open><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a class="active" href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>New in version 25.5.4</h1><div class="seg"><a class="on" href="patch-25-5-4.html">New in 25.5.4</a><a class="" href="through-25-5-4.html">Everything through 25.5.4</a></div>
+<p>Retail: 18 cases. Wholesale: 3 cases.</p>
+<h2 id="retail">Retail</h2>
+<h3 id="new-system-settings">New System Settings</h3>
+<div class="setting" id="n5949f735"><p class="st"><strong>PDF Printing - Use Legacy PDF Rendering Method</strong> <span class="chips"><span class="key">TWHD-3685</span></span></p><p>Indicates whether to use the legacy method for PDF rendering using Adobe Reader. (Required on some Windows 10 and earlier versions)</p></div>
+<h3 id="new-features">New Features</h3>
+<h4 id="service-requests-and-invoicing">Service Requests and Invoicing</h4>
+<ul class="notes"><li id="n465197f9">A new Auto Print Documents option has been added, allowing TCS Inspect PDFs to be automatically printed with the invoice, streamlining the process for service advisors and ensuring customers receive their inspection results without extra steps <span class="chips"><span class="key">TWHD-3592</span></span></li></ul>
+<h4 id="transfers-and-sourcing">Transfers and Sourcing</h4>
+<ul class="notes"><li id="n5e8cc0ab">Internal text message alerts are now sent to locations whenever the AutoReplenishment daemon runs, notifying staff of each purchase order or transfer created, including success or failure details <span class="chips"><span class="key">TWHD-3050</span></span></li></ul>
+<h4 id="messaging-email-and-printing">Messaging, Email, and Printing</h4>
+<ul class="notes"><li id="n4639da9b">TireWorks HD now supports built-in and browser-native PDF viewing, allowing users to open and view PDFs directly in the application without needing to download files or use third-party plugins. Basic PDF navigation features are included, and a system setting has been added to govern if native or third-party PDF viewers will be used <span class="chips"><span class="key">TWHD-3685</span></span></li></ul>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<h4 id="service-requests-and-invoicing-2">Service Requests and Invoicing</h4>
+<ul class="notes"><li id="nbbd382db">Fixed an issue where Service Requests have manually set tax schedules would lose their schedule assignment after being saved and reopened <span class="chips"><span class="key">TWHD-3873</span></span></li></ul>
+<h4 id="customers-and-vehicles">Customers and Vehicles</h4>
+<ul class="notes"><li id="nd79acfea">The Customer Deposit window now keeps the bottom toolbar (Print, Reverse, Refund) visible and accessible when "Credit Card on File" is selected, with scrollbars appearing automatically if needed to prevent content from being pushed out of view <span class="chips"><span class="key">TWHD-3524</span></span></li></ul>
+<h4 id="pricing-packages-and-discounts">Pricing, Packages, and Discounts</h4>
+<ul class="notes"><li id="n5bf66156">The total package hours in Service Requests are now correctly calculated based on the actual hours set for each labor item, rather than being influenced by the quantity of labor items. This fix ensures accurate labor hour estimates and prevents scheduling or workload management issues <span class="chips"><span class="key">TWHD-1753</span></span></li></ul>
+<h4 id="purchasing-and-receiving">Purchasing and Receiving</h4>
+<ul class="notes"><li id="n02647aeb">Vendor sync error logs for QBO integration now display specific error messages for each failed vendor, and batch success messages are no longer shown if any vendors fail <span class="chips"><span class="key">TWHD-3800</span></span></li><li id="n790d4899">Returns for non-inventoried items now integrate successfully. Users will no longer encounter missing account configuration errors when processing these returns, and inventory account increases are correctly relieved upon return <span class="chips"><span class="key">TWHD-3855</span></span></li></ul>
+<h4 id="transfers-and-sourcing-2">Transfers and Sourcing</h4>
+<ul class="notes"><li id="n8b6f1e53">Fixed an Object Reference Error when clicking the Replenish button in the Transfers tab, ensuring the replenishment process now populates without errors and transfers can be processed successfully <span class="chips"><span class="key">TWHD-3823</span></span></li></ul>
+<h4 id="inventory-and-items">Inventory and Items</h4>
+<ul class="notes"><li id="nfee1f142">Validation has been added to prevent saving Tire SKUs in Manage Inventory without required Tire-specific information, ensuring incomplete Tire entries can no longer be created and users receive clear error messages when fields are missing <span class="chips"><span class="key">TWHD-3712</span></span></li></ul>
+<h4 id="messaging-email-and-printing-2">Messaging, Email, and Printing</h4>
+<ul class="notes"><li id="nbe4048c4">The Customer Deposit print preview email window now correctly prepopulates the customer's default email address, displays additional addresses in a dropdown, and prompts to save new addresses, restoring consistency with other email workflows <span class="chips"><span class="key">TWHD-3426</span></span></li></ul>
+<h4 id="setup-users-and-access-rights">Setup, Users, and Access Rights</h4>
+<ul class="notes"><li id="n8d118b19">Duplicate Access Rights in the Manage Access Rights window have been cleaned up, ensuring each permission now appears only once and eliminating confusion caused by legacy data <span class="chips"><span class="key">TWHD-3680</span></span></li></ul>
+<h2 id="wholesale">Wholesale</h2>
+<h3 id="bug-fixes-2">Bug Fixes</h3>
+<h4 id="sales-orders-and-invoicing">Sales Orders and Invoicing</h4>
+<ul class="notes"><li id="ncc6d30b0">Fixed an issue where wholesale to retail transfers failed to invoice due to application timeouts and database locks, ensuring transfers now complete successfully and are properly linked between wholesale and retail systems <span class="chips"><span class="key">TWHD-3862</span></span></li></ul>
+<h4 id="purchasing-and-receiving-2">Purchasing and Receiving</h4>
+<ul class="notes"><li id="n30c914b8">Fixed an issue where the "Submit PO" button on the Purchase Orders screen failed to send electronic purchase orders to third-party vendors, resulting in a null reference error <span class="chips"><span class="key">TWHD-3614</span></span></li></ul>
+<h4 id="inventory-and-items-2">Inventory and Items</h4>
+<ul class="notes"><li id="n9bb75d85">Fixed an error that prevented users from saving new SKUs in Inventory Management <span class="chips"><span class="key">TWHD-3847</span></span></li></ul>
+<h2 id="web-services">Web Services</h2>
+<h3 id="new-features-2">New Features</h3>
+<h4 id="exceedservice">eXceedService</h4>
+<ul class="notes"><li id="n58711cd9">An internal text message alert is now triggered when a Service Request is successfully created through the TDPurchaseOrder endpoint, ensuring staff are immediately informed with the correct Order ID and Customer Name formatting <span class="chips"><span class="key">TWHD-3049</span></span></li><li id="n1d652cbf">An internal text message alert is now sent to staff when a new QuickQuote is successfully created via the CreateNewQuickQuote endpoint, including the order ID and customer name for both household and business customers <span class="chips"><span class="key">TWHD-3048</span></span></li></ul></article></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#retail">Retail</a></li><li><a href="#new-system-settings">New System Settings</a></li><li><a href="#new-features">New Features</a></li><li><a href="#bug-fixes">Bug Fixes</a></li><li><a href="#wholesale">Wholesale</a></li><li><a href="#bug-fixes-2">Bug Fixes</a></li><li><a href="#web-services">Web Services</a></li><li><a href="#new-features-2">New Features</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

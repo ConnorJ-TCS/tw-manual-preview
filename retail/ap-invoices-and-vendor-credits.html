@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AP Invoices and Vendor Credits | TireWorks HD Retail User Manual</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD Retail User Manual</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the manual…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Section 1: Login Screen &amp; Home Page</summary><ul><li><a href="sign-in.html">Sign in</a></li><li><a href="home-page.html">Home page</a></li><li><a href="configure-tire-lookup-search-results.html">Configure tire lookup search results</a></li><li><a href="subscribe-to-reports.html">Subscribe to reports</a></li></ul></details>
+<details><summary>Section 2: Sales</summary><ul><li><a href="quotes.html">Quotes</a></li><li><a href="creating-a-service-request.html">Creating a service request</a></li><li><a href="electronic-payments.html">Electronic Payments</a></li><li><a href="customer-approval.html">Customer Approval</a></li><li><a href="order-prompts.html">Order Prompts</a></li><li><a href="customer-communication-texting.html">Customer Communication (Texting)</a></li><li><a href="tcs-inspect.html">TCS Inspect</a></li><li><a href="catalogs.html">Catalogs</a></li><li><a href="tire-package-fees-road-hazard-nitrogen-and-tire-disposal.html">Tire Package Fees (Road Hazard, Nitrogen and Tire Disposal)</a></li><li><a href="parts-cores.html">Parts Cores</a></li><li><a href="goodyear-national-account-p-r-secondary-supply-or-government.html">Goodyear National Account, P&amp;R, Secondary Supply or Government Processing</a></li><li><a href="bridgestone-firestone-national-accounts-treadnet.html">Bridgestone Firestone National Accounts (TreadNet)</a></li><li><a href="loyalty-rewards.html">Loyalty Rewards</a></li><li><a href="invoice-reversal-and-copy.html">Invoice Reversal and Copy</a></li><li><a href="tire-adjustment.html">Tire Adjustment</a></li></ul></details>
+<details open><summary>Section 3: Purchasing &amp; Receiving</summary><ul><li><a href="purchase-order.html">Purchase Order</a></li><li><a href="vendor-ordering.html">Vendor Ordering</a></li><li><a href="new-return.html">New Return</a></li><li><a href="sourcing-manager.html">Sourcing Manager</a></li><li><a href="unsold-purchases.html">Unsold Purchases</a></li><li><a href="inventory-receipt.html">Inventory Receipt</a></li><li><a class=active href="ap-invoices-and-vendor-credits.html">AP Invoices and Vendor Credits</a></li><li><a href="inventory-adjustment.html">Inventory Adjustment</a></li></ul></details>
+<details><summary>Section 4: Transfers</summary><ul><li><a href="transfers.html">Transfers</a></li><li><a href="inventory-replenishment.html">Inventory replenishment</a></li></ul></details>
+<details><summary>Section 5: Daily Cash Balancing &amp; Other Payment Collection</summary><ul><li><a href="cash-drawer.html">Cash Drawer</a></li><li><a href="payroll-entry.html">Payroll Entry</a></li><li><a href="customer-deposits.html">Customer deposits</a></li><li><a href="customer-roa-payments.html">Customer ROA payments</a></li></ul></details>
+<details><summary>Section 6: Manage</summary><ul><li><a href="access-group-setup-and-access-rights-assignment.html">Access Group Setup and Access Rights Assignment</a></li><li><a href="comment-setup-maintenance.html">Comment Setup &amp; Maintenance</a></li><li><a href="tax-details.html">Tax details</a></li><li><a href="locations-setup-and-maintenance.html">Locations Setup and Maintenance</a></li><li><a href="customer-classes.html">Customer classes</a></li><li><a href="customers.html">Customers</a></li><li><a href="customer-contract-pricing.html">Customer (contract) pricing</a></li><li><a href="discount-maintenance.html">Discount Maintenance</a></li><li><a href="inventory-management.html">Inventory Management</a></li><li><a href="item-group-setup-and-item-assignment.html">Item Group Setup and Item Assignment</a></li><li><a href="create-a-part.html">Create a part</a></li><li><a href="labor-rate-setup-and-maintenance.html">Labor Rate Setup and Maintenance</a></li><li><a href="order-validation.html">Order Validation</a></li><li><a href="physical-inventory-count.html">Physical Inventory Count</a></li><li><a href="cycle-count-setup-and-maintenance.html">Cycle Count Setup and Maintenance</a></li><li><a href="payment-setup.html">Payment Setup</a></li><li><a href="price-level-setup-and-maintenance.html">Price Level Setup and Maintenance</a></li><li><a href="quickbooks-online-and-the-integration-manager.html">QuickBooks Online and the Integration Manager</a></li><li><a href="system-settings.html">System Settings</a></li><li><a href="technicians-setup-and-maintenance.html">Technicians Setup and Maintenance</a></li><li><a href="unlocking-objects.html">Unlocking Objects</a></li><li><a href="vendors-setup-and-maintenance.html">Vendors Setup and Maintenance</a></li><li><a href="user-setup-and-maintenance.html">User Setup and Maintenance</a></li></ul></details>
+<details><summary>Appendix: Order Status Numbers</summary><ul><li><a href="appendix-order-status-numbers.html">Appendix: Order Status Numbers</a></li></ul></details></nav>
+<main><p class="crumbs"><a href="index.html">Home</a> › Section 3: Purchasing &amp; Receiving</p><article><h1>AP Invoices and Vendor Credits</h1>
+<p>An AP invoice records what your store owes a vendor for product received. A vendor credit is an AP invoice for a return, recording what the vendor owes you back. Both open in the same AP Invoice window.</p>
+<h2 id="when-ap-invoices-are-created">When AP invoices are created</h2>
+<ul>
+<li>By default, TireWorks HD creates the AP invoice for you when an inventory receipt is processed, and the vendor credit when a return is processed.</li>
+<li>If your company turns on the System Setting <strong>Disable Automatic AP Invoice Generation</strong>, no AP invoice or vendor credit is created automatically. Create them yourself with <strong>New; AP Invoice</strong> or the <strong>Vendor Credit</strong> button. See <strong>Two-Step Returns</strong> below.</li>
+</ul>
+<h2 id="create-an-ap-invoice">Create an AP invoice</h2>
+<ol>
+<li>Go to <strong>New; AP Invoice</strong>.</li>
+<li>In the vendor selection window, which opens right away, search with <strong>Look For</strong>, highlight the vendor, and select <strong>Done</strong>.
+<ul>
+<li>You can create an AP invoice for any vendor, not only preferred vendors.</li>
+</ul>
+</li>
+<li>Enter the vendor's invoice number in <strong>Reference</strong>. A Reference is required before the invoice can be processed.
+<ul>
+<li>You're alerted if the same reference number was already used for this vendor.</li>
+</ul>
+</li>
+<li>Add lines:
+<ul>
+<li><strong>Receipt Items</strong>: Opens <strong>Add Inventory Receipt Items</strong>. Filter by <strong>PO #</strong> or <strong>Item #</strong>, check the received items to bill, and add them. <strong>Receipt Cost</strong> and <strong>Variance</strong> show how the invoice cost compares to what was received.</li>
+<li><strong>Add Items</strong>: Search for and add items directly.</li>
+</ul>
+</li>
+<li>Verify the <strong>Payment</strong> terms, <strong>Tax Rate</strong> and <strong>Discount %</strong>.</li>
+<li>Enter <strong>Freight</strong> if the vendor charged it. Freight entered on the purchase order carries to the receipt and the AP invoice.
+<ul>
+<li>Editing Freight requires the <strong>AP Invoice - Edit Freight Amount</strong> access right.</li>
+</ul>
+</li>
+<li>Select <strong>Save</strong> to keep working later, or <strong>Process</strong> to finalize.</li>
+</ol>
+<div class="callout important">
+<p><strong>Important:</strong> A processed AP invoice can no longer be edited.</p>
+</div>
+<h2 id="other-ap-invoice-actions">Other AP invoice actions</h2>
+<ul>
+<li><strong>Payment</strong>: Records a payment against the invoice. Enter the <strong>Payment Type</strong>, <strong>Payment Amount</strong> and <strong>Comments</strong>, then select <strong>Apply</strong> and <strong>Done</strong>.</li>
+<li><strong>Cancel</strong>: Cancels the AP invoice after you confirm.</li>
+</ul>
+<h2 id="find-an-ap-invoice">Find an AP invoice</h2>
+<ol>
+<li>Go to <strong>Find; AP Invoice</strong>.</li>
+<li>Search by <strong>Invoice Id</strong>, <strong>Vendor</strong> (or All), <strong>Dates</strong> and <strong>Status</strong> (All, Open, Processed, Cancelled).
+<ul>
+<li>Results show the <strong>Reference No.</strong>, <strong>Create Date</strong>, <strong>Invoiced Date</strong> and <strong>Accounting Integration</strong> status. Open or print from the result line.</li>
+</ul>
+</li>
+</ol>
+<h2 id="two-step-returns">Two-Step Returns</h2>
+<p>If your company uses two-step returns, you can start a return from the original purchase order or receipt, then create the vendor credit as a separate step.</p>
+<ul>
+<li><strong>Return</strong>: Displays on fully or partially received purchase orders (the Purchase Order window, <strong>Find; Purchase Order</strong>, and the Home screen <strong>Purchases</strong> tab) and on processed inventory receipts (the Inventory Receipt window and <strong>Find; Inventory Receipt</strong>).
+<ul>
+<li><strong>Return</strong> on a purchase order creates a return purchase order. <strong>Return</strong> on a receipt creates a return inventory receipt and opens it for review.</li>
+<li>A document can only be returned once, and a return can't itself be returned.</li>
+</ul>
+</li>
+<li><strong>Vendor Credit</strong>: Displays on the return inventory receipt once it's processed. Select it and confirm to create the vendor credit, which opens in the AP Invoice window.</li>
+</ul>
+<div class="callout note">
+<p><strong>Note:</strong> These buttons require the <strong>Two Step Return Process - Return Button</strong> and <strong>Two Step Return Process - Credit Button</strong> access rights.</p>
+<p><strong>Note:</strong> The <strong>Inventory Returns - Two-Step Workflow</strong> setting only adds the <strong>Return</strong> and <strong>Vendor Credit</strong> buttons. It doesn't change New Return or Unsold Purchases <strong>Create Return</strong>, which still create and process the return purchase order and return inventory receipt in one step. Whether the vendor credit is created automatically depends only on <strong>Disable Automatic AP Invoice Generation</strong>.</p>
+</div>
+<h2 id="link-bridgestone-treadnet-invoices">Link Bridgestone (TreadNet) invoices</h2>
+<p>If your store orders from a Bridgestone TreadNet vendor, a <strong>Link Bridgestone Invoice</strong> button displays on that vendor's AP invoices.</p>
+<ol>
+<li>Select <strong>Link Bridgestone Invoice</strong>. <strong>Unlinked Bridgestone Invoices</strong> opens, listing <strong>Invoice Date</strong>, <strong>Invoice No.</strong> and <strong>Invoice Total</strong>.</li>
+<li>Select <strong>View</strong> to preview the PDF.</li>
+<li>Select <strong>Link Invoice</strong>.
+<ul>
+<li>Once an invoice PDF is linked, <strong>View National Account Invoice</strong> opens it.</li>
+</ul>
+</li>
+</ol>
+</article><nav class="pager"><a class="prev" href="inventory-receipt.html">← Inventory Receipt</a><a class="next" href="inventory-adjustment.html">Inventory Adjustment →</a></nav></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#when-ap-invoices-are-created">When AP invoices are created</a></li><li><a href="#create-an-ap-invoice">Create an AP invoice</a></li><li><a href="#other-ap-invoice-actions">Other AP invoice actions</a></li><li><a href="#find-an-ap-invoice">Find an AP invoice</a></li><li><a href="#two-step-returns">Two-Step Returns</a></li><li><a href="#link-bridgestone-treadnet-invoices">Link Bridgestone (TreadNet) invoices</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

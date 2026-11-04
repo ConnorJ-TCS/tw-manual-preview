@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shipment Manager (Processing Orders Through Invoicing) | TireWorks HD Wholesale User Manual</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD Wholesale User Manual</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the manual…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>SECTION 1: LOGIN SCREEN &amp; HOME PAGE</summary><ul><li><a href="login-screen.html">Login Screen</a></li><li><a href="home-page.html">Home Page</a></li><li><a href="configure-search-results.html">Configure Search Results</a></li><li><a href="customer-pricing-report.html">Customer Pricing Report</a></li><li><a href="user-options.html">User Options</a></li></ul></details>
+<details><summary>SECTION 2:  SALES</summary><ul><li><a href="sales-orders.html">Sales Orders</a></li><li><a href="special-programs.html">Special Programs</a></li><li><a href="create-new-invoice.html">Create New Invoice</a></li><li><a href="create-return.html">Create Return</a></li><li><a href="filling-back-orders.html">Filling Back Orders</a></li><li><a href="customer-record-setup.html">Customer Record Setup</a></li><li><a href="customer-contract-pricing-setup.html">Customer (Contract) Pricing Setup</a></li><li><a href="customer-deposit.html">Customer Deposit</a></li><li><a href="received-on-account-roa.html">Received On Account (ROA)</a></li></ul></details>
+<details><summary>SECTION 3: INVENTORY</summary><ul><li><a href="inventory-management.html">Inventory Management</a></li><li><a href="price-level-maintenance.html">Price Level Maintenance</a></li><li><a href="price-level-rule-assignment.html">Price Level Rule Assignment</a></li><li><a href="inventory-accounts.html">Inventory Accounts</a></li><li><a href="inventory-receipt.html">Inventory Receipt</a></li><li><a href="request-transfer.html">Request Transfer</a></li><li><a href="receipt-of-transfer-request.html">Receipt of Transfer Request</a></li><li><a href="automatic-transfer.html">Automatic Transfer</a></li><li><a href="physical-inventory-count.html">Physical Inventory Count</a></li><li><a href="import-inventory-items.html">Import Inventory Items</a></li></ul></details>
+<details open><summary>SECTION 4: WAREHOUSING</summary><ul><li><a class=active href="shipment-manager-processing-orders-through-invoicing.html">Shipment Manager (Processing Orders Through Invoicing)</a></li><li><a href="closing-invoices.html">Closing Invoices</a></li><li><a href="route-management-stop-assignment.html">Route Management/Stop Assignment</a></li><li><a href="bin-management.html">Bin Management</a></li></ul></details>
+<details><summary>SECTION 5: PURCHASING</summary><ul><li><a href="purchase-order-receipt-of-purchase-order.html">Purchase Order &amp; Receipt of Purchase Order</a></li><li><a href="purchase-order-worksheet.html">Purchase Order Worksheet</a></li></ul></details>
+<details><summary>SECTION 6: SYSTEM ADMINISTRATION</summary><ul><li><a href="access-group-setup-access-rights-assignment.html">Access Group Setup &amp; Access Rights Assignment</a></li><li><a href="cash-drawer.html">Cash Drawer</a></li><li><a href="unlocking-objects.html">Unlocking Objects</a></li><li><a href="user-setup-maintenance.html">User Setup &amp; Maintenance</a></li><li><a href="comment-setup.html">Comment Setup</a></li><li><a href="comment-maintenance.html">Comment Maintenance</a></li></ul></details></nav>
+<main><p class="crumbs"><a href="index.html">Home</a> › SECTION 4: WAREHOUSING</p><article><h1>Shipment Manager (Processing Orders Through Invoicing)</h1>
+<p>From Sales Module: Select <img alt="Screenshot" loading="lazy" src="img/52a56ccef674.png"/></p>
+<p><img alt="Screenshot" loading="lazy" src="img/4cc5af10e450.png"/></p>
+<p>Requested Ship Date will default to current date plus a day.</p>
+<p>Routes are listed in center box based on orders within this screen (Orders in Open Status)</p>
+<ul>
+<li>Select Routes to process or select ALL</li>
+<li>Select transfer and/or sales orders</li>
+<li>Also gives ability to select by order number by un-checking “Select All” and checking each order to process in the process column</li>
+</ul>
+<p>CHECK ORDERS OPTION: If selected, will go down through all orders and validates all orders are correct. If correct will display a green check mark, if errors will display a red X. To correct those with errors, select the magnifying glass to the left of the order number to open the order and make necessary corrections. <em><strong>Must be run prior to processing orders</strong></em></p>
+<p>Select Process Orders – This will mark orders with processing status (un-editable) and populate the picking tab within Shipment Manager.</p>
+<p>From Warehousing Module: Select <img alt="Screenshot" loading="lazy" src="img/33094620d741.png"/></p>
+<p><img alt="Screenshot" loading="lazy" src="img/a3194169ce28.png"/></p>
+<h2 id="picking-tab">Picking Tab</h2>
+<ul>
+<li>Delivery date will default to next delivery date.</li>
+<li>Select shipping method desired for picking</li>
+<li>Sections – Bin management feature – Do not use at this time</li>
+<li>Routes – Select routes for picking – Can be done on route by route basis or as a whole by checking ALL</li>
+<li>Select “Generate Pick List” and print – This will print in reverse stop order by route with page break at each route. Will also display order comments. This also moves everything to be picked to the loading tab</li>
+</ul>
+<h2 id="loading-tab">Loading Tab</h2>
+<ul>
+<li>Select “Generate Load List and print – This gives you list by route in reverse stop order for loading. This also moves orders to invoicing tab for quantity adjustment, if necessary, and invoice generation</li>
+<li>Change load quantity if necessary (Can also be done in invoicing tab)</li>
+</ul>
+<p><em><strong><img alt="Screenshot" loading="lazy" src="img/5df995c7cf88.png"/>Note:</strong></em> If generating pick list multiple times prior to loading, Do NOT generate pick list until you are ready or loading. This will give you’re the correct loading order no matter how many times you are creating the pick list.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/446e9b6fffcc.png"/></p>
+<h2 id="invoicing-tab">Invoicing Tab</h2>
+<ul>
+<li>Select Ship Via desired for invoicing</li>
+<li>Verify toggle for unshipped items is toggle to desired practice standards
+<ul>
+<li>Backorder unshipped items – Will keep items in backorder status on sales order until manually cancelled. Notification of backordered items to sales staff may be necessary.</li>
+<li>Cancel un-shipped items – Will cancel items that were unable to ship and complete the sales order. Notification to sales staff of cancelled items may be necessary.</li>
+</ul>
+</li>
+<li>Change SHIP QTY when necessary prior to printing
+<ul>
+<li>Use + to open route to view orders included in route</li>
+<li>Use + to open order to view line items on order</li>
+<li>Make quantity change in ship qty column</li>
+</ul>
+</li>
+<li>Print Delivery Invoices
+<ul>
+<li>Select routes to print</li>
+<li><strong>Invoice date equals delivery date</strong> <em>(after 5:00p.m. date automatically changes to following day)</em></li>
+</ul>
+</li>
+</ul>
+<h2 id="routes-by-stop-report-route-manifest">Routes by Stop Report (Route Manifest)</h2>
+<p>This report prints in reverse stop order by route selected. Manifest will go along with the drivers to show what stops are COD, total number of tires by stop, and total number of tires by route.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/0781db93700e.png"/></p>
+<ul>
+<li>Select Start date</li>
+<li>End Date will default equal to start date unless otherwise selected</li>
+<li>Select Route for printing</li>
+<li>Select view report and select print <img alt="Screenshot" loading="lazy" src="img/cd70d89cd75a.png"/></li>
+</ul>
+</article><nav class="pager"><a class="prev" href="import-inventory-items.html">← Import Inventory Items</a><a class="next" href="closing-invoices.html">Closing Invoices →</a></nav></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#picking-tab">Picking Tab</a></li><li><a href="#loading-tab">Loading Tab</a></li><li><a href="#invoicing-tab">Invoicing Tab</a></li><li><a href="#routes-by-stop-report-route-manifest">Routes by Stop Report (Route Manifest)</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

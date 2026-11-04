@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Retail – iPOSPays Payment Processing | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details open><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a class="active" href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>Retail – iPOSPays Payment Processing</h1><p>A comprehensive set of features aimed at enabling the integration between TireWorks HD Retail and iPOSPays.</p>
+<h2>New System Settings</h2>
+<h3>iPOSPays Cash Payment Discount Code</h3>
+<p>Set the discount code to be applied to the service request when the customer chooses “Cash Payment” on the credit card terminal. This setting is only effective if iPOSPays Cash Discounting - Active is enabled.</p>
+<h3>iPOSPays Cash Discounting - Active</h3>
+<p>This enables the Cash Discounting feature within TWHD only. Additional configuration is required within the iPOSPays web portal! Ensure to configure the iPOSPays Cash Discount Code system setting appropriately.</p>
+<h3>Location Selection - Do Not Ask Again For Terminal</h3>
+<p>Stores the user’s choice of not asking for last selected credit card terminal again when logging in to a location.</p>
+<h3>Location Selection - Selected Credit Card Terminal</h3>
+<p>Stores the user’s last selected credit card terminal for reuse when logging in to a location.</p>
+<h3>IPosPays Base Url</h3>
+<p>Base Url for iPOSPays endpoints.</p>
+<h3>Location Selection - Selected Credit Card Terminal</h3>
+<p>Stores the user’s last selected credit card terminal for reuse when logging in to a location.</p>
+<h2>New Access Rights</h2>
+<h3>Location Management - Credit Card Terminals</h3>
+<p>Allow access to Credit Card Terminals under the Location Setup menu.</p>
+<h2>Full Payment Processing Integration</h2>
+<p>TireWorks HD now supports integration with iPOSPays for credit card payment processing. This functionality is available wherever credit card transactions are permitted within the application, including Customer Deposits, Receipts on Account, and Service Requests. Additionally, users can void payments or process direct refunds through this integration.</p>
+<h2>Credit Card Terminal Management</h2>
+<p>The integration utilizes standalone, Android-based Credit Card terminals that communicate securely via the iPOSPays API. As a result, TireWorks HD sessions do not require a computer to be directly connected to a terminal. Terminals may operate independently of any workstation.</p>
+<p>For efficient terminal management, users at locations enabled for iPOSPays will be prompted to select a terminal upon logging in to TireWorks HD. The selected terminal can be saved by choosing “Do Not Ask Again…”, eliminating future login prompts for that location.</p>
+<p>Users may change the active terminal at any time by navigating to TireWorks &gt; My Preferences &gt; Credit Card Terminal tab. Here, they may also reset the “Do Not Ask Again…” option if necessary and test the status of the chosen terminal to ensure it is operational.</p>
+<h2>Case List Summary</h2>
+<p>TWHD-3286, TWHD-3304, TWHD-3314, TWHD-3306, TWHD-3355, TWHD-3305</p>
+</article></main>
+
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

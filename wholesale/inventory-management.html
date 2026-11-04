@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inventory Management | TireWorks HD Wholesale User Manual</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD Wholesale User Manual</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the manual…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>SECTION 1: LOGIN SCREEN &amp; HOME PAGE</summary><ul><li><a href="login-screen.html">Login Screen</a></li><li><a href="home-page.html">Home Page</a></li><li><a href="configure-search-results.html">Configure Search Results</a></li><li><a href="customer-pricing-report.html">Customer Pricing Report</a></li><li><a href="user-options.html">User Options</a></li></ul></details>
+<details><summary>SECTION 2:  SALES</summary><ul><li><a href="sales-orders.html">Sales Orders</a></li><li><a href="special-programs.html">Special Programs</a></li><li><a href="create-new-invoice.html">Create New Invoice</a></li><li><a href="create-return.html">Create Return</a></li><li><a href="filling-back-orders.html">Filling Back Orders</a></li><li><a href="customer-record-setup.html">Customer Record Setup</a></li><li><a href="customer-contract-pricing-setup.html">Customer (Contract) Pricing Setup</a></li><li><a href="customer-deposit.html">Customer Deposit</a></li><li><a href="received-on-account-roa.html">Received On Account (ROA)</a></li></ul></details>
+<details open><summary>SECTION 3: INVENTORY</summary><ul><li><a class=active href="inventory-management.html">Inventory Management</a></li><li><a href="price-level-maintenance.html">Price Level Maintenance</a></li><li><a href="price-level-rule-assignment.html">Price Level Rule Assignment</a></li><li><a href="inventory-accounts.html">Inventory Accounts</a></li><li><a href="inventory-receipt.html">Inventory Receipt</a></li><li><a href="request-transfer.html">Request Transfer</a></li><li><a href="receipt-of-transfer-request.html">Receipt of Transfer Request</a></li><li><a href="automatic-transfer.html">Automatic Transfer</a></li><li><a href="physical-inventory-count.html">Physical Inventory Count</a></li><li><a href="import-inventory-items.html">Import Inventory Items</a></li></ul></details>
+<details><summary>SECTION 4: WAREHOUSING</summary><ul><li><a href="shipment-manager-processing-orders-through-invoicing.html">Shipment Manager (Processing Orders Through Invoicing)</a></li><li><a href="closing-invoices.html">Closing Invoices</a></li><li><a href="route-management-stop-assignment.html">Route Management/Stop Assignment</a></li><li><a href="bin-management.html">Bin Management</a></li></ul></details>
+<details><summary>SECTION 5: PURCHASING</summary><ul><li><a href="purchase-order-receipt-of-purchase-order.html">Purchase Order &amp; Receipt of Purchase Order</a></li><li><a href="purchase-order-worksheet.html">Purchase Order Worksheet</a></li></ul></details>
+<details><summary>SECTION 6: SYSTEM ADMINISTRATION</summary><ul><li><a href="access-group-setup-access-rights-assignment.html">Access Group Setup &amp; Access Rights Assignment</a></li><li><a href="cash-drawer.html">Cash Drawer</a></li><li><a href="unlocking-objects.html">Unlocking Objects</a></li><li><a href="user-setup-maintenance.html">User Setup &amp; Maintenance</a></li><li><a href="comment-setup.html">Comment Setup</a></li><li><a href="comment-maintenance.html">Comment Maintenance</a></li></ul></details></nav>
+<main><p class="crumbs"><a href="index.html">Home</a> › SECTION 3: INVENTORY</p><article><h1>Inventory Management</h1>
+<p>Inventory Management Module is designed to create/manage inventory items, define price levels and rule assignment, maintain cost and base value fields, manage tire fee states, display item detail for TDC (Tire Data Central) and house additional item information as desired.</p>
+<p>Home Screen: Select Inventory from module toolbar and then <img alt="Screenshot" loading="lazy" src="img/ad100b372f38.png"/></p>
+<p><img alt="Screenshot" loading="lazy" src="img/9111039596fa.png"/></p>
+<h2 id="inventory-tree-structure"><strong>Inventory Tree Structure</strong></h2>
+<p>Contains 6 levels/branches for tires, parts, retreads, wheels, non-inventoried items, etc. Tree structure maintains commonality for more effective reporting.</p>
+<ul>
+<li>Designates item that is housed in TDC</li>
+<li>Designates item that is created locally</li>
+</ul>
+<p>Items Listed in red are inactive items</p>
+<p>Manufacturer Defines Manufacturer Name (i.e. Bridgestone-Firestone)</p>
+<p>Sub-Manufacturer Defines multiple individual brands under the Manufacturer umbrella</p>
+<p>(i.e. Bridgestone, Firestone, Dayton, Fuzion….)</p>
+<p>Class Defines tire class (i.e. passenger, light truck, medium truck)</p>
+<p>Sub-Class Defines type of tire (i.e. All season, All Terrain, Touring….)</p>
+<p>Category Defines tire line (Ecopia, Destination AT, FR380)</p>
+<p>Sub-Category Defines additional information of the tire line (i.e. default, Takeoff,</p>
+<p>Studded….)</p>
+<ul>
+<li>Use +/- symbols to open the level of the tree structure or enter a specific item number to go directly to item level.</li>
+</ul>
+<p>Enter item number and select Search SKU <img alt="Screenshot" loading="lazy" src="img/bdf0308eb8d5.png"/></p>
+<p><img alt="Screenshot" loading="lazy" src="img/6b1f2ecaf150.png"/> Allows the ability to limit the view of the tree structure to specific Sku types (i.e. tires, retreads, catalog parts….)</p>
+<h2 id="detail-tab">Detail Tab</h2>
+<p>Tire database of over 105,000 items maintained by TASCO Software providing tire specifications, pictures, comparisons, features and warranty information. This information is also printable and can be emailed from within the inventory search screen.</p>
+<h2 id="pricing-tab">Pricing Tab</h2>
+<p>Allows you to set and maintain price rules within created price levels based on any level of the inventory tree. <em><strong>Refer to Price Level Maintenance and Price Rule Assignment</strong></em></p>
+<p><img alt="Screenshot" loading="lazy" src="img/19805af7f0df.png"/></p>
+<h2 id="site-detail-tab">Site Detail Tab</h2>
+<p>Allows visibility to quantities on hand, committed and ordered along with the ability to view last and average cost. Also allows for population, editing or loading of specific fields designated in white with the selection of <img alt="Screenshot" loading="lazy" src="img/5303c6ddbff4.png"/>. Save when editing is complete.</p>
+<ul>
+<li>Base Value Fields (20) are editable/loadable fields that can be used for price level base, default pricing, etc.</li>
+<li>True Cost, Invoice Cost, Calc Cost 1 and Calc Cost 2 are editable/loadable fields that can be used for price level base and/or default cost for invoices, purchase orders, adjustments and receipts</li>
+<li>Min/Max Reorder Points are editable/loadable fields to set reorder requirements</li>
+<li>Last Ordered/Shipped dates will automatically update the last date specified item was ordered and/or shipped</li>
+<li>Preferred Bin(s) used by TireWorks HD Bin Management Module and with 3rd party inventory management software
+<ul>
+<li>If using TireWorks HD bin management, <em><strong>refer to bin management procedures</strong></em></li>
+<li>If using integrated software, this field will need to be flagged for each item that will be managed within the integrated warehouse management software
+<ul>
+<li>Select + to add Warehouse Management designation and select from list</li>
+<li>Highlight and select X to remove Warehouse Management designation</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Tire Fee States – Those states that tire tax will be charged based on tire class</li>
+</ul>
+<h2 id="user-defined-tab">User Defined Tab</h2>
+<p>Provides 35 additional informational fields that can be titled and populated for report use only. These consist of a combination of check box fields, various character fields, integer fields, and date fields. Might be used for data such as equivalencies if using integrated routing software.</p>
+<h2 id="net-specials-tab">Net Specials Tab</h2>
+<p>Provides the ability to set net special pricing for a specified number of units per Sku. This will override any price level and/or customer pricing that is defined at the inventory pricing level or at the customer pricing level. This can also be managed with greater functionality within the<img alt="Screenshot" loading="lazy" src="img/f41367f540f5.png"/>selection of the inventor module. <em><strong>Refer to the Net Specials procedures</strong></em></p>
+<h2 id="item-history-tab">Item History Tab</h2>
+<p>Provides an overview of previous 12 months item history of a specified item. Will display by month total sales dollars, sales units, sales average dollars, GP average dollars, receipt dollars, receipt quantity, receipts average dollars and receipts % change dollars.</p>
+<h2 id="populator-report-tab">Populator Report Tab</h2>
+<p>DO NOT USE</p>
+<h2 id="units-of-measure-tab">Units of Measure Tab</h2>
+<p>Allows functionality to set additional units of measure, assign units of measure at multiple order types or modules. Also provides ability to define dimension settings and weight setting. UPC data would also be housed here. <em><strong>Refer to Unit of Measure Procedures</strong></em></p>
+<h2 id="commission-category-tab">Commission Category Tab</h2>
+<p>Allows item to be assigned to one commission category</p>
+<h2 id="asl-tab">ASL Tab</h2>
+<p>Displays locations where selected items have inventory available including transfer price and average cost.</p>
+<ul>
+<li>Will display a message stating “There are no locations with non-zero quantity for this item” if there aren’t any other locations with quantity available</li>
+</ul>
+<p><em><strong><img alt="Screenshot" loading="lazy" src="img/5df995c7cf88.png"/>Note:</strong></em> All tabs will allow location to be changed and edited by choosing dropdown and selecting desired location.</p>
+<h2 id="adding-new-item"><strong>Adding New Item</strong></h2>
+<p>This is done at the Sub-Category level of the inventory tree</p>
+<ul>
+<li><img alt="Screenshot" loading="lazy" src="img/911f3d70554f.png"/>Highlight desired sub-category (Generally Default)</li>
+<li>Right Click</li>
+<li>Select Add Node</li>
+<li>Move to right and select SKU</li>
+<li>Will display a local item setup record for population (displayed below)</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/4691b490f56a.png"/></p>
+<ul>
+<li><strong>Universal SKU</strong> – Populate as it would be created in TDC (Tire Data Central) including three segments of Universal SKU (Simple tire size, three-character mfg. code, and mfg. item number <em>i.e. 2056015FIR123456</em>)</li>
+<li>Item will then automatically move to TDC if the item becomes available and will have ability to view tire detail</li>
+<li><strong>Manufacturer ID</strong> – Enter manufacturer item number</li>
+<li><strong>Description</strong> – Enter description as you wish it to appear in search results and document printing</li>
+<li><strong>Dealer Base</strong> – Enter dealer base if used</li>
+<li><strong>FET</strong> – Enter FET if item is subject to FET (Generally Medium Truck 19.5 and larger)</li>
+<li><strong>End Date</strong> – Automatically defaults to date in future. This is used to designate discontinued product</li>
+<li><strong>User SKU Code</strong> – populate data specific to your business such as Inventory Management Item Number, if different than either universal Sku or manufacturer ID</li>
+<li><strong>Sku Type</strong> – Set appropriate Sku type base on item being created</li>
+<li><strong>Active</strong> – Automatically defaults to active unless check mark is removed</li>
+<li><strong>Inventoried</strong> – Automatically defaults to inventoried unless check mark is removed</li>
+<li><strong>Stocked</strong> – Automatically defaults to stocked unless check box is removed
+<ul>
+<li>Stocked cannot be set without Inventoried being checked</li>
+</ul>
+</li>
+<li><strong>Customer Tax Code</strong> – Select appropriate tax code for item being created</li>
+<li><strong>Program Product Codes</strong> – This would be populated if item being added will be used in National Account submission</li>
+<li><img alt="Screenshot" loading="lazy" src="img/98491ae15b56.png"/></li>
+</ul>
+<p><em><strong>IMPORTANT:</strong></em> Always populate site detail tab when creating a new item. See screenshot above</p>
+<ul>
+<li>
+<ul>
+<li>Select Site Detail tab</li>
+<li><img alt="Screenshot" loading="lazy" src="img/9aa950aa4f18.png"/>Select Edit</li>
+<li>Populate required information (cost fields, base value fields, bin assignment, tire fee states, etc.)</li>
+<li><img alt="Screenshot" loading="lazy" src="img/98491ae15b56.png"/></li>
+</ul>
+</li>
+</ul>
+<h2 id="screenshotmoving-an-item">ScreenshotMoving an Item</h2>
+<p>This is done at the Item level of the inventory tree for Local Items only</p>
+<ul>
+<li>Highlight desired Item</li>
+<li>Right Click</li>
+<li>Select Move Item</li>
+<li>Select appropriate branches based on desired move</li>
+<li>Select OK</li>
+</ul>
+<h2 id="editing-node">Editing Node</h2>
+<p>Allows local item level names to be changed at any of the six levels along with the ability to activate by level.</p>
+<ul>
+<li>Highlight desired level</li>
+<li>Right Click</li>
+<li>Select Edit Node</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/ace1bdb5bb2b.png"/></p>
+<ul>
+<li>Change name of highlighted level</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/f4b59136901a.png"/></p>
+<ul>
+<li>Select OK</li>
+</ul>
+<h2 id="activate-inactivate-skus">Activate/Inactivate Skus</h2>
+<p>Allows one or more items to be activated or inactivated</p>
+<ul>
+<li>If SINGLE Sku, enter Sku in search box <img alt="Screenshot" loading="lazy" src="img/347f6a5acbfa.png"/></li>
+<li>Right click on Active column below search box</li>
+<li>Select Activate or Inactivate depending or preference
+<ul>
+<li>Active = 1</li>
+<li>Inactive = 0</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/08c2f9397f8b.png"/></p>
+<h3 id="option-1-multiple-skus">Option 1 – Multiple Skus</h3>
+<ul>
+<li>If MULTIPLE Skus from same branch level, highlight branch level</li>
+<li>Returns number of items found</li>
+<li>Highlight first line item in results</li>
+<li>Hold shift key and scroll down</li>
+<li>Highlight last line item</li>
+<li>Right click on Active column below search box</li>
+<li>Select Activate or Inactivate depending or preference
+<ul>
+<li>Active = 1</li>
+<li>Inactive = 0</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/5567651e51fe.png"/></p>
+<h3 id="option-2-multiple-skus">Option 2 – Multiple Skus</h3>
+<ul>
+<li>If MULTIPLE Skus from same branch level, highlight branch level</li>
+<li>Highlight desired level</li>
+<li>Right Click</li>
+<li>Select Edit Node</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/ace1bdb5bb2b.png"/></p>
+<ul>
+<li>Check active box to right of highest branch to activate</li>
+<li>Select OK</li>
+</ul>
+</article><nav class="pager"><a class="prev" href="received-on-account-roa.html">← Received On Account (ROA)</a><a class="next" href="price-level-maintenance.html">Price Level Maintenance →</a></nav></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#inventory-tree-structure">Inventory Tree Structure</a></li><li><a href="#detail-tab">Detail Tab</a></li><li><a href="#pricing-tab">Pricing Tab</a></li><li><a href="#site-detail-tab">Site Detail Tab</a></li><li><a href="#user-defined-tab">User Defined Tab</a></li><li><a href="#net-specials-tab">Net Specials Tab</a></li><li><a href="#item-history-tab">Item History Tab</a></li><li><a href="#populator-report-tab">Populator Report Tab</a></li><li><a href="#units-of-measure-tab">Units of Measure Tab</a></li><li><a href="#commission-category-tab">Commission Category Tab</a></li><li><a href="#asl-tab">ASL Tab</a></li><li><a href="#adding-new-item">Adding New Item</a></li><li><a href="#screenshotmoving-an-item">ScreenshotMoving an Item</a></li><li><a href="#editing-node">Editing Node</a></li><li><a href="#activate-inactivate-skus">Activate/Inactivate Skus</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

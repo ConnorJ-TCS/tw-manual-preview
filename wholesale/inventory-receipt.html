@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inventory Receipt | TireWorks HD Wholesale User Manual</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD Wholesale User Manual</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the manual…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>SECTION 1: LOGIN SCREEN &amp; HOME PAGE</summary><ul><li><a href="login-screen.html">Login Screen</a></li><li><a href="home-page.html">Home Page</a></li><li><a href="configure-search-results.html">Configure Search Results</a></li><li><a href="customer-pricing-report.html">Customer Pricing Report</a></li><li><a href="user-options.html">User Options</a></li></ul></details>
+<details><summary>SECTION 2:  SALES</summary><ul><li><a href="sales-orders.html">Sales Orders</a></li><li><a href="special-programs.html">Special Programs</a></li><li><a href="create-new-invoice.html">Create New Invoice</a></li><li><a href="create-return.html">Create Return</a></li><li><a href="filling-back-orders.html">Filling Back Orders</a></li><li><a href="customer-record-setup.html">Customer Record Setup</a></li><li><a href="customer-contract-pricing-setup.html">Customer (Contract) Pricing Setup</a></li><li><a href="customer-deposit.html">Customer Deposit</a></li><li><a href="received-on-account-roa.html">Received On Account (ROA)</a></li></ul></details>
+<details open><summary>SECTION 3: INVENTORY</summary><ul><li><a href="inventory-management.html">Inventory Management</a></li><li><a href="price-level-maintenance.html">Price Level Maintenance</a></li><li><a href="price-level-rule-assignment.html">Price Level Rule Assignment</a></li><li><a href="inventory-accounts.html">Inventory Accounts</a></li><li><a class=active href="inventory-receipt.html">Inventory Receipt</a></li><li><a href="request-transfer.html">Request Transfer</a></li><li><a href="receipt-of-transfer-request.html">Receipt of Transfer Request</a></li><li><a href="automatic-transfer.html">Automatic Transfer</a></li><li><a href="physical-inventory-count.html">Physical Inventory Count</a></li><li><a href="import-inventory-items.html">Import Inventory Items</a></li></ul></details>
+<details><summary>SECTION 4: WAREHOUSING</summary><ul><li><a href="shipment-manager-processing-orders-through-invoicing.html">Shipment Manager (Processing Orders Through Invoicing)</a></li><li><a href="closing-invoices.html">Closing Invoices</a></li><li><a href="route-management-stop-assignment.html">Route Management/Stop Assignment</a></li><li><a href="bin-management.html">Bin Management</a></li></ul></details>
+<details><summary>SECTION 5: PURCHASING</summary><ul><li><a href="purchase-order-receipt-of-purchase-order.html">Purchase Order &amp; Receipt of Purchase Order</a></li><li><a href="purchase-order-worksheet.html">Purchase Order Worksheet</a></li></ul></details>
+<details><summary>SECTION 6: SYSTEM ADMINISTRATION</summary><ul><li><a href="access-group-setup-access-rights-assignment.html">Access Group Setup &amp; Access Rights Assignment</a></li><li><a href="cash-drawer.html">Cash Drawer</a></li><li><a href="unlocking-objects.html">Unlocking Objects</a></li><li><a href="user-setup-maintenance.html">User Setup &amp; Maintenance</a></li><li><a href="comment-setup.html">Comment Setup</a></li><li><a href="comment-maintenance.html">Comment Maintenance</a></li></ul></details></nav>
+<main><p class="crumbs"><a href="index.html">Home</a> › SECTION 3: INVENTORY</p><article><h1>Inventory Receipt</h1>
+<p>Used to receive inventory when other than receipt of transfer.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/7f3ff13f6c41.png"/> Select from application toolbar, <img alt="Screenshot" loading="lazy" src="img/412b0821293d.png"/> Select from dropdown</p>
+<p><img alt="Screenshot" loading="lazy" src="img/7d05268518ce.png"/></p>
+<ul>
+<li>Select Vendor from Dropdown and enter</li>
+<li><img alt="Screenshot" loading="lazy" src="img/5f9ebfaccffe.png"/> Select from toolbar
+<ul>
+<li>Option 1: Choose items from multiple POs.
+<ul>
+<li>Most commonly used. <em><strong>Below instructions are for this option</strong></em></li>
+<li>Displays All PO’s for identified vendor</li>
+<li>Mfg. Sku will be default toggle</li>
+</ul>
+</li>
+<li>Option 2: Add all items from a PO</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/6353e0b75317.png"/></p>
+<ul>
+<li>Enter Mfg. Sku number on packing list</li>
+<li>Enter Reference information (required) i.e. bill of lading number</li>
+<li>Enter quantity received on the correct PO line
+<ul>
+<li>If less than PO, will display PO line item as partially received and will continue to display in PO list until all items have been received or cancelled</li>
+<li>If greater than PO
+<ul>
+<li>Option 1: Enter PO quantity and create new receipt for the difference manually</li>
+<li>***<img alt="Screenshot" loading="lazy" src="img/5df995c7cf88.png"/>***Option 2: Add additional quantity to PO<br/>
+<em><strong>Note:</strong></em> Option 1 for overage will require pricing to be verified and/or changed.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>When all items have been added, select <img alt="Screenshot" loading="lazy" src="img/64086be2bbfd.png"/>
+<ul>
+<li>Will populate and display on inventory receipt</li>
+</ul>
+</li>
+<li><strong>If WMS is NOT used</strong>, proceed to Process step below</li>
+<li><strong>If WMS is used</strong>, select <img alt="Screenshot" loading="lazy" src="img/4401f59864bc.png"/> and receive in WMS prior to processing inventory receipt
+<ul>
+<li>Automatically will assign receipt ID, save receipt, and display dialog box reflecting a successful save</li>
+<li>Status will become (sent to WMS)</li>
+</ul>
+</li>
+<li>Once WMS has received product and pushed back receipt information into inventory receipt, open inventory receipt and verify total units received to packing list, and WMS documentation if present
+<ul>
+<li>Quantity column will be populated from WMS</li>
+</ul>
+</li>
+<li><img alt="Screenshot" loading="lazy" src="img/ee7d719c1344.png"/> Select Process</li>
+<li>Choose Process type from dialog box and select Continue Processing
+<ul>
+<li>Process as Is (default)</li>
+<li>Cancel un-received items from the original PO</li>
+<li>Move un-received items to new PO</li>
+</ul>
+</li>
+<li>Print inventory Receipt and follow company procedures
+<ul>
+<li>Receipt will be in Processed status</li>
+<li>Inventory will be updated in POS</li>
+</ul>
+</li>
+</ul>
+<h3 id="audit-history">Audit History</h3>
+<p>Will display all events (adds, changes, deletes) for a specific receipt. Cost changes display changed from and changed to cost.</p>
+</article><nav class="pager"><a class="prev" href="inventory-accounts.html">← Inventory Accounts</a><a class="next" href="request-transfer.html">Request Transfer →</a></nav></main>
+
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

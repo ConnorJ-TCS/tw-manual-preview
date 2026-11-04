@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>New in version 25.4.3.3 | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details open><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a class="active" href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>New in version 25.4.3.3</h1><div class="seg"><a class="on" href="patch-25-4-3-3.html">New in 25.4.3.3</a><a class="" href="through-25-4-3-3.html">Everything through 25.4.3.3</a></div>
+<p>Retail: 10 cases. Wholesale: 1 cases.</p>
+<h2 id="retail">Retail</h2>
+<h3 id="new-access-rights">New Access Rights</h3>
+<div class="setting" id="n58ac57a9"><p class="st"><strong>Special Program: Service Request - Prod. Code</strong> <span class="chips"><span class="key">TWHD-3608</span></span></p><p>Controls whether a user can edit the Prod. Code value in the service request or item detail window when a special program is assigned</p></div>
+<h3 id="new-features">New Features</h3>
+<h4 id="accounting-integrations">Accounting Integrations</h4>
+<ul class="notes"><li id="n1135b124">The QuickBooks Desktop integration no longer depends on the locationacct table for determining the unentered liabilities account; if not specified in the socket config file, the application now correctly falls back to the inventoryacct table, allowing users to manage integration settings without support intervention <span class="chips"><span class="key">TWHD-3623</span></span></li></ul>
+<h4 id="other-integrations">Other Integrations</h4>
+<ul class="notes"><li id="n1bf51bed">The media viewer in TWHD Retail now displays all attached images and videos in a vertically scrollable layout, allowing technicians to easily review multiple media items per inspection while maintaining compatibility with legacy inspections <span class="chips"><span class="key">TWHD-3482</span></span></li><li id="n9c14baea">TWHD Retail now fully supports the new TCS Inspect media format, allowing multiple images and videos per inspection, as well as new inspection metadata fields, ensuring inspections display complete and accurate information. Legacy image support remains for backward compatibility, and both new and old inspection formats are handled seamlessly. No data is lost when inspections include multiple media items or new metadata fields <span class="chips"><span class="key">TWHD-3481</span></span></li><li id="n58d18d6a">The inspection detail header in TWHD Retail now displays new inspection metadata fields (Inspection Started, Inspection Submitted, Total Inspection Time, Marked 'All Okay', and App Type), and the Qty column has been removed from the service list <span class="chips"><span class="key">TWHD-3483</span></span></li></ul>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<h4 id="inventory-and-items">Inventory and Items</h4>
+<ul class="notes"><li id="nf04a92cc">Fixed an issue where adding an item to an Inventory Receipt using F1 while the “Qty Received” field was active could cause an object reference error; the workflow now completes without error and remains stable regardless of the “Inventory Receipt - Populate Quantity Received” system setting <span class="chips"><span class="key">TWHD-3695</span></span></li></ul>
+<h4 id="performance-and-stability">Performance and Stability</h4>
+<ul class="notes"><li id="n87bb08b2">Stored procedure parameter names in the retail synchronizer were reverted to their original values to restore compatibility with the Populator Service, preventing service outages and SQL exceptions for existing installations <span class="chips"><span class="key">TWHD-3681</span></span></li></ul>
+<h2 id="wholesale">Wholesale</h2>
+<h3 id="new-features-2">New Features</h3>
+<h4 id="accounting-and-integrations">Accounting and Integrations</h4>
+<ul class="notes"><li id="nd1d90a9e">The QuickBooks Desktop integration no longer depends on the locationacct table for determining the unentered liabilities account; if not specified in the config file, the system now correctly uses the inventoryacct table instead <span class="chips"><span class="key">TWHD-3625</span></span></li></ul></article></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#retail">Retail</a></li><li><a href="#new-access-rights">New Access Rights</a></li><li><a href="#new-features">New Features</a></li><li><a href="#bug-fixes">Bug Fixes</a></li><li><a href="#wholesale">Wholesale</a></li><li><a href="#new-features-2">New Features</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

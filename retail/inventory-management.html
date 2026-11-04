@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inventory Management | TireWorks HD Retail User Manual</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD Retail User Manual</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the manual…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Section 1: Login Screen &amp; Home Page</summary><ul><li><a href="sign-in.html">Sign in</a></li><li><a href="home-page.html">Home page</a></li><li><a href="configure-tire-lookup-search-results.html">Configure tire lookup search results</a></li><li><a href="subscribe-to-reports.html">Subscribe to reports</a></li></ul></details>
+<details><summary>Section 2: Sales</summary><ul><li><a href="quotes.html">Quotes</a></li><li><a href="creating-a-service-request.html">Creating a service request</a></li><li><a href="electronic-payments.html">Electronic Payments</a></li><li><a href="customer-approval.html">Customer Approval</a></li><li><a href="order-prompts.html">Order Prompts</a></li><li><a href="customer-communication-texting.html">Customer Communication (Texting)</a></li><li><a href="tcs-inspect.html">TCS Inspect</a></li><li><a href="catalogs.html">Catalogs</a></li><li><a href="tire-package-fees-road-hazard-nitrogen-and-tire-disposal.html">Tire Package Fees (Road Hazard, Nitrogen and Tire Disposal)</a></li><li><a href="parts-cores.html">Parts Cores</a></li><li><a href="goodyear-national-account-p-r-secondary-supply-or-government.html">Goodyear National Account, P&amp;R, Secondary Supply or Government Processing</a></li><li><a href="bridgestone-firestone-national-accounts-treadnet.html">Bridgestone Firestone National Accounts (TreadNet)</a></li><li><a href="loyalty-rewards.html">Loyalty Rewards</a></li><li><a href="invoice-reversal-and-copy.html">Invoice Reversal and Copy</a></li><li><a href="tire-adjustment.html">Tire Adjustment</a></li></ul></details>
+<details><summary>Section 3: Purchasing &amp; Receiving</summary><ul><li><a href="purchase-order.html">Purchase Order</a></li><li><a href="vendor-ordering.html">Vendor Ordering</a></li><li><a href="new-return.html">New Return</a></li><li><a href="sourcing-manager.html">Sourcing Manager</a></li><li><a href="unsold-purchases.html">Unsold Purchases</a></li><li><a href="inventory-receipt.html">Inventory Receipt</a></li><li><a href="ap-invoices-and-vendor-credits.html">AP Invoices and Vendor Credits</a></li><li><a href="inventory-adjustment.html">Inventory Adjustment</a></li></ul></details>
+<details><summary>Section 4: Transfers</summary><ul><li><a href="transfers.html">Transfers</a></li><li><a href="inventory-replenishment.html">Inventory replenishment</a></li></ul></details>
+<details><summary>Section 5: Daily Cash Balancing &amp; Other Payment Collection</summary><ul><li><a href="cash-drawer.html">Cash Drawer</a></li><li><a href="payroll-entry.html">Payroll Entry</a></li><li><a href="customer-deposits.html">Customer deposits</a></li><li><a href="customer-roa-payments.html">Customer ROA payments</a></li></ul></details>
+<details open><summary>Section 6: Manage</summary><ul><li><a href="access-group-setup-and-access-rights-assignment.html">Access Group Setup and Access Rights Assignment</a></li><li><a href="comment-setup-maintenance.html">Comment Setup &amp; Maintenance</a></li><li><a href="tax-details.html">Tax details</a></li><li><a href="locations-setup-and-maintenance.html">Locations Setup and Maintenance</a></li><li><a href="customer-classes.html">Customer classes</a></li><li><a href="customers.html">Customers</a></li><li><a href="customer-contract-pricing.html">Customer (contract) pricing</a></li><li><a href="discount-maintenance.html">Discount Maintenance</a></li><li><a class=active href="inventory-management.html">Inventory Management</a></li><li><a href="item-group-setup-and-item-assignment.html">Item Group Setup and Item Assignment</a></li><li><a href="create-a-part.html">Create a part</a></li><li><a href="labor-rate-setup-and-maintenance.html">Labor Rate Setup and Maintenance</a></li><li><a href="order-validation.html">Order Validation</a></li><li><a href="physical-inventory-count.html">Physical Inventory Count</a></li><li><a href="cycle-count-setup-and-maintenance.html">Cycle Count Setup and Maintenance</a></li><li><a href="payment-setup.html">Payment Setup</a></li><li><a href="price-level-setup-and-maintenance.html">Price Level Setup and Maintenance</a></li><li><a href="quickbooks-online-and-the-integration-manager.html">QuickBooks Online and the Integration Manager</a></li><li><a href="system-settings.html">System Settings</a></li><li><a href="technicians-setup-and-maintenance.html">Technicians Setup and Maintenance</a></li><li><a href="unlocking-objects.html">Unlocking Objects</a></li><li><a href="vendors-setup-and-maintenance.html">Vendors Setup and Maintenance</a></li><li><a href="user-setup-and-maintenance.html">User Setup and Maintenance</a></li></ul></details>
+<details><summary>Appendix: Order Status Numbers</summary><ul><li><a href="appendix-order-status-numbers.html">Appendix: Order Status Numbers</a></li></ul></details></nav>
+<main><p class="crumbs"><a href="index.html">Home</a> › Section 6: Manage</p><article><h1>Inventory Management</h1>
+<p>Use Inventory Management to create and manage inventory items, define price levels and rule assignments, maintain cost and base value fields, manage tire fee states, view item detail from TDC (Tire Data Central), and keep any additional item information you want.</p>
+<ol>
+<li>Go to <strong>Manage; Inventory; Manage Inventory</strong>.</li>
+</ol>
+<h2 id="the-inventory-tree">The inventory tree</h2>
+<p><img alt="Screenshot" loading="lazy" src="img/315294aa2076.png"/></p>
+<p>The inventory tree has six levels for tires, parts, retreads, wheels, non-inventoried items and more. The shared tree structure keeps items consistent, which makes reporting more effective.</p>
+<ul>
+<li><strong>TDC item</strong>: The item is housed in TDC (Tire Data Central).</li>
+<li><strong>Local item</strong>: The item was created locally.</li>
+<li><strong>Items in red</strong>: The item is inactive.</li>
+<li><strong>Manufacturer</strong>: The manufacturer name, such as Michelin.</li>
+<li><strong>Sub-Manufacturer</strong>: Groups several brands under one manufacturer, such as Michelin, BF Goodrich and Uniroyal.</li>
+<li><strong>Class</strong>: The tire type, such as passenger, light truck or medium truck.</li>
+<li><strong>Sub-Class</strong>: The tire type, such as all season, all terrain or touring.</li>
+<li><strong>Category</strong>: The tire line, such as Ecopia, Destination AT or FR380.</li>
+<li><strong>Sub-Category</strong>: Additional information about the tire line. This is typically set as Default.</li>
+</ul>
+<h2 id="find-an-item">Find an item</h2>
+<ol>
+<li>Use the <strong>+</strong> and <strong>-</strong> symbols to open levels of the tree, or enter an item number to go straight to the item.</li>
+<li>Enter the item number and select <strong>Search SKU</strong> <img alt="Screenshot" loading="lazy" src="img/bdf0308eb8d5.png"/>.</li>
+</ol>
+<h2 id="item-detail-tab">Item Detail tab</h2>
+<p>The Item Detail tab draws on a tire database of over 105,000 items for tire specifications, pictures, comparisons, features and warranty information. You can print this information or email it from the inventory search screen.</p>
+<ul>
+<li><strong>User Sku Code</strong>: Enter the SKU code you want. This is generally the item number from your previous software.</li>
+<li><strong>Item Group Selection</strong>: Select an item group from the <strong>Item Group</strong> dropdown. See <strong>Item Group Setup and Item Assignment</strong>.</li>
+<li><strong>Program Product Codes</strong>: Assigns the program item number required for submission.</li>
+</ul>
+<p>To add a program product code:</p>
+<p><img alt="Screenshot" loading="lazy" src="img/aacd4cb49fb4.png"/></p>
+<ol>
+<li>Select <strong>Add New</strong>.</li>
+<li>Select the program from the <strong>Program</strong> dropdown.</li>
+<li>Enter the National Account product code.</li>
+<li>Select <strong>Done</strong>.</li>
+</ol>
+<div class="callout note">
+<p><strong>Note:</strong> To delete a line item, select <img alt="Screenshot" loading="lazy" src="img/4457672db266.png"/>.</p>
+<p><strong>Note:</strong> When you change <strong>Outside Purchase SKU</strong>, you are asked whether the change applies to all locations or this location only.</p>
+</div>
+<h2 id="inactivate-an-item">Inactivate an item</h2>
+<ol>
+<li>Clear the <strong>Active</strong> check box.
+<ul>
+<li>The item no longer displays in search results.</li>
+</ul>
+</li>
+</ol>
+<p><img alt="Screenshot" loading="lazy" src="img/5a4c9568b257.png"/></p>
+<h2 id="pricing-tab">Pricing tab</h2>
+<p>Use the Pricing tab to set and maintain price rules within the price levels you created, based on any level of the inventory tree.</p>
+<h2 id="create-a-price-rule">Create a price rule</h2>
+<ol>
+<li>Select the branch where you want to set the rule. Use <strong>+</strong> to open levels.
+<ul>
+<li>To set the rule on a single SKU, use the <strong>Search</strong> box to select it.</li>
+</ul>
+</li>
+<li>Select <strong>Add Rule</strong> <img alt="Screenshot" loading="lazy" src="img/9881073b9ba0.png"/>.
+<ul>
+<li>The branch or item you selected displays in the <strong>Rule From</strong> column.
+<ul>
+<li>A rule set at a branch affects all branches and items below that branch.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Select the <strong>Price Level</strong> the rule applies to.</li>
+<li>Enter a <strong>Name</strong> based on the tree branch or SKU the rule was created for. This field is required.</li>
+<li>Select the <strong>Type</strong>.
+<ul>
+<li>Select %, G% or $. The GP% formula is Base/(1.00-GP%).</li>
+</ul>
+</li>
+<li>Select the <strong>Class</strong>.
+<ul>
+<li><strong>Cumulative</strong>: A chained rule.</li>
+<li><strong>Additive</strong>: Works the same way as a cumulative rule.</li>
+<li><strong>Fixed</strong>: Sets a fixed price that overrides price level rules.</li>
+<li><strong>Margin Ceiling/Margin Floor</strong></li>
+<li><strong>Round Nearest</strong>: Rounds to the nearest value assigned.</li>
+<li><strong>Round Up</strong>: Rounds up to the nearest value assigned.</li>
+<li><strong>Base Change Rules</strong>: Changes the base factor for pricing or cost to something other than the default setting.</li>
+<li><strong>Matrix</strong>: Sets pricing based on a range of price or a range of units.
+<ul>
+<li>If you want Matrix pricing, enter <strong>Min Cost</strong> and <strong>Max Cost</strong>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Enter the <strong>Value</strong> for the type and class you selected. Negative values are allowed.</li>
+<li>Use the <strong>Move Up</strong> and <strong>Move Down</strong> icons to arrange the rule order. Price rules are chained.</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+<h2 id="remove-a-price-rule">Remove a price rule</h2>
+<ol>
+<li>Select the rule you want to delete.</li>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/4457672db266.png"/>.</li>
+<li>Select <strong>Save</strong> <img alt="Screenshot" loading="lazy" src="img/a8804808557b.png"/>.</li>
+</ol>
+<p><img alt="Screenshot" loading="lazy" src="img/42dae816d9e1.png"/></p>
+<h2 id="site-detail-tab">Site Detail tab</h2>
+<p>The Site Detail tab shows quantities on hand, committed and ordered, along with last cost and average cost. You can also enter, edit or load the fields shown in white.</p>
+<ul>
+<li><strong>Last Cost</strong> and <strong>Average Cost</strong>: Only users with the Item - Edit Last Cost and Item - Edit Average Cost access rights can edit these.</li>
+<li><strong>Is Inventoried</strong>: Changes whether the item is inventoried at this store. After a SKU is saved, the <strong>Inventoried</strong> box on the Item Detail tab can't be changed.</li>
+<li><strong>Base Value Fields (20)</strong>: Editable, loadable fields you can use for a price level base, default pricing and more.</li>
+<li><strong>True Cost</strong>, <strong>Invoice Cost</strong>, <strong>Calc Cost 1</strong> and <strong>Calc Cost 2</strong>: Editable, loadable fields you can use for a price level base, for the default cost on invoices, purchase orders, adjustments and receipts, or both.</li>
+<li><strong>Min/Max Reorder Points</strong>: Editable, loadable fields that set reorder requirements.</li>
+</ul>
+<div class="callout tip">
+<p><strong>Tip:</strong> You can edit all stores from one screen by selecting the store in the <strong>Site Detail Location</strong> dropdown <img alt="Screenshot" loading="lazy" src="img/ebf9f14fa173.png"/>.</p>
+</div>
+<h2 id="other-tabs">Other tabs</h2>
+<ul>
+<li><strong>User Defined</strong>: Provides 35 additional informational fields that you can title and fill in, for report use only. They include check box, character, integer and date fields. You might use them for data such as equivalencies if you use integrated routing software.</li>
+<li><strong>Item History</strong>: Gives an overview of the item's history for the previous 12 months. By month, it shows total sales dollars, sales units, sales average dollars, GP average dollars, receipt dollars, receipt quantity, receipts average dollars and receipts % change dollars.</li>
+<li><strong>Units of Measure</strong>: Sets additional units of measure and assigns them to multiple order types or modules. You can also define dimension and weight settings here.</li>
+<li><strong>Core</strong>: Shows only if your company uses parts cores. Sets whether the item is a core or has a core.</li>
+<li><strong>On Order</strong>: Lists outstanding purchase orders and inbound transfers for the item.</li>
+<li><strong>Item Allocation</strong>: Lists the orders the item is allocated to, with Location, Type, Order #, Customer, Status and Qty Allocated.</li>
+<li><strong>Item Movement</strong>: Lists the item's transactions for the Dates you pick, with Trans. Type, Trans #, Cost, Qty and Snapshot Qty.</li>
+</ul>
+<div class="callout note">
+<p><strong>Note:</strong> If you leave the window, move in the inventory tree, or pick another SKU while you have unsaved changes, you are asked to save, discard or cancel.</p>
+</div>
+<h2 id="add-a-branch-or-item">Add a branch or item</h2>
+<ol>
+<li>Select the branch above where you want the new branch or item.</li>
+<li>Use <strong>+</strong> to open the tree to the branch you want.</li>
+<li>Select the arrow for what you want to add.
+<ul>
+<li>The blue arrow adds a new branch. The green arrow adds a new item.</li>
+</ul>
+</li>
+</ol>
+<h2 id="add-a-branch">Add a branch</h2>
+<p><img alt="Screenshot" loading="lazy" src="img/e599cd5ba7f1.png"/></p>
+<ol>
+<li>Select the blue arrow.</li>
+<li>Select <strong>Add New Category</strong> <img alt="Screenshot" loading="lazy" src="img/9881073b9ba0.png"/>.</li>
+<li>Enter the <strong>Category Name</strong> and <strong>Short Lookup</strong>.</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+<h2 id="add-an-item">Add an item</h2>
+<p>Open the tree to the branch where the item belongs, as described above.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/f279afc6fdfb.png"/></p>
+<ol>
+<li>Select the green arrow.</li>
+<li>Select <strong>Add New Sku</strong> <img alt="Screenshot" loading="lazy" src="img/9881073b9ba0.png"/>.</li>
+<li>Enter the <strong>Universal Sku</strong>, which has three segments.
+<ul>
+<li>The simple tire size, such as 2656016, with no symbols or letters.</li>
+<li>The 3-digit manufacturer SKU, such as MIC. This is generally three characters, with a few exceptions.</li>
+<li>The manufacturer item number.</li>
+</ul>
+</li>
+<li>Enter the <strong>Manufacturer Sku</strong>.</li>
+<li>Enter a <strong>Description</strong>. Include as much detail as you can, because this field is searchable.</li>
+<li>Enter <strong>Dealer Base</strong> if you use it.</li>
+<li>Enter <strong>FET</strong> if the tire meets the criteria.</li>
+<li>Select an <strong>End Date</strong> from the calendar. We suggest using the same future date on all new SKUs.
+<ul>
+<li>The End Date defines whether the product is discontinued. A discontinued item displays in red in inventory search.</li>
+</ul>
+</li>
+<li>Enter <strong>User Sku</strong> if you use it.</li>
+<li>Enter the <strong>Short Sku Code</strong>.</li>
+<li>Select the <strong>Sku Type</strong>. This helps with reporting, shop fee setup and more.</li>
+<li>If the item is a fluid, select the <strong>Fluid Type</strong>.</li>
+<li>Select an <strong>Item Group</strong> from the dropdown if you use item groups.</li>
+<li>Review the check boxes. <strong>Active</strong> is checked by default unless you change it.
+<ul>
+<li><strong>Taxable</strong>, <strong>Inventoried</strong> and <strong>Tech Required</strong> are checked by default. Clear any that don't apply.</li>
+<li>You can change <strong>Inventoried</strong> on this screen only while the SKU is new. After you save it, change it on the Site Detail tab.</li>
+</ul>
+</li>
+<li>Select <strong>Save</strong> <img alt="Screenshot" loading="lazy" src="img/a8804808557b.png"/>.</li>
+</ol>
+<div class="callout note">
+<p><strong>Note:</strong> Always fill in the Site Detail tab when you create or load new items, and check whether the item also needs pricing setup. See <strong>Site Detail tab</strong> and <strong>Pricing tab</strong> above. A tire SKU can't be saved until its required tire fields are filled in. A message tells you what is missing.</p>
+</div>
+<h2 id="set-up-sku-types">Set up SKU types</h2>
+<p>Use SKU types to classify items for reporting, shop fee setup and more.</p>
+<ol>
+<li>Go to <strong>Manage; Company Setup; Sku Types</strong>.</li>
+<li>Select <strong>Add</strong>, and then enter the <strong>Description</strong> and <strong>Line Item Type</strong>.
+<ul>
+<li>You can set the Description and Line Item Type only while the SKU type is new.</li>
+</ul>
+</li>
+<li>To let users edit the description of items of this SKU type on a Service Request, check <strong>Allow User to Edit the Item Description on Service Requests</strong> (for California BAR compliance).
+<ul>
+<li>Users with the Service Request - Item Description access right can edit any item description, whatever the SKU type setting.</li>
+</ul>
+</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+</article><nav class="pager"><a class="prev" href="discount-maintenance.html">← Discount Maintenance</a><a class="next" href="item-group-setup-and-item-assignment.html">Item Group Setup and Item Assignment →</a></nav></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#the-inventory-tree">The inventory tree</a></li><li><a href="#find-an-item">Find an item</a></li><li><a href="#item-detail-tab">Item Detail tab</a></li><li><a href="#inactivate-an-item">Inactivate an item</a></li><li><a href="#pricing-tab">Pricing tab</a></li><li><a href="#create-a-price-rule">Create a price rule</a></li><li><a href="#remove-a-price-rule">Remove a price rule</a></li><li><a href="#site-detail-tab">Site Detail tab</a></li><li><a href="#other-tabs">Other tabs</a></li><li><a href="#add-a-branch-or-item">Add a branch or item</a></li><li><a href="#add-a-branch">Add a branch</a></li><li><a href="#add-an-item">Add an item</a></li><li><a href="#set-up-sku-types">Set up SKU types</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

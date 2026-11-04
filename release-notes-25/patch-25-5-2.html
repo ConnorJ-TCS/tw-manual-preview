@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>New in version 25.5.2 | TireWorks HD 25 Release Notes</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD 25 Release Notes</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the release notes…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>Release notes</summary><ul><li><a href="index.html">Overview</a></li><li><a href="full.html">Full release notes</a></li><li><a href="patches.html">All patch versions</a></li></ul></details>
+<details open><summary>By patch</summary><ul><li><a href="patch-25-5-10.html">25.5.10</a></li><li><a href="patch-25-5-9.html">25.5.9</a></li><li><a href="patch-25-5-8.html">25.5.8</a></li><li><a href="patch-25-5-7.html">25.5.7</a></li><li><a href="patch-25-5-6.html">25.5.6</a></li><li><a href="patch-25-5-5.html">25.5.5</a></li><li><a href="patch-25-5-4.html">25.5.4</a></li><li><a href="patch-25-5-3.html">25.5.3</a></li><li><a class="active" href="patch-25-5-2.html">25.5.2</a></li><li><a href="patch-25-5-1.html">25.5.1</a></li><li><a href="patch-25-4-3-3.html">25.4.3.3</a></li><li><a href="patch-25-4-3-2.html">25.4.3.2</a></li><li><a href="patch-25-4-3-1.html">25.4.3.1</a></li><li><a href="patch-25-4-2-1.html">25.4.2.1</a></li><li><a href="patch-25-4-1-2.html">25.4.1.2</a></li><li><a href="patch-25-4-1-1.html">25.4.1.1</a></li></ul></details>
+<details><summary>By product</summary><ul><li><a href="retail.html">Retail</a></li><li><a href="wholesale.html">Wholesale</a></li><li><a href="web-services.html">Web Services</a></li><li><a href="beta-issues.html">Beta Issues</a></li></ul></details>
+<details><summary>Feature guides</summary><ul><li><a href="guide-ami-mopar-integration.html">Retail – AMI/Mopar Integration</a></li><li><a href="guide-ipospays-payment-processing.html">Retail – iPOSPays Payment Processing</a></li><li><a href="guide-order-prompts.html">Retail – Order Prompts</a></li><li><a href="guide-po-and-service-request-enhancements.html">Retail – Enhancement of Purchase Order and Service Request Interaction</a></li><li><a href="guide-qbo-tax-variance-alerts.html">QuickBooks Online - Tax Variance Alerts</a></li><li><a href="guide-tire-disposal-fee.html">Retail - Tire Disposal Fee</a></li><li><a href="guide-tireguide-catalog-integration.html">Retail – TireGuide Catalog Integration</a></li><li><a href="guide-treadnet.html">Retail – TreadNet | Bridgestone National Accounts &amp; Vendor Ordering</a></li><li><a href="guide-two-step-returns.html">Retail – Two-Step Returns</a></li></ul></details></nav>
+<main><div class="actions"><button class="print" onclick="window.print()">Print / Save as PDF</button></div>
+<article><h1>New in version 25.5.2</h1><div class="seg"><a class="on" href="patch-25-5-2.html">New in 25.5.2</a><a class="" href="through-25-5-2.html">Everything through 25.5.2</a></div>
+<p>Retail: 12 cases. Wholesale: no targeted changes.</p>
+<h2 id="retail">Retail</h2>
+<h3 id="new-features">New Features</h3>
+<h4 id="other-integrations">Other Integrations</h4>
+<ul class="notes"><li id="n65195854">The ePower export stored procedures cusp_TCS_Customers and cusp_TCS_AllSkus have been enhanced to support per-customer and per-location export logic, using the new CustomerAddressECommerce table when the "ePower Home LocationId" system setting is not defined. Legacy export behavior is maintained when the system setting is set <span class="chips"><span class="key">TWHD-3727</span></span></li></ul>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<h4 id="service-requests-and-invoicing">Service Requests and Invoicing</h4>
+<ul class="notes"><li id="ncd00fbca">Road Hazard items can now be consistently added to service requests when configured, restoring expected RH functionality for users <span class="chips"><span class="key">TWHD-3767</span></span></li></ul>
+<h4 id="tire-and-parts-search">Tire and Parts Search</h4>
+<ul class="notes"><li id="n72976e05">Sales tax is now correctly applied to catalog labor items added individually to a service request in ISE using the "Lookup" field, ensuring consistent tax calculation regardless of how labor is added <span class="chips"><span class="key">TWHD-3777</span></span></li><li id="nc9aa1c09">Closing the Parts Lookup window in a Service Request using the “X” now properly clears the session, ensuring previous lookup results do not appear when opening a new Service Request <span class="chips"><span class="key">TWHD-3768</span></span></li><li id="nb84822eb">The Customer Merge Utility in TireWorks HD v25 has been updated to resolve foreign key constraint errors, ensuring customer merges complete successfully and all associated vehicle records are moved without database issues <span class="chips"><span class="key">TWHD-3738</span></span></li></ul>
+<h4 id="customers-and-vehicles">Customers and Vehicles</h4>
+<ul class="notes"><li id="n9459806e">Editing multiple customer addresses now correctly preserves all city and state fields after saving, preventing any data loss regardless of which address was last viewed <span class="chips"><span class="key">TWHD-3787</span></span></li></ul>
+<h4 id="inventory-and-items">Inventory and Items</h4>
+<ul class="notes"><li id="nd2bc62ad">The Inventory Account Mapping Window now displays tree node expand arrows correctly and includes a horizontal scroll bar at the bottom for easier navigation <span class="chips"><span class="key">TWHD-3765</span></span></li></ul></article></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#retail">Retail</a></li><li><a href="#new-features">New Features</a></li><li><a href="#bug-fixes">Bug Fixes</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>

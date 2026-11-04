@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Import Inventory Items | TireWorks HD Wholesale User Manual</title>
+<link rel="stylesheet" href="site.css"></head>
+<body>
+<header class="top">
+  <button id="menu" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="index.html">TireWorks HD Wholesale User Manual</a>
+  <a class="hub" href="../index.html">All docs</a>
+  <div class="search"><input id="q" type="search" placeholder="Search the manual…" autocomplete="off" aria-label="Search">
+  <div id="results" hidden></div></div>
+</header>
+<div class="layout">
+<nav class="side" id="side"><details><summary>SECTION 1: LOGIN SCREEN &amp; HOME PAGE</summary><ul><li><a href="login-screen.html">Login Screen</a></li><li><a href="home-page.html">Home Page</a></li><li><a href="configure-search-results.html">Configure Search Results</a></li><li><a href="customer-pricing-report.html">Customer Pricing Report</a></li><li><a href="user-options.html">User Options</a></li></ul></details>
+<details><summary>SECTION 2:  SALES</summary><ul><li><a href="sales-orders.html">Sales Orders</a></li><li><a href="special-programs.html">Special Programs</a></li><li><a href="create-new-invoice.html">Create New Invoice</a></li><li><a href="create-return.html">Create Return</a></li><li><a href="filling-back-orders.html">Filling Back Orders</a></li><li><a href="customer-record-setup.html">Customer Record Setup</a></li><li><a href="customer-contract-pricing-setup.html">Customer (Contract) Pricing Setup</a></li><li><a href="customer-deposit.html">Customer Deposit</a></li><li><a href="received-on-account-roa.html">Received On Account (ROA)</a></li></ul></details>
+<details open><summary>SECTION 3: INVENTORY</summary><ul><li><a href="inventory-management.html">Inventory Management</a></li><li><a href="price-level-maintenance.html">Price Level Maintenance</a></li><li><a href="price-level-rule-assignment.html">Price Level Rule Assignment</a></li><li><a href="inventory-accounts.html">Inventory Accounts</a></li><li><a href="inventory-receipt.html">Inventory Receipt</a></li><li><a href="request-transfer.html">Request Transfer</a></li><li><a href="receipt-of-transfer-request.html">Receipt of Transfer Request</a></li><li><a href="automatic-transfer.html">Automatic Transfer</a></li><li><a href="physical-inventory-count.html">Physical Inventory Count</a></li><li><a class=active href="import-inventory-items.html">Import Inventory Items</a></li></ul></details>
+<details><summary>SECTION 4: WAREHOUSING</summary><ul><li><a href="shipment-manager-processing-orders-through-invoicing.html">Shipment Manager (Processing Orders Through Invoicing)</a></li><li><a href="closing-invoices.html">Closing Invoices</a></li><li><a href="route-management-stop-assignment.html">Route Management/Stop Assignment</a></li><li><a href="bin-management.html">Bin Management</a></li></ul></details>
+<details><summary>SECTION 5: PURCHASING</summary><ul><li><a href="purchase-order-receipt-of-purchase-order.html">Purchase Order &amp; Receipt of Purchase Order</a></li><li><a href="purchase-order-worksheet.html">Purchase Order Worksheet</a></li></ul></details>
+<details><summary>SECTION 6: SYSTEM ADMINISTRATION</summary><ul><li><a href="access-group-setup-access-rights-assignment.html">Access Group Setup &amp; Access Rights Assignment</a></li><li><a href="cash-drawer.html">Cash Drawer</a></li><li><a href="unlocking-objects.html">Unlocking Objects</a></li><li><a href="user-setup-maintenance.html">User Setup &amp; Maintenance</a></li><li><a href="comment-setup.html">Comment Setup</a></li><li><a href="comment-maintenance.html">Comment Maintenance</a></li></ul></details></nav>
+<main><p class="crumbs"><a href="index.html">Home</a> › SECTION 3: INVENTORY</p><article><h1>Import Inventory Items</h1>
+<p>Import Inventory Items gives users the ability to update data in inventory management site detail fields, base value fields, and user defined fields.</p>
+<p><img alt="Screenshot" loading="lazy" src="img/9c368ca4ce93.png"/>select Import Inventory Updates</p>
+<p><img alt="Screenshot" loading="lazy" src="img/223c482cbf6a.png"/></p>
+<p>Formatting source document is important to a successful import. Listed below are a few things to verify prior to importing.</p>
+<ol>
+<li>Name tabs in creating multiples</li>
+<li>Assign column header names</li>
+<li>Remove a formatting and/or data that is not needed for import</li>
+<li>Format</li>
+</ol>
+<h2 id="import-selection">Import Selection</h2>
+<ul>
+<li>Select ellipsis and browse to desired Excel file. Must be in .xls format (Excel 97-2003)</li>
+<li>Select desired worksheet (spreadsheet tabs)</li>
+<li>Select Map Article Code (column headers)</li>
+<li>Verify need to strip special characters (defaults to checked)</li>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/c176af4bd338.png"/> data will populate in data window</li>
+</ul>
+<h2 id="data-selection">Data Selection</h2>
+<ul>
+<li>Select desired location information</li>
+<li>Select desired sub manufacturers</li>
+<li>Select desired tab
+<ul>
+<li>Map Inventory Columns Tab – Site Detail Information (See above screenshot)</li>
+<li>Map Price Bases – Base Value Fields</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/7b920b90dc30.png"/></p>
+<ul>
+<li>
+<ul>
+<li>Map UDF Columns – User Defined Fields</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot" loading="lazy" src="img/92815a85c9c8.png"/></p>
+<ul>
+<li>Select from drop downs the appropriate columns for desired data population</li>
+</ul>
+<p><em><strong><img alt="Screenshot" loading="lazy" src="img/5df995c7cf88.png"/>Note</strong></em>: Cannot use columns from data source more than once</p>
+<ul>
+<li>Verify need for Select All Items to be checked (defaults to checked)</li>
+<li>Verify need to Update Inactive SKU’s (defaults to checked)</li>
+<li>Verify information in data field is correct
+<ul>
+<li>Items in source document that are not in inventory management will appear in red</li>
+</ul>
+</li>
+<li>Select <img alt="Screenshot" loading="lazy" src="img/0e9fc62a4704.png"/> dialog box will appear to verify the action selection and to alert that action cannot be cancelled</li>
+<li>Import success dialog box will display</li>
+<li>Select OK</li>
+</ul>
+</article><nav class="pager"><a class="prev" href="physical-inventory-count.html">← Physical Inventory Count</a><a class="next" href="shipment-manager-processing-orders-through-invoicing.html">Shipment Manager (Processing Orders Through Invoicing) →</a></nav></main>
+<aside class="toc"><h2>On this page</h2><ul><li><a href="#import-selection">Import Selection</a></li><li><a href="#data-selection">Data Selection</a></li></ul></aside>
+</div>
+<script src="search-index.js"></script><script src="site.js"></script>
+</body></html>
